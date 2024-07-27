@@ -1,0 +1,110 @@
+[t:template,n:ee_bookcase_01]
+{
+	category_name = "indoor";
+	doc = "ee_bookcase_01";
+	specializes = non_interactive_blocking;
+	[aspect]
+	{
+		model = M_I_EE_bookcase-01;
+	}
+}
+[t:template,n:ee_bookcase_02]
+{
+	category_name = "indoor";
+	doc = "ee_bookcase_02";
+	specializes = non_interactive_blocking;
+	[aspect]
+	{
+		model = M_I_EE_bookcase-02;
+	}
+}
+[t:template,n:ee_bookcase_03]
+{
+	category_name = "indoor";
+	doc = "ee_bookcase_03";
+	specializes = non_interactive_blocking;
+	[aspect]
+	{
+		model = M_I_EE_bookcase-03;
+	}
+}
+[t:template,n:ee_bookcase_04]
+{
+	category_name = "indoor";
+	doc = "ee_bookcase_04";
+	specializes = non_interactive_blocking;
+	[aspect]
+	{
+		model = M_I_EE_bookcase-04;
+	}
+}
+[t:template,n:ee_bookcase_05]
+{
+	category_name = "indoor";
+	doc = "ee_bookcase_05";
+	specializes = non_interactive_blocking;
+	[aspect]
+	{
+		model = M_I_EE_bookcase-05;
+	}
+}
+[t:template,n:ee_bookcase_06]
+{
+	category_name = "indoor";
+	doc = "ee_bookcase_06";
+	specializes = non_interactive_blocking;
+	[aspect]
+	{
+		model = M_I_EE_bookcase-06;
+	}
+}
+[t:template,n:ee_bookcase_07]
+{
+	category_name = "indoor";
+	doc = "ee_bookcase_07";
+	specializes = non_interactive_blocking;
+	[aspect]
+	{
+		model = M_I_EE_bookcase-07;
+	}
+}
+[t:template,n:ee_bookcase_08]
+{
+	category_name = "indoor";
+	doc = "ee_bookcase_08";
+	specializes = non_interactive_blocking;
+	[aspect]
+	{
+		model = M_I_EE_bookcase-08;
+	}
+}
+[t:template,n:ee_bookcase_09]
+{
+	category_name = "indoor";
+	doc = "ee_bookcase_09";
+	specializes = non_interactive_blocking;
+	[aspect]
+	{
+		model = M_I_EE_bookcase-09;
+	}
+}
+[t:template,n:ee_bookcase_10]
+{
+	category_name = "indoor";
+	doc = "ee_bookcase_10";
+	specializes = non_interactive_blocking;
+	[aspect]
+	{
+		model = M_I_EE_bookcase-10;
+	}
+}
+[t:template,n:ee_bookcase_empty]
+{
+	category_name = "indoor";
+	doc = "ee_bookcase_empty";
+	specializes = non_interactive_blocking;
+	[aspect]
+	{
+		model = M_I_EE_bookcase-empty;
+	}
+}
