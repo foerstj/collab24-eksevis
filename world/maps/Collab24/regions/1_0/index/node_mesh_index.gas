@@ -1,0 +1,16 @@
+[node_mesh_index]
+{
+	0x002000da = t_cry01_cnr_ccav-1-a;
+	0x002000db = t_cry01_cnr_ccav-1-b;
+	0x002000dc = t_cry01_cnr_cnvx-1-a;
+	0x002000de = t_cry01_cnr_tx-wal-r;
+	0x002000ec = t_cry01_flr_1a;
+	0x002000ee = t_cry01_flr_1c;
+	0x00200129 = t_cry01_wal_1a-broken;
+	0x0020012a = t_cry01_wal_1a;
+	0x0020012b = t_cry01_wal_1b;
+	0x0020012d = t_cry01_wal_arch-1-a;
+	0x0020012f = t_cry01_wal_archdor-1-a;
+	0x00200130 = t_cry01_wal_archdor-1-b;
+	0x00200133 = t_cry01_wal_hal-3;
+}

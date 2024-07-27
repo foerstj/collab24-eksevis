@@ -1,0 +1,14 @@
+[t:blocking_object,n:0x00100007]
+{
+	[placement]
+	{
+	  p position = 1.77495,1.95,1.96628,0x2a6a3a62;
+	}
+}
+[t:blocking_object,n:0x00100006]
+{
+	[placement]
+	{
+	  p position = 1.59543,1.95,1.83279,0x3bee4ae2;
+	}
+}
