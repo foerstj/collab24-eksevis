@@ -1,6 +1,12 @@
 [stitch_index]
 {
-	[t:stitch_index,n:0x00000001]
+	[t:stitch_index,n:0x00000010]
+	{
+		* = 0x626a6dd3,6,0x4b49133f,2;
+		* = 0x626a6dd3,5,0x4b49133f,3;
+		* = 0x626a6dd3,4,0x4b49133f,4;
+	}
+	[t:stitch_index,n:0x00000011]
 	{
 		* = 0x4b49133f,2,0x626a6dd3,6;
 		* = 0x4b49133f,3,0x626a6dd3,5;
@@ -15,13 +21,7 @@
 		* = 0x17fa266a,1,0x479e2487,2;
 		* = 0x68305dcb,6,0x49c0af3b,3;
 	}
-	[t:stitch_index,n:0x00000002]
-	{
-		* = 0x626a6dd3,6,0x4b49133f,2;
-		* = 0x626a6dd3,5,0x4b49133f,3;
-		* = 0x626a6dd3,4,0x4b49133f,4;
-	}
-	[t:stitch_index,n:0x00000003]
+	[t:stitch_index,n:0x00000012]
 	{
 		* = 0x373ba4d6,6,0xca48e8a5,3;
 		* = 0xc3cd9cb6,5,0x3a7a9e76,2;
@@ -41,7 +41,7 @@
 		* = 0x6681c852,8,0x30c9f569,1;
 		* = 0x6681c852,7,0xcb958a3a,2;
 	}
-	[t:stitch_index,n:0x00000004]
+	[t:stitch_index,n:0x00000013]
 	{
 		* = 0xe4e548f6,8,0xbc951ead,3;
 		* = 0x65238bc9,3,0xa43d55fa,6;
@@ -53,12 +53,12 @@
 		* = 0xcb958a3a,2,0x6681c852,7;
 		* = 0x383c9611,6,0xcb0c6f26,6;
 	}
-	[t:stitch_index,n:0x00000005]
+	[t:stitch_index,n:0x00000014]
 	{
 		* = 0xcb0c6f26,6,0x383c9611,6;
 		* = 0x162265b8,7,0x6e9d33aa,7;
 	}
-	[t:stitch_index,n:0x0000000f]
+	[t:stitch_index,n:0x0000001f]
 	{
 		* = 0x6e9d33aa,7,0x162265b8,7;
 	}
