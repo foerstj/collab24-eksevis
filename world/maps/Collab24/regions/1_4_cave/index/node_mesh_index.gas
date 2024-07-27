@@ -55,5 +55,5 @@
 	0x00500a62 = t_xxx_wal_cave-split-12-front-base;
 	0x00500a63 = t_xxx_wal_cave-split-12-front-sides;
 	0x00500a64 = t_xxx_wal_cave-split-12-front-top;
-	0x00500a67 = t_xxx_wal_cave-split-24-back-base;
+	0x00500a6f = t_xxx_wal_cave-split-24-front-base;
 }
