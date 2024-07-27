@@ -1,0 +1,161 @@
+[t:template,n:frag_glb_krug_scout_mtn_01]
+{
+	doc = "misc";
+	specializes = base_fragment_krug;
+	[aspect]
+	{
+		model = m_i_glb_frag-krug-01;
+		[textures] { 0=b_c_eam_ksc-mtn; }
+	}
+}
+[t:template,n:frag_glb_krug_scout_mtn_02]
+{
+	doc = "misc";
+	specializes = base_fragment_krug;
+	[aspect]
+	{
+		model = m_i_glb_frag-krug-02;
+		[textures] { 0=b_c_eam_ksc-mtn; }
+	}
+}
+[t:template,n:frag_glb_krug_scout_mtn_03]
+{
+	doc = "misc";
+	specializes = base_fragment_krug;
+	[aspect]
+	{
+		model = m_i_glb_frag-krug-03;
+		[textures] { 0=b_c_eam_ksc-mtn; }
+	}
+}
+[t:template,n:frag_glb_krug_scout_mtn_04]
+{
+	doc = "misc";
+	specializes = base_fragment_krug;
+	[aspect]
+	{
+		model = m_i_glb_frag-krug-04;
+		[textures] { 0=b_c_eam_ksc-mtn; }
+	}
+}
+[t:template,n:frag_glb_krug_scout_mtn_05]
+{
+	doc = "misc";
+	specializes = base_fragment_krug;
+	[aspect]
+	{
+		model = m_i_glb_frag-krug-05;
+		[textures] { 0=b_c_eam_ksc-mtn; }
+	}
+}
+[t:template,n:frag_glb_krug_scout_mtn_06]
+{
+	doc = "misc";
+	specializes = base_fragment_krug;
+	[aspect]
+	{
+		model = m_i_glb_frag-krug-06;
+		[textures] { 0=b_c_eam_ksc-mtn; }
+	}
+}
+[t:template,n:frag_glb_krug_scout_mtn_07]
+{
+	doc = "misc";
+	specializes = base_fragment_krug;
+	[aspect]
+	{
+		model = m_i_glb_frag-krug-07;
+		[textures] { 0=b_c_eam_ksc-mtn; }
+	}
+}
+[t:template,n:frag_glb_krug_scout_mtn_08]
+{
+	doc = "misc";
+	specializes = base_fragment_krug;
+	[aspect]
+	{
+		model = m_i_glb_frag-krug-08;
+		[textures] { 0=b_c_eam_ksc-mtn; }
+	}
+}
+
+[t:template,n:frag_glb_krug_scavenger_mtn_01]
+{
+	doc = "krug_scavenger frags";
+	specializes = base_fragment_krug;
+	[aspect]
+	{
+		model = m_i_glb_frag-krug-01;
+		[textures] { 0=b_c_eam_ksv-mtn; }
+	}
+}
+[t:template,n:frag_glb_krug_scavenger_mtn_02]
+{
+	doc = "krug_scavenger frags";
+	specializes = base_fragment_krug;
+	[aspect]
+	{
+		model = m_i_glb_frag-krug-02;
+		[textures] { 0=b_c_eam_ksv-mtn; }
+	}
+}
+[t:template,n:frag_glb_krug_scavenger_mtn_03]
+{
+	doc = "krug_scavenger frags";
+	specializes = base_fragment_krug;
+	[aspect]
+	{
+		model = m_i_glb_frag-krug-03;
+		[textures] { 0=b_c_eam_ksv-mtn; }
+	}
+}
+[t:template,n:frag_glb_krug_scavenger_mtn_04]
+{
+	doc = "krug_scavenger frags";
+	specializes = base_fragment_krug;
+	[aspect]
+	{
+		model = m_i_glb_frag-krug-04;
+		[textures] { 0=b_c_eam_ksv-mtn; }
+	}
+}
+[t:template,n:frag_glb_krug_scavenger_mtn_05]
+{
+	doc = "krug_scavenger frags";
+	specializes = base_fragment_krug;
+	[aspect]
+	{
+		model = m_i_glb_frag-krug-05;
+		[textures] { 0=b_c_eam_ksv-mtn; }
+	}
+}
+[t:template,n:frag_glb_krug_scavenger_mtn_06]
+{
+	doc = "krug_scavenger frags";
+	specializes = base_fragment_krug;
+	[aspect]
+	{
+		model = m_i_glb_frag-krug-06;
+		[textures] { 0=b_c_eam_ksv-mtn; }
+	}
+}
+[t:template,n:frag_glb_krug_scavenger_mtn_07]
+{
+	doc = "krug_scavenger frags";
+	specializes = base_fragment_krug;
+	[aspect]
+	{
+		model = m_i_glb_frag-krug-07;
+		[textures] { 0=b_c_eam_ksv-mtn; }
+	}
+}
+[t:template,n:frag_glb_krug_scavenger_mtn_08]
+{
+	doc = "krug_scavenger frags";
+	specializes = base_fragment_krug;
+	[aspect]
+	{
+		model = m_i_glb_frag-krug-08;
+		[textures] { 0=b_c_eam_ksv-mtn; }
+	}
+}
