@@ -5,6 +5,7 @@
   x * = 0x0116C2C5;
   x * = 0x016F801F;
   x * = 0x017EB7C1;
+  x * = 0x02548F43;
   x * = 0x03CF5576;
   x * = 0x060A6E5D;
   x * = 0x06BA014F;
@@ -348,7 +349,6 @@
   x * = 0xEE32B0CD;
   x * = 0xEE46BF0D;
   x * = 0xEEEDD20D;
-  x * = 0xF0A94E99;
   x * = 0xF0B0412B;
   x * = 0xF1E9BEB4;
   x * = 0xF228CFA4;
