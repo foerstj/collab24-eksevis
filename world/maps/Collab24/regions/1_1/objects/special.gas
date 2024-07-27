@@ -1,11 +1,11 @@
-[t:blocking_object,n:0x00100007]
+[t:blocking_object,n:0x01100007]
 {
 	[placement]
 	{
 	  p position = 1.77495,1.95,1.96628,0x2a6a3a62;
 	}
 }
-[t:blocking_object,n:0x00100006]
+[t:blocking_object,n:0x01100006]
 {
 	[placement]
 	{

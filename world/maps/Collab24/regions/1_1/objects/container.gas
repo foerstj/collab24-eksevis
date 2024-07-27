@@ -1,4 +1,4 @@
-[t:chest_csl_06,n:0x00100001]
+[t:chest_csl_06,n:0x01100001]
 {
 	[placement]
 	{
@@ -6,7 +6,7 @@
 	  p position = 0.0364151,-3.61091,2.3215,0x4a655687;
 	}
 }
-[t:barrel_swp_01,n:0x0010019a]
+[t:barrel_swp_01,n:0x0110019a]
 {
 	[inventory]
 	{
@@ -21,14 +21,14 @@
 	  p position = -0.257221,2,0.4879,0x8d83303f;
 	}
 }
-[t:barrel_swp_01,n:0x0010019b]
+[t:barrel_swp_01,n:0x0110019b]
 {
 	[placement]
 	{
 	  p position = 0.666218,2,-0.16083,0x8d83303f;
 	}
 }
-[t:barrel_swp_01,n:0x0010019c]
+[t:barrel_swp_01,n:0x0110019c]
 {
 	[inventory]
 	{

@@ -1,6 +1,6 @@
 [stitch_helper_data]
 {
-	source_region_guid = 0x00000004;
+	source_region_guid = 0x00000013;
 	source_region_name = 1_3_wvng_rvr;
 	[t:stitch_editor,n:1_2_abnd_rd]
 	{
