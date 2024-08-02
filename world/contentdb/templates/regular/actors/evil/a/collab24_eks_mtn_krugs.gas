@@ -323,7 +323,7 @@
 
 	[common]
 	{
-		  screen_name = "Krug scout_mtn";
+		  screen_name = "Krug scout";
 		  membership = krug, party_krug_shaman_mtn, party_krug_scavenger_mtn_boss, party_krug_grunt_boss, monster;
 	}
 	[defend]
@@ -448,7 +448,7 @@
 
 	[common]
 	{
-		  screen_name = "Krug scavenger_mtn";
+		  screen_name = "Krug scavenger";
 		  membership = krug, party_krug_shaman_mtn, monster;
 	}
 	[defend]
@@ -662,7 +662,7 @@
 
 	[common]
 	{
-		  screen_name = "Krug scout_mtn";
+		  screen_name = "Krug scout";
 		  membership = krug, party_krug_shaman_mtn, party_krug_scout_mtn_boss, monster;
 	}
 	[defend]
