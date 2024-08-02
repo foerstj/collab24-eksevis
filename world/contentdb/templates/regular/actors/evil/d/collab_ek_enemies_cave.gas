@@ -112,7 +112,7 @@
 	}
 	[aspect]
 	{
-		experience_value 	= 60;
+		experience_value 	= 50;
 		life 				= 60;
 		max_life 			= 60;
 		mana 				= 8;
@@ -131,11 +131,11 @@
 	}
 	[common]
 	{
-		screen_name = "Zombie";
+		screen_name = "Bloated Corpse";
 	}
 	[defend]
 	{
-		defense = 125;
+		defense = 86;
 	}
 	[mind]
 	{
