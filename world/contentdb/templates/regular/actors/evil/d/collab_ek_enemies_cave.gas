@@ -131,11 +131,11 @@
 	}
 	[common]
 	{
-		screen_name = "Zombie";
+		screen_name = "Bloated Corpse";
 	}
 	[defend]
 	{
-		defense = 125;
+		defense = 86;
 	}
 	[mind]
 	{
