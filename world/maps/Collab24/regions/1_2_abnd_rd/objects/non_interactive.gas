@@ -2227,14 +2227,6 @@
 	  p position = -3.06181,0,1.50089,0x9ce2383a;
 	}
 }
-[t:tree_grs_deciduous_15,n:0x012001d1]
-{
-	[placement]
-	{
-	  q orientation = 0,-0.707107,0,0.707107;
-	  p position = -3.66588,0,-3.5285,0x9ce2383a;
-	}
-}
 [t:tree_grs_deciduous_sway_07,n:0x012001fd]
 {
 	[placement]
@@ -3073,5 +3065,13 @@
 	{
 	  q orientation = 0,-0.707107,0,0.707107;
 	  p position = -0.381729,-1.55,0.109306,0x9bb1b270;
+	}
+}
+[t:tree_grs_deciduous_15,n:0x012001d1]
+{
+	[placement]
+	{
+	  q orientation = 0,-0.707107,0,0.707107;
+	  p position = -3.66588,0,-3.5285,0x9ce2383a;
 	}
 }
