@@ -6,7 +6,7 @@
 		description = "This is the default group.";
 	  b dev_only = false;
 	  i id = 0;
-		screen_name = "";
+		screen_name = "Rock Bottom";
 		[start_position]
 		{
 		  i id = 2;
