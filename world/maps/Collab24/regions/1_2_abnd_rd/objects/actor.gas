@@ -768,6 +768,14 @@
 	  p position = -1.33847,3.8147e-006,-3.94413,0x9ce2383a;
 	}
 }
+[t:spider_adolescent,n:0x0120008c]
+{
+	[placement]
+	{
+	  q orientation = 0,-0.707107,0,0.707107;
+	  p position = 0.858444,0.405089,0.961662,0xe45f558c;
+	}
+}
 [t:spider_adolescent_yellow,n:0x0120008a]
 {
 	[placement]
@@ -822,14 +830,6 @@
 	[placement]
 	{
 	  p position = -2.41427,0,3.41069,0x4fd2af23;
-	}
-}
-[t:spider_adolescent,n:0x0120008c]
-{
-	[placement]
-	{
-	  q orientation = 0,-0.707107,0,0.707107;
-	  p position = 0.858444,0.405089,0.961662,0xe45f558c;
 	}
 }
 [t:phrak,n:0x01200065]
