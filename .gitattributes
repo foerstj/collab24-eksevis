@@ -16,11 +16,3 @@
 
 # terrain nodes
 *.sno filter=lfs diff=lfs merge=lfs -text
-
-
-# text
-*.gas text eol=crlf
-*.skrit text eol=crlf
-*.nnk text eol=crlf
-*.NNK text eol=crlf
-*.md text eol=crlf
