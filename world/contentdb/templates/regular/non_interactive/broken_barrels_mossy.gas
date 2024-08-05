@@ -1,0 +1,25 @@
+
+[t:template,n:barrel_swp_break]
+{
+	specializes			= non_interactive_nonblocking;
+	doc					= "barrel_mossy_broken";
+	category_name		= "container";
+
+	[aspect]
+	{
+		model		= m_i_glb_barrel-break;
+		[textures]	{0=b_i_swp_barrel_small;}
+	}
+}
+[t:template,n:crate_swp_break]
+{
+	specializes			= non_interactive_nonblocking;
+	doc					= "crate_mossy_broken";
+	category_name		= "container";
+
+	[aspect]
+	{
+		model		= m_i_glb_crate-break;
+		[textures]	{0=b_i_swp_crate-01;}
+	}
+}
