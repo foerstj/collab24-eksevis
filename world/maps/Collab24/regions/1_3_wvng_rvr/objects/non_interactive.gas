@@ -699,7 +699,8 @@
 {
 	[placement]
 	{
-	  p position = 0.502388,0,1.73335,0xd4255d53;
+	  q orientation = 0,0.707107,0,0.707107;
+	  p position = 3.82576,0,1.89086,0x07e91d30;
 	}
 }
 [t:tree_grs_oak_01,n:0x01300094]
