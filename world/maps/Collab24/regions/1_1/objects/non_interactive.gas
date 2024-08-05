@@ -1269,7 +1269,7 @@
 	[placement]
 	{
 	  q orientation = 0,-2.98023e-008,0,1;
-	  p position = -1.01135,0,0.145231,0x6d0f6c0a;
+	  p position = -0.990532,0,0.149687,0x6d0f6c0a;
 	}
 }
 [t:grass_sea_06,n:0x011001e9]
@@ -2878,13 +2878,6 @@
 	[placement]
 	{
 	  p position = -0.207558,-2,-5.55889,0x611d875d;
-	}
-}
-[t:tree_grs_oak_03,n:0x011000e3]
-{
-	[placement]
-	{
-	  p position = -1.83667,0,0.654751,0x090c6a78;
 	}
 }
 [t:tree_grs_oak_03,n:0x01100103]
