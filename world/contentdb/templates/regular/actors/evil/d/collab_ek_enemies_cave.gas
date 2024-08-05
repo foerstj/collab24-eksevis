@@ -104,17 +104,17 @@
 	{
 		[skills]
 		{
-			strength =  	13,0;
-			dexterity =  	11,0;
+			strength =  	4,0;
+			dexterity =  	5,0;
 			intelligence =  7,0;
-			melee =  		4,0;
+			melee =  		1,0;
 		}
 	}
 	[aspect]
 	{
 		experience_value 	= 50;
-		life 				= 60;
-		max_life 			= 60;
+		life 				= 45;
+		max_life 			= 45;
 		mana 				= 8;
 		max_mana 			= 8;
 		model 				= m_c_edm_zo_pos_2;
@@ -126,8 +126,8 @@
 	[attack]
 	{
 		attack_range = 0.5;
-		damage_max = 20;
-		damage_min = 17;
+		damage_max = 5;
+		damage_min = 1;
 	}
 	[common]
 	{
@@ -135,7 +135,7 @@
 	}
 	[defend]
 	{
-		defense = 63;
+		defense = 15;
 	}
 	[mind]
 	{
