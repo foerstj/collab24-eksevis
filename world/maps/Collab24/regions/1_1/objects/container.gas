@@ -39,6 +39,35 @@
 	}
 	[placement]
 	{
-	  p position = 1.1177,2,0.767605,0x8d83303f;
+	  p position = 1.21075,2,0.596817,0x8d83303f;
+	}
+}
+[t:crate_swp_01,n:0x011000fc]
+{
+	[placement]
+	{
+	  q orientation = 0,-8.9407e-008,0,1;
+	  p position = 3.50404,0,-1.93101,0x37e3fa2e;
+	}
+}
+[t:crate_swp_01,n:0x01100225]
+{
+	[placement]
+	{
+	  p position = 0.309572,0,1.16805,0xafa4e712;
+	}
+}
+[t:crate_swp_01,n:0x01100243]
+{
+	[placement]
+	{
+	  p position = 2.17991,0,1.66988,0xafa4e712;
+	}
+}
+[t:barrel_swp_01,n:0x0110024f]
+{
+	[placement]
+	{
+	  p position = 1.20904,0,1.73043,0xafa4e712;
 	}
 }
