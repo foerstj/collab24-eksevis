@@ -2,6 +2,7 @@
 {
 	[placement]
 	{
+	  q orientation = 0,0.382683,0,0.92388;
 	  p position = -2.52414,0,-1.68669,0x4e80b175;
 	}
 }
@@ -9,6 +10,7 @@
 {
 	[placement]
 	{
+	  q orientation = 0,0.382683,0,0.92388;
 	  p position = -3.3577,0,-0.635025,0x4e80b175;
 	}
 }
@@ -16,7 +18,7 @@
 {
 	[placement]
 	{
-	  q orientation = 0,-0.656059,0,0.75471;
+	  q orientation = 0,-0.317304,0,0.948324;
 	  p position = -3.11487,0,1.28644,0x4e80b175;
 	}
 }
@@ -24,6 +26,14 @@
 {
 	[placement]
 	{
+	  q orientation = 0,0.382683,0,0.92388;
 	  p position = -2.02325,0,-0.679993,0x4e80b175;
+	}
+}
+[t:crate_csl_webbed_01,n:0x01400087]
+{
+	[placement]
+	{
+	  p position = -1.15856,0,-0.951346,0xf31845c5;
 	}
 }
