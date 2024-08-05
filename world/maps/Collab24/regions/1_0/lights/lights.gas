@@ -7,18 +7,18 @@
 	  b affects_items = true;
 	  b affects_terrain = true;
 	  x color = 0xFFFFFFFF;
-	  b draw_shadow = false;
-	  f inner_radius = 0.000000;
+	  b draw_shadow = true;
+	  f inner_radius = 1.000000;
 	  f intensity = 1.000000;
-	  b occlude_geometry = false;
-	  b on_timer = false;
-	  f outer_radius = 20.000000;
+	  b occlude_geometry = true;
+	  b on_timer = true;
+	  f outer_radius = 60.000000;
 		[position]
 		{
 		  x node = 0x626A6DD3;
-		  f x = 0.658932;
+		  f x = -0.840159;
 		  f y = -1.499996;
-		  f z = -2.068510;
+		  f z = -3.275505;
 		}
 	}
 	[t:directional,n:light_0x6cba56be]
