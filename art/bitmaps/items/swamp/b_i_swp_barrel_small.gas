@@ -1,0 +1,5 @@
+[t:tsd,n:b_i_swp_barrel_small]
+{
+    layer1texture1 = b_i_swp_barrel_small;
+  i texturedetail = 2;
+}
