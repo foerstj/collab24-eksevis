@@ -26,6 +26,13 @@
 	  p position = -0.0908356,-5.99199,1.03214,0x383c9611;
 	}
 }
+[t:trigger_generic,n:0x0130008c]
+{
+	[placement]
+	{
+	  p position = 0.194084,-6,-0.54538,0x383c9611;
+	}
+}
 [t:trigger_generic,n:0x013000bc]
 {
 	[common]
