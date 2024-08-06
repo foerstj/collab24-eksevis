@@ -96,11 +96,18 @@
 	  p position = 2.62597,0,1.57373,0x3be7d6ad;
 	}
 }
-[t:skeleton,n:0x01400025]
+[t:skeleton,n:0x01400017]
 {
 	[placement]
 	{
-	  p position = -1.32145,1.90735e-006,-0.666269,0xf03058ae;
+	  p position = -0.939605,0,1.95971,0x3f8dcda9;
+	}
+}
+[t:collab_ek_zombie_drowned,n:0x0140003c]
+{
+	[placement]
+	{
+	  p position = 1.62719,0,-3.06247,0x3f8dcda9;
 	}
 }
 [t:skeleton,n:0x0140000e]
@@ -139,32 +146,11 @@
 	  p position = -2.4971,-3.96609,-3.31074,0x315b6abb;
 	}
 }
-[t:collab_ek_zombie_drowned,n:0x01400037]
+[t:skeleton,n:0x01400025]
 {
 	[placement]
 	{
-	  p position = 1.93408,0,0.228191,0xf7ad5b54;
-	}
-}
-[t:skeleton,n:0x01400008]
-{
-	[placement]
-	{
-	  p position = 2.70193,-3.8147e-006,-0.645001,0x1479931f;
-	}
-}
-[t:skeleton,n:0x0140000a]
-{
-	[placement]
-	{
-	  p position = -3.07866,3.8147e-006,-0.265976,0xfd0e44e3;
-	}
-}
-[t:collab_ek_zombie_drowned,n:0x01400038]
-{
-	[placement]
-	{
-	  p position = -1.6162,-1.90735e-006,-3.91123,0xb156a976;
+	  p position = -1.32145,1.90735e-006,-0.666269,0xf03058ae;
 	}
 }
 [t:skeleton,n:0x0140000b]
@@ -172,6 +158,13 @@
 	[placement]
 	{
 	  p position = 1.7631,3.8147e-006,2.67413,0x6f2a17ff;
+	}
+}
+[t:skeleton,n:0x0140000a]
+{
+	[placement]
+	{
+	  p position = -3.07866,3.8147e-006,-0.265976,0xfd0e44e3;
 	}
 }
 [t:collab_ek_zombie_drowned,n:0x0140004e]
@@ -231,6 +224,27 @@
 	  p position = 1.56245,0,-0.469398,0x5e853793;
 	}
 }
+[t:skeleton,n:0x01400008]
+{
+	[placement]
+	{
+	  p position = 2.70193,-3.8147e-006,-0.645001,0x1479931f;
+	}
+}
+[t:collab_ek_zombie_drowned,n:0x01400038]
+{
+	[placement]
+	{
+	  p position = -1.6162,-1.90735e-006,-3.91123,0xb156a976;
+	}
+}
+[t:collab_ek_zombie_drowned,n:0x01400037]
+{
+	[placement]
+	{
+	  p position = 1.93408,0,0.228191,0xf7ad5b54;
+	}
+}
 [t:collab_ek_zombie_drowned,n:0x01400010]
 {
 	[placement]
@@ -271,20 +285,6 @@
 	[placement]
 	{
 	  p position = -0.399801,-4,-3.60926,0xd322280b;
-	}
-}
-[t:skeleton,n:0x01400017]
-{
-	[placement]
-	{
-	  p position = -0.939605,0,1.95971,0x3f8dcda9;
-	}
-}
-[t:collab_ek_zombie_drowned,n:0x0140003c]
-{
-	[placement]
-	{
-	  p position = 1.62719,0,-3.06247,0x3f8dcda9;
 	}
 }
 [t:skeleton,n:0x0140002d]

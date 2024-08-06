@@ -156,7 +156,7 @@
 {
 	[aspect]
 	{
-	  b draw_shadow = true;
+	  b does_block_path = true;
 	}
 	[placement]
 	{
@@ -268,36 +268,11 @@
 	  p position = -0.509827,0,0.679382,0xb89538c1;
 	}
 }
-[t:lumber_grs_burnt,n:0x01400053]
+[t:collab24_bush_glb_dead_02,n:0x014000ae]
 {
 	[placement]
 	{
-	  q orientation = 0,0.382683,0,0.92388;
-	  p position = -2.84119,0,0.934433,0x4e80b175;
-	}
-}
-[t:lumber_grs_burnt,n:0x01400054]
-{
-	[placement]
-	{
-	  q orientation = 0,0.382683,0,0.92388;
-	  p position = -1.0358,0,-1.48722,0x4e80b175;
-	}
-}
-[t:wheelbarrow_grs,n:0x0140006a]
-{
-	[placement]
-	{
-	  q orientation = 0,0.382683,0,0.92388;
-	  p position = -0.5439,0,-1.92388,0x4e80b175;
-	}
-}
-[t:ee_food_cheese_slice,n:0x0140008f]
-{
-	[placement]
-	{
-	  q orientation = 0,0.382683,0,0.92388;
-	  p position = -0.43676,0,-1.91145,0x4e80b175;
+	  p position = -1.83839,3.99435,1.69339,0x12fc99d9;
 	}
 }
 [t:rocks_cav_02,n:0x0140007a]
@@ -307,25 +282,11 @@
 	  p position = 2.81384,-3.8545,-4.36164,0x27e83a76;
 	}
 }
-[t:collab24_bush_glb_dead_02,n:0x014000ae]
-{
-	[placement]
-	{
-	  p position = -1.83839,3.99435,1.69339,0x12fc99d9;
-	}
-}
 [t:collab24_bush_glb_dead_02,n:0x014000aa]
 {
 	[placement]
 	{
 	  p position = 2.01189,0,-3.67224,0xfd0e44e3;
-	}
-}
-[t:collab24_bush_glb_dead_02,n:0x014000a7]
-{
-	[placement]
-	{
-	  p position = 1.44887,-1.90735e-006,0.502871,0xb156a976;
 	}
 }
 [t:rocks_cav_02,n:0x01400070]
@@ -364,11 +325,50 @@
 	  p position = -1.64893,-1.90735e-006,0.192144,0x36df994b;
 	}
 }
+[t:collab24_bush_glb_dead_02,n:0x014000a7]
+{
+	[placement]
+	{
+	  p position = 1.44887,-1.90735e-006,0.502871,0xb156a976;
+	}
+}
 [t:rocks_cav_02,n:0x0140007f]
 {
 	[placement]
 	{
 	  p position = -2.83627,0,-1.1391,0x398387f0;
+	}
+}
+[t:lumber_grs_burnt,n:0x01400053]
+{
+	[placement]
+	{
+	  q orientation = 0,0.382683,0,0.92388;
+	  p position = -2.84119,0,0.934433,0x4e80b175;
+	}
+}
+[t:lumber_grs_burnt,n:0x01400054]
+{
+	[placement]
+	{
+	  q orientation = 0,0.382683,0,0.92388;
+	  p position = -1.0358,0,-1.48722,0x4e80b175;
+	}
+}
+[t:wheelbarrow_grs,n:0x0140006a]
+{
+	[placement]
+	{
+	  q orientation = 0,0.382683,0,0.92388;
+	  p position = -0.5439,0,-1.92388,0x4e80b175;
+	}
+}
+[t:ee_food_cheese_slice,n:0x0140008f]
+{
+	[placement]
+	{
+	  q orientation = 0,0.382683,0,0.92388;
+	  p position = -0.43676,0,-1.91145,0x4e80b175;
 	}
 }
 [t:rocks_cav_02,n:0x0140007b]

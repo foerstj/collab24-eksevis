@@ -1,3 +1,10 @@
+[t:crate_csl_webbed_01,n:0x01400087]
+{
+	[placement]
+	{
+	  p position = -1.15856,0,-0.951346,0xf31845c5;
+	}
+}
 [t:crate_glb,n:0x01400057]
 {
 	[placement]
@@ -28,12 +35,5 @@
 	{
 	  q orientation = 0,0.382683,0,0.92388;
 	  p position = -2.02325,0,-0.679993,0x4e80b175;
-	}
-}
-[t:crate_csl_webbed_01,n:0x01400087]
-{
-	[placement]
-	{
-	  p position = -1.15856,0,-0.951346,0xf31845c5;
 	}
 }
