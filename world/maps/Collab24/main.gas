@@ -2,7 +2,7 @@
 {
 	description = "";
   b dev_only = false;
-	screen_name = "Collab 2024";
+	screen_name = "Collab 2024-Eks";
 	timeofday = 0h0m;
   b use_node_mesh_index = true;
   b use_player_journal = false;
