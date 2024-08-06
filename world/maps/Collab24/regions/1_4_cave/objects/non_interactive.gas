@@ -157,6 +157,8 @@
 	[aspect]
 	{
 	  b does_block_path = true;
+	  f lodfi_lower = 0;
+	  f lodfi_upper = 0;
 	}
 	[placement]
 	{
