@@ -157,8 +157,6 @@
 	[aspect]
 	{
 	  b does_block_path = true;
-	  f lodfi_lower = 0;
-	  f lodfi_upper = 0;
 	}
 	[placement]
 	{
@@ -526,6 +524,14 @@
 	[placement]
 	{
 	  p position = -1.01572,5.90116,1.21853,0xa657db29;
+	}
+}
+[t:gpg_bush_glb_dead_02,n:0x01400099]
+{
+	[placement]
+	{
+	  q orientation = 6.07796e-022,-0.707107,-6.07796e-022,0.707107;
+	  p position = 0.874985,0,-0.0177345,0x57cc332f;
 	}
 }
 [t:rocks_cav_02,n:0x01400076]
