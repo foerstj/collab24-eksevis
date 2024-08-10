@@ -375,7 +375,7 @@
 	[placement]
 	{
 	  q orientation = -0.537688,0.459229,0.459229,0.537689;
-	  p position = -2.21876,-3.75,-0.497434,0x419926f3;
+	  p position = -2.16497,-3.64419,-0.167197,0x419926f3;
 	}
 }
 [t:statue_cav_02,n:0x011001c8]
@@ -1772,162 +1772,12 @@
 	  p position = -1.4858,-1.90735e-006,-3.38573,0x3e9ddb66;
 	}
 }
-[t:plant_glb_squash,n:0x0110015c]
-{
-	[placement]
-	{
-	  p position = -3.80133,0,-2.79449,0xf212f2e5;
-	}
-}
-[t:plant_glb_squash,n:0x0110015d]
-{
-	[placement]
-	{
-	  p position = -2.75417,-9.53674e-007,-3.05401,0xf212f2e5;
-	}
-}
-[t:plant_glb_squash,n:0x0110015e]
-{
-	[placement]
-	{
-	  p position = -1.84907,0,-3.04375,0xf212f2e5;
-	}
-}
-[t:plant_glb_squash,n:0x0110015f]
-{
-	[placement]
-	{
-	  p position = -0.944021,0,-3.28404,0xf212f2e5;
-	}
-}
-[t:plant_glb_squash,n:0x01100160]
-{
-	[placement]
-	{
-	  p position = -3.49912,0,-0.599979,0xf212f2e5;
-	}
-}
-[t:plant_glb_squash,n:0x01100161]
-{
-	[placement]
-	{
-	  p position = -2.44606,0,-1.01915,0xf212f2e5;
-	}
-}
-[t:plant_glb_squash,n:0x01100162]
-{
-	[placement]
-	{
-	  p position = -1.50968,0,-1.10928,0xf212f2e5;
-	}
-}
-[t:plant_glb_squash,n:0x01100163]
-{
-	[placement]
-	{
-	  p position = -0.575565,0,-1.25542,0xf212f2e5;
-	}
-}
-[t:plant_glb_squash,n:0x01100164]
-{
-	[placement]
-	{
-	  p position = -3.03309,0,0.91993,0xf212f2e5;
-	}
-}
-[t:plant_glb_squash,n:0x01100165]
-{
-	[placement]
-	{
-	  p position = -2.10018,0,0.786953,0xf212f2e5;
-	}
-}
-[t:plant_glb_squash,n:0x01100166]
-{
-	[placement]
-	{
-	  p position = -1.11965,0,0.677498,0xf212f2e5;
-	}
-}
-[t:plant_glb_squash,n:0x01100167]
-{
-	[placement]
-	{
-	  p position = 0.00509453,-1.90735e-006,0.379765,0xf212f2e5;
-	}
-}
-[t:plant_glb_squash,n:0x01100168]
-{
-	[placement]
-	{
-	  p position = 0.877672,0,-1.4079,0xf212f2e5;
-	}
-}
-[t:plant_glb_squash,n:0x01100169]
-{
-	[placement]
-	{
-	  p position = 0.571526,0,-3.24607,0xf212f2e5;
-	}
-}
 [t:grass_sea_08,n:0x01100093]
 {
 	[placement]
 	{
+	  q orientation = 0,-6.46033e-009,0,1;
 	  p position = 1.49917,0,-0.679674,0x768b89f3;
-	}
-}
-[t:grass_sea_08,n:0x01100092]
-{
-	[placement]
-	{
-	  q orientation = 0,-0.707107,0,0.707107;
-	  p position = -2.13565,-1.75,5.64804,0x534d3234;
-	}
-}
-[t:cabbage_glb_01,n:0x0110016c]
-{
-	[placement]
-	{
-	  q orientation = 0,-0.707107,0,0.707107;
-	  p position = -5.88836,-1.75,2.7696,0x534d3234;
-	}
-}
-[t:cabbage_glb_01,n:0x0110016e]
-{
-	[placement]
-	{
-	  q orientation = 0,-0.707107,0,0.707107;
-	  p position = -5.85457,-1.75,0.323215,0x534d3234;
-	}
-}
-[t:plant_glb_squash,n:0x01100158]
-{
-	[placement]
-	{
-	  q orientation = 0,1,0,0;
-	  p position = 1.90159,1.90735e-006,-1.35698,0x56a6989c;
-	}
-}
-[t:plant_glb_squash,n:0x01100159]
-{
-	[placement]
-	{
-	  p position = 0.906771,0,-1.32204,0x56a6989c;
-	}
-}
-[t:plant_glb_squash,n:0x0110015a]
-{
-	[placement]
-	{
-	  p position = -0.065134,0,-1.17274,0x56a6989c;
-	}
-}
-[t:plant_glb_squash,n:0x0110015b]
-{
-	[placement]
-	{
-	  p position = -1.13636,0,-1.13417,0x56a6989c;
 	}
 }
 [t:grass_grs_06,n:0x0110005b]
@@ -1986,34 +1836,6 @@
 	[placement]
 	{
 	  p position = 2.88717,0,2.65755,0x85ca9348;
-	}
-}
-[t:bush_grs_09,n:0x0110017b]
-{
-	[placement]
-	{
-	  p position = -2.17725,0,-3.18873,0x85ca9348;
-	}
-}
-[t:bush_grs_09,n:0x01100178]
-{
-	[placement]
-	{
-	  p position = -0.119537,0,-2.56783,0x4390ad68;
-	}
-}
-[t:bush_grs_09,n:0x01100179]
-{
-	[placement]
-	{
-	  p position = 2.75404,0,-2.68648,0x4390ad68;
-	}
-}
-[t:bush_grs_09,n:0x0110017a]
-{
-	[placement]
-	{
-	  p position = -3.0728,0,-2.87659,0x4390ad68;
 	}
 }
 [t:grass_grs_06,n:0x01100056]
@@ -2335,7 +2157,7 @@
 {
 	[placement]
 	{
-	  p position = 1.6874,-1.90735e-006,-1.60096,0x15eaba57;
+	  p position = 2.0448,-1.90735e-006,-0.902182,0x15eaba57;
 	}
 }
 [t:grass_grs_06,n:0x01100047]
@@ -3330,7 +3152,7 @@
 {
 	[placement]
 	{
-	  p position = 3.31677,0,0.208078,0x220fe860;
+	  p position = 0.783148,0,-0.719118,0x220fe860;
 	}
 }
 [t:grass_sea_08,n:0x011000a0]
@@ -3524,5 +3346,336 @@
 	{
 	  q orientation = 0,-0.173648,0,0.984808;
 	  p position = 0.430538,-1.5,1.1114,0xf9ebc200;
+	}
+}
+[t:plant_glb_squash,n:0x01100267]
+{
+	[placement]
+	{
+	  p position = 0.331401,0,-0.386768,0x5c3be084;
+	}
+}
+[t:plant_glb_squash,n:0x01100268]
+{
+	[placement]
+	{
+	  p position = -1.56437,0,-0.5378,0x5c3be084;
+	}
+}
+[t:plant_glb_squash,n:0x01100269]
+{
+	[placement]
+	{
+	  p position = 1.50537,0,-0.59704,0x2f214aae;
+	}
+}
+[t:plant_glb_squash,n:0x0110026a]
+{
+	[placement]
+	{
+	  p position = 0.0910663,0,-0.842984,0x2f214aae;
+	}
+}
+[t:plant_glb_squash,n:0x0110026b]
+{
+	[placement]
+	{
+	  p position = 0.35184,0,-1.68942,0x8ddc570c;
+	}
+}
+[t:plant_glb_squash,n:0x0110026c]
+{
+	[placement]
+	{
+	  p position = -0.710911,0,-0.214758,0x5c3be084;
+	}
+}
+[t:plant_glb_squash,n:0x0110026d]
+{
+	[placement]
+	{
+	  p position = -0.632354,0,-1.57579,0x8ddc570c;
+	}
+}
+[t:plant_glb_squash,n:0x0110026e]
+{
+	[placement]
+	{
+	  p position = 1.42307,0,-1.2354,0x8ddc570c;
+	}
+}
+[t:plant_glb_squash,n:0x0110026f]
+{
+	[placement]
+	{
+	  p position = -0.772052,0,-1.23019,0x7089be7f;
+	}
+}
+[t:plant_glb_squash,n:0x01100270]
+{
+	[placement]
+	{
+	  p position = 0.662863,0,-1.09056,0x7089be7f;
+	}
+}
+[t:plant_glb_squash,n:0x01100271]
+{
+	[placement]
+	{
+	  p position = -0.574137,0,0.0351028,0x8ddc570c;
+	}
+}
+[t:plant_glb_squash,n:0x01100272]
+{
+	[placement]
+	{
+	  p position = 0.836828,-9.53674e-007,0.136365,0x8ddc570c;
+	}
+}
+[t:plant_glb_squash,n:0x01100273]
+{
+	[placement]
+	{
+	  p position = -1.89997,0,0.348,0x7089be7f;
+	}
+}
+[t:plant_glb_squash,n:0x01100274]
+{
+	[placement]
+	{
+	  p position = 0.111934,0,0.285235,0x7089be7f;
+	}
+}
+[t:bush_grs_09,n:0x01100286]
+{
+	[placement]
+	{
+	  p position = -1.97021,0,-3.60655,0x85ca9348;
+	}
+}
+[t:bush_grs_09,n:0x01100287]
+{
+	[placement]
+	{
+	  p position = 2.78977,9.53674e-007,-3.41923,0x4390ad68;
+	}
+}
+[t:bush_grs_09,n:0x01100288]
+{
+	[placement]
+	{
+	  p position = 0.467588,0,-3.50381,0x4390ad68;
+	}
+}
+[t:bush_grs_09,n:0x01100289]
+{
+	[placement]
+	{
+	  p position = -3.03984,0,-3.63066,0x4390ad68;
+	}
+}
+[t:hay_pile_grs_01,n:0x0110029d]
+{
+	[placement]
+	{
+	  p position = -3.27136,-1.75,-1.34692,0x534d3234;
+	}
+}
+[t:hay_bale_grs,n:0x0110029c]
+{
+	[placement]
+	{
+	  p position = -3.22799,-1.75,-1.64741,0x534d3234;
+	}
+}
+[t:hay_pile_grs_01,n:0x0110029b]
+{
+	[placement]
+	{
+	  p position = -2.19185,-1.75,-1.87112,0x534d3234;
+	}
+}
+[t:hay_bale_grs,n:0x0110029a]
+{
+	[placement]
+	{
+	  q orientation = 0,-0.398749,0,-0.91706;
+	  p position = -2.14848,-1.75,-2.17162,0x534d3234;
+	}
+}
+[t:hay_pile_grs_01,n:0x01100299]
+{
+	[placement]
+	{
+	  p position = -3.21709,-1.75,0.0285149,0x534d3234;
+	}
+}
+[t:hay_bale_grs,n:0x01100298]
+{
+	[placement]
+	{
+	  q orientation = 0,-0.45399,0,-0.891007;
+	  p position = -3.17372,-1.75,-0.271976,0x534d3234;
+	}
+}
+[t:hay_pile_grs_01,n:0x01100297]
+{
+	[placement]
+	{
+	  p position = 3.65162,-1.75,-1.4168,0x534d3234;
+	}
+}
+[t:hay_bale_grs,n:0x01100296]
+{
+	[placement]
+	{
+	  p position = 3.69499,-1.75,-1.71729,0x534d3234;
+	}
+}
+[t:hay_bale_grs,n:0x01100295]
+{
+	[placement]
+	{
+	  q orientation = 0,-0.258819,0,0.965926;
+	  p position = 3.77005,-1.75,-0.196533,0x534d3234;
+	}
+}
+[t:trough_grs_hay,n:0x01100293]
+{
+	[placement]
+	{
+	  p position = -2.91073,-1.75,3.60225,0x534d3234;
+	}
+}
+[t:trough_grs_hay,n:0x01100292]
+{
+	[placement]
+	{
+	  p position = 3.11283,-1.75,3.53073,0x534d3234;
+	}
+}
+[t:hay_pile_grs_01,n:0x01100290]
+{
+	[placement]
+	{
+	  p position = 3.66704,-1.75,-0.0944176,0x534d3234;
+	}
+}
+[t:cabbage_glb_01,n:0x0110016e]
+{
+	[placement]
+	{
+	  q orientation = 0,-0.707107,0,0.707107;
+	  p position = -5.85457,-1.75,0.323215,0x534d3234;
+	}
+}
+[t:cabbage_glb_01,n:0x0110016c]
+{
+	[placement]
+	{
+	  q orientation = 0,-0.707107,0,0.707107;
+	  p position = -5.88836,-1.75,2.7696,0x534d3234;
+	}
+}
+[t:grass_sea_08,n:0x01100092]
+{
+	[placement]
+	{
+	  q orientation = 0,-0.707107,0,0.707107;
+	  p position = -4.67153,-1.75,0.863823,0x534d3234;
+	}
+}
+[t:cobweb_csl_01,n:0x011002aa]
+{
+	[aspect]
+	{
+	  b dynamically_lit = true;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.382683,0,0.923879;
+	  p position = 3.94865,-1.90404,1.33149,0x534d3234;
+	}
+}
+[t:cobweb_csl_03,n:0x011002ad]
+{
+	[placement]
+	{
+	  p position = 2.95812,-1.75,2.16801,0x534d3234;
+	}
+}
+[t:cobweb_csl_03,n:0x011002ae]
+{
+	[placement]
+	{
+	  p position = 2.94904,-1.75,2.37213,0x534d3234;
+	}
+}
+[t:cobweb_csl_03,n:0x011002af]
+{
+	[placement]
+	{
+	  p position = 0.601201,-1.75,0.41825,0x534d3234;
+	}
+}
+[t:cobweb_csl_03,n:0x011002b0]
+{
+	[placement]
+	{
+	  p position = -0.70071,-1.75,-1.19281,0x534d3234;
+	}
+}
+[t:cobweb_csl_03,n:0x011002b1]
+{
+	[placement]
+	{
+	  p position = -0.501311,0,-1.36494,0x9406b361;
+	}
+}
+[t:cobweb_csl_03,n:0x011002b2]
+{
+	[placement]
+	{
+	  p position = 2.86569,-1.75,1.98234,0x534d3234;
+	}
+}
+[t:cobweb_csl_03,n:0x011002b5]
+{
+	[placement]
+	{
+	  p position = -0.04898,-1.75,2.68925,0x534d3234;
+	}
+}
+[t:cobweb_csl_02,n:0x011002bb]
+{
+	[aspect]
+	{
+	  b dynamically_lit = true;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.923879,0,-0.382683;
+	  p position = 2.78205,-1.75453,2.58925,0x534d3234;
+	}
+}
+[t:cobweb_csl_03,n:0x011002bc]
+{
+	[placement]
+	{
+	  p position = 1.13571,0,-2.43575,0x1bea88e1;
+	}
+}
+[t:cobweb_csl_03,n:0x011002bd]
+{
+	[placement]
+	{
+	  p position = -2.71021,-1.90735e-006,1.67479,0x768b89f3;
+	}
+}
+[t:cobweb_csl_03,n:0x011002be]
+{
+	[placement]
+	{
+	  p position = -2.58596,0,1.70758,0x768b89f3;
 	}
 }

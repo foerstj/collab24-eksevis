@@ -126,3 +126,11 @@
 	  p position = 1.59543,1.95,1.83279,0x3bee4ae2;
 	}
 }
+[t:blocking_object,n:0x0110028c]
+{
+	[placement]
+	{
+	  q orientation = 0,1,0,0;
+	  p position = -0.00349236,-1.85,-2.30815,0xa784d2a7;
+	}
+}

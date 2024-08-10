@@ -136,5 +136,7 @@
 	0x01100c8c = t_grs01_houses_stone-chapel-a-door-top;
 	0x01100c8e = t_grs01_houses_stone-chapel-a;
 	0x01100c93 = t_grs01_houses_toolshed-base-a;
+	0x01100cef = t_grs01_field-rows-corner-a;
+	0x01100cf0 = t_grs01_field-rows-corner-b;
 	0x01100e43 = t_bt_burnt-house-b;
 }
