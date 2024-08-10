@@ -1,0 +1,16 @@
+[t:door_glb_woodfence_left_01,n:0x0110029f]
+{
+	[placement]
+	{
+	  q orientation = 0,0.737277,0,0.675591;
+	  p position = 1.07541,-1.75,2.51421,0x534d3234;
+	}
+}
+[t:door_glb_woodfence_left_01,n:0x011002a1]
+{
+	[placement]
+	{
+	  q orientation = 0,-0.681999,0,0.731354;
+	  p position = -0.715343,-1.75,2.41216,0x534d3234;
+	}
+}
