@@ -1,7 +1,0 @@
-[hotpoints]
-{
-	[t:hotpoint,n:north]
-	{
-	  i id = 1;
-	}
-}
