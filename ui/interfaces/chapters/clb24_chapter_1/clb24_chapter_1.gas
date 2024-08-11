@@ -1,0 +1,22 @@
+[clb24_chapter_1]
+{
+  b interface = true;
+	centered = fade_window;
+	[t:window,n:fade_window]
+	{
+	  f alpha = 1.000000;
+	  b common_control = false;
+		common_template = ;
+	  i draw_order = 1;
+		rect = 181,111,437,367;
+		texture = b_gui_nis_clb24_ch01;
+		uvcoords = 0.000000,0.000000,1.000000,1.000000;
+		wrap_mode = clamp;
+		pass_through = true;
+		topmost = true;
+		[messages]
+		{			
+			onanimcomplete = notify(fade_chapter);
+		}
+	}
+}
