@@ -171,7 +171,6 @@
   b 0x3ecd7f57 = false;
   b 0x3f8dcda9 = false;
   b 0x3f9cee35 = false;
-  b 0x3fe7cc20 = false;
   b 0x40705bc5 = false;
   b 0x407dbe3e = false;
   b 0x4093dbdb = false;
@@ -193,6 +192,7 @@
   b 0x4844f20d = false;
   b 0x4846c8d9 = false;
   b 0x4987fa49 = false;
+  b 0x4a59a01b = false;
   b 0x4ad02d8f = false;
   b 0x4b5c22ba = false;
   b 0x4bb936c2 = false;

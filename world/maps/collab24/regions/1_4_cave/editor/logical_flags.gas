@@ -2445,15 +2445,6 @@
 		{
 		}
 	}
-	[t:lf_snode,n:0x3fe7cc20]
-	{
-		[t:lf_lnode,n:0]
-		{
-			* = lf_human_player;
-			* = lf_computer_player;
-			* = lf_dirt;
-		}
-	}
 	[t:lf_snode,n:0x40705bc5]
 	{
 		[t:lf_lnode,n:0]
@@ -2761,6 +2752,15 @@
 		}
 	}
 	[t:lf_snode,n:0x4987fa49]
+	{
+		[t:lf_lnode,n:0]
+		{
+			* = lf_human_player;
+			* = lf_computer_player;
+			* = lf_dirt;
+		}
+	}
+	[t:lf_snode,n:0x4a59a01b]
 	{
 		[t:lf_lnode,n:0]
 		{

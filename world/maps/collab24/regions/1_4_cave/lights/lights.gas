@@ -10,15 +10,15 @@
 	  b draw_shadow = true;
 	  f inner_radius = 5.000000;
 	  f intensity = 1.000000;
-	  b occlude_geometry = true;
+	  b occlude_geometry = false;
 	  b on_timer = true;
 	  f outer_radius = 40.000000;
 		[position]
 		{
-		  x node = 0x3FE7CC20;
-		  f x = 1.045761;
-		  f y = 1.512768;
-		  f z = -1.028984;
+		  x node = 0x4A59A01B;
+		  f x = 0.847847;
+		  f y = 2.007207;
+		  f z = 0.260818;
 		}
 	}
 }

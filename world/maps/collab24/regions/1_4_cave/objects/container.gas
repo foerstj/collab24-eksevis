@@ -2,7 +2,7 @@
 {
 	[placement]
 	{
-	  p position = -1.15856,0,-0.951346,0xf31845c5;
+	  p position = -1.15856,0,-0.951347,0xf31845c5;
 	}
 }
 [t:crate_glb,n:0x01400057]
