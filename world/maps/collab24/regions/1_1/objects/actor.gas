@@ -219,7 +219,8 @@
 {
 	[placement]
 	{
-	  p position = -3.43558,0,-0.369036,0x7b6d1939;
+	  q orientation = 0,0.707107,0,0.707107;
+	  p position = 3.39506,0,-1.04723,0x3fe7cc20;
 	}
 }
 [t:phrak,n:0x01100258]

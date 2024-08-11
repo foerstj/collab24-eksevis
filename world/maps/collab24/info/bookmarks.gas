@@ -1,0 +1,14 @@
+[bookmarks]
+{
+	[t:bookmark,n:1_4_cave_grove]
+	{
+		description = "cave tree test";
+		position = 0.000000,0.000000,0.000000,0xccc8015d;
+		[camera]
+		{
+		  f azimuth = 0.000000;
+		  f distance = 0.000000;
+		  f orbit = 0.000000;
+		}
+	}
+}

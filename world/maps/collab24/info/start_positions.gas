@@ -9,26 +9,14 @@
 		screen_name = "Rock Bottom";
 		[start_position]
 		{
-		  i id = 2;
-			position = 0.552948,-1.500000,-2.609953,0xC0F545AA;
-			[camera]
-			{
-			  f azimuth = 0.500000;
-			  f distance = 20.000000;
-			  f orbit = 0.000000;
-				position = 0.552948,-1.500000,-2.609953,0xC0F545AA;
-			}
-		}
-		[start_position]
-		{
 		  i id = 1;
-			position = 0.513836,0.000000,0.144981,0xDEFBE6F9;
+			position = 0.459233,-1.500000,-2.595573,0xC0F545AA;
 			[camera]
 			{
 			  f azimuth = 0.500000;
 			  f distance = 20.000000;
 			  f orbit = 0.000000;
-				position = 0.513836,0.000000,0.144981,0xDEFBE6F9;
+				position = 0.459233,-1.500000,-2.595573,0xC0F545AA;
 			}
 		}
 		[start_position]
@@ -69,18 +57,6 @@
 		}
 		[start_position]
 		{
-		  i id = 6;
-			position = -1.644781,0.000000,0.591516,0x7BD97FEF;
-			[camera]
-			{
-			  f azimuth = 0.500000;
-			  f distance = 20.000000;
-			  f orbit = 0.000000;
-				position = -1.644781,0.000000,0.591516,0x7BD97FEF;
-			}
-		}
-		[start_position]
-		{
 		  i id = 7;
 			position = 0.192965,0.000004,-0.901426,0xD0009945;
 			[camera]
@@ -113,6 +89,30 @@
 			  f distance = 20.000000;
 			  f orbit = 0.000000;
 				position = 1.470932,0.000000,0.043861,0x524671DB;
+			}
+		}
+		[start_position]
+		{
+		  i id = 6;
+			position = -1.644781,0.000000,0.591516,0x7BD97FEF;
+			[camera]
+			{
+			  f azimuth = 0.500000;
+			  f distance = 20.000000;
+			  f orbit = 0.000000;
+				position = -1.644781,0.000000,0.591516,0x7BD97FEF;
+			}
+		}
+		[start_position]
+		{
+		  i id = 2;
+			position = 0.179220,0.000000,-0.361099,0xDEFBE6F9;
+			[camera]
+			{
+			  f azimuth = 0.500000;
+			  f distance = 20.000000;
+			  f orbit = 0.000000;
+				position = 0.179220,0.000000,-0.361099,0xDEFBE6F9;
 			}
 		}
 		[world_levels]

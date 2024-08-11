@@ -831,6 +831,7 @@
   x * = 0xE0DA7450;
   x * = 0xE1571438;
   x * = 0xE1AF8701;
+  x * = 0xE1BA3973;
   x * = 0xE1DA7B3C;
   x * = 0xE1F7652D;
   x * = 0xE21D2F57;

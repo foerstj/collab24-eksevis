@@ -1,7 +1,6 @@
 [light_locks]
 {
   b 0x0008ac9a = false;
-  b 0x0015fb2f = false;
   b 0x009b6f42 = false;
   b 0x00c5b785 = false;
   b 0x016b5b4c = false;
@@ -9,13 +8,12 @@
   b 0x028a7e9d = false;
   b 0x028d25ea = false;
   b 0x02a65dbc = false;
-  b 0x03dfba1d = false;
-  b 0x04626308 = false;
   b 0x058f28a6 = false;
   b 0x05ca21d9 = false;
   b 0x05f32700 = false;
   b 0x06ff21a4 = false;
   b 0x075d0589 = false;
+  b 0x079e98ea = false;
   b 0x081f55e0 = false;
   b 0x0823c05a = false;
   b 0x082dc5fd = false;
@@ -32,7 +30,9 @@
   b 0x0ca211ba = false;
   b 0x0d04c9bb = false;
   b 0x0e0398c8 = false;
+  b 0x0e10042a = false;
   b 0x0e4dd2b7 = false;
+  b 0x0ea478f8 = false;
   b 0x0ef80087 = false;
   b 0x0ef9b7a3 = false;
   b 0x0efc1c22 = false;
@@ -69,6 +69,7 @@
   b 0x1a053116 = false;
   b 0x1a16ce05 = false;
   b 0x1a26d912 = false;
+  b 0x1a373472 = false;
   b 0x1a787900 = false;
   b 0x1b69c18e = false;
   b 0x1c053d18 = false;
@@ -82,6 +83,7 @@
   b 0x1f68a122 = false;
   b 0x1f87a9d7 = false;
   b 0x202d8a3c = false;
+  b 0x205b36d2 = false;
   b 0x20bd362f = false;
   b 0x212dafce = false;
   b 0x2171f2e7 = false;
@@ -96,6 +98,7 @@
   b 0x2416273a = false;
   b 0x2423ad1a = false;
   b 0x24358712 = false;
+  b 0x247f4e9a = false;
   b 0x24b0b897 = false;
   b 0x251d61c1 = false;
   b 0x252a690c = false;
@@ -108,6 +111,7 @@
   b 0x27e83a76 = false;
   b 0x28648149 = false;
   b 0x288a1bd9 = false;
+  b 0x29851532 = false;
   b 0x2a5bd79e = false;
   b 0x2a636211 = false;
   b 0x2afd316f = false;
@@ -132,9 +136,11 @@
   b 0x33118bb8 = false;
   b 0x33bed04d = false;
   b 0x348fb24c = false;
+  b 0x349a168e = false;
   b 0x35dd20ce = false;
   b 0x35f38bbf = false;
   b 0x363cc004 = false;
+  b 0x3642b206 = false;
   b 0x3648a32a = false;
   b 0x36b2b8a6 = false;
   b 0x36df994b = false;
@@ -153,7 +159,6 @@
   b 0x3b2a7e0b = false;
   b 0x3bc090cb = false;
   b 0x3bcbfa2a = false;
-  b 0x3bdeb682 = false;
   b 0x3be7d6ad = false;
   b 0x3c1c61c4 = false;
   b 0x3c1eef15 = false;
@@ -167,9 +172,9 @@
   b 0x3f8dcda9 = false;
   b 0x3f9cee35 = false;
   b 0x3fe7cc20 = false;
-  b 0x403832af = false;
   b 0x40705bc5 = false;
   b 0x407dbe3e = false;
+  b 0x4093dbdb = false;
   b 0x41bd569e = false;
   b 0x42159b3f = false;
   b 0x4386d5ca = false;
@@ -178,11 +183,11 @@
   b 0x457389d0 = false;
   b 0x45dc9df4 = false;
   b 0x46121720 = false;
+  b 0x464d9bcc = false;
   b 0x4662ccc2 = false;
   b 0x466e3cd3 = false;
   b 0x468fccbe = false;
   b 0x46922d32 = false;
-  b 0x47144134 = false;
   b 0x4767f460 = false;
   b 0x47dd901a = false;
   b 0x4844f20d = false;
@@ -190,7 +195,6 @@
   b 0x4987fa49 = false;
   b 0x4ad02d8f = false;
   b 0x4b5c22ba = false;
-  b 0x4ba88b11 = false;
   b 0x4bb936c2 = false;
   b 0x4bf52456 = false;
   b 0x4c192824 = false;
@@ -198,6 +202,7 @@
   b 0x4c5d97a3 = false;
   b 0x4c65386d = false;
   b 0x4d31eacf = false;
+  b 0x4e5ecc77 = false;
   b 0x4e80b175 = false;
   b 0x4eaedc71 = false;
   b 0x4ecf4f92 = false;
@@ -213,7 +218,7 @@
   b 0x5355ffe7 = false;
   b 0x537f0bb6 = false;
   b 0x53bf154c = false;
-  b 0x55509abf = false;
+  b 0x547e5fd2 = false;
   b 0x5552bcd1 = false;
   b 0x5556dd35 = false;
   b 0x55bc2bbb = false;
@@ -221,10 +226,13 @@
   b 0x56443096 = false;
   b 0x57cc332f = false;
   b 0x588adf5f = false;
+  b 0x5920f1b1 = false;
   b 0x59be69d2 = false;
   b 0x5a151f18 = false;
   b 0x5c7c0d84 = false;
+  b 0x5cba4df7 = false;
   b 0x5cd2f25f = false;
+  b 0x5d40a271 = false;
   b 0x5d8fa963 = false;
   b 0x5e853793 = false;
   b 0x5e935cd9 = false;
@@ -261,11 +269,13 @@
   b 0x6b72fc17 = false;
   b 0x6b78966f = false;
   b 0x6b8c9948 = false;
+  b 0x6b980352 = false;
   b 0x6bbfe878 = false;
   b 0x6bd71c5f = false;
   b 0x6c3d34b1 = false;
   b 0x6c486848 = false;
   b 0x6caf123b = false;
+  b 0x6de149d0 = false;
   b 0x6e85a499 = false;
   b 0x6eae25bb = false;
   b 0x6ec72788 = false;
@@ -281,6 +291,7 @@
   b 0x732febd5 = false;
   b 0x73348ee7 = false;
   b 0x7337e50b = false;
+  b 0x7412070e = false;
   b 0x74912382 = false;
   b 0x74fbc71a = false;
   b 0x751954ae = false;
@@ -302,11 +313,11 @@
   b 0x7b7508d5 = false;
   b 0x7bb10977 = false;
   b 0x7bd9f0fb = false;
-  b 0x7cacfe85 = false;
   b 0x7cc2ff12 = false;
   b 0x7d079ce5 = false;
   b 0x7f686ed0 = false;
   b 0x813b3479 = false;
+  b 0x8150184a = false;
   b 0x81572c35 = false;
   b 0x81aa5fc8 = false;
   b 0x81ae4a72 = false;
@@ -337,6 +348,7 @@
   b 0x8f517819 = false;
   b 0x9170c30b = false;
   b 0x91ad5c0d = false;
+  b 0x9343c865 = false;
   b 0x93735087 = false;
   b 0x93b53656 = false;
   b 0x94a93227 = false;
@@ -349,11 +361,13 @@
   b 0x98100411 = false;
   b 0x983e483c = false;
   b 0x98956819 = false;
+  b 0x98cef283 = false;
   b 0x9931d76e = false;
   b 0x99337f09 = false;
   b 0x9950c2b1 = false;
   b 0x9972dabe = false;
   b 0x998014b9 = false;
+  b 0x99c614cd = false;
   b 0x99d4efcb = false;
   b 0x9adfff79 = false;
   b 0x9b6a48f6 = false;
@@ -371,6 +385,7 @@
   b 0xa036956c = false;
   b 0xa038885b = false;
   b 0xa0461382 = false;
+  b 0xa0e03df5 = false;
   b 0xa1409cd8 = false;
   b 0xa15823fe = false;
   b 0xa1cd097a = false;
@@ -378,6 +393,7 @@
   b 0xa2b79bc0 = false;
   b 0xa2e0effa = false;
   b 0xa39e13f4 = false;
+  b 0xa3e7be50 = false;
   b 0xa488a949 = false;
   b 0xa533e5ad = false;
   b 0xa57e0a3e = false;
@@ -394,10 +410,13 @@
   b 0xab768396 = false;
   b 0xabb22127 = false;
   b 0xabee0c08 = false;
+  b 0xac5a6b0c = false;
   b 0xacf3e6b4 = false;
+  b 0xad73e7e3 = false;
   b 0xad8a8866 = false;
   b 0xada8cb2a = false;
   b 0xae72c8e5 = false;
+  b 0xaeafa8e0 = false;
   b 0xaf2ac4cb = false;
   b 0xb00504fe = false;
   b 0xb0379daf = false;
@@ -406,7 +425,6 @@
   b 0xb0d6bb21 = false;
   b 0xb156a976 = false;
   b 0xb36f8a25 = false;
-  b 0xb39a9138 = false;
   b 0xb3fa7378 = false;
   b 0xb4c9c2fb = false;
   b 0xb4c9c609 = false;
@@ -507,6 +525,7 @@
   b 0xd6464e5e = false;
   b 0xd6f2c1cf = false;
   b 0xd83f7dc5 = false;
+  b 0xd85de59f = false;
   b 0xd8a19043 = false;
   b 0xd8a9d007 = false;
   b 0xd8c6c4ab = false;
@@ -546,6 +565,7 @@
   b 0xe2fd1539 = false;
   b 0xe36574ad = false;
   b 0xe38cb210 = false;
+  b 0xe4535ad7 = false;
   b 0xe56e40a6 = false;
   b 0xe80fe58d = false;
   b 0xe8216955 = false;
@@ -556,7 +576,6 @@
   b 0xea8311a8 = false;
   b 0xeb0a2f14 = false;
   b 0xeb4a3bdd = false;
-  b 0xec2dcdc6 = false;
   b 0xec6cbeab = false;
   b 0xed6ddbbd = false;
   b 0xed8c472c = false;

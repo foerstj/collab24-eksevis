@@ -53,7 +53,6 @@
 	0x01400a2c = t_xxx_wal_12-tx-24-r;
 	0x01400a57 = t_xxx_wal_cave-split-08-back-base;
 	0x01400a58 = t_xxx_wal_cave-split-08-back-sides;
-	0x01400a59 = t_xxx_wal_cave-split-08-back-top;
 	0x01400a5a = t_xxx_wal_cave-split-08-front-base;
 	0x01400a5b = t_xxx_wal_cave-split-08-front-sides;
 	0x01400a5e = t_xxx_wal_cave-split-12-back-base;

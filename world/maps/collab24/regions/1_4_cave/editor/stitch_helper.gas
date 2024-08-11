@@ -7,7 +7,7 @@
 		dest_region = 1_3_wvng_rvr;
 		[node_ids]
 		{
-			0x00000130 = 0x403832AF,6;
+			0x00000130 = 0x1A373472,6;
 		}
 	}
 	[t:stitch_editor,n:1_post]

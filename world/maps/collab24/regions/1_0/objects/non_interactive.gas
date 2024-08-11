@@ -369,15 +369,3 @@
 	  p position = 0.257613,-1.5,-0.434334,0xad7a7e14;
 	}
 }
-[t:rock_grs_02,n:0x0100002e]
-{
-	[common]
-	{
-	  b is_multi_player = false;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.707107,0,0.707107;
-	  p position = -2.67615,-3,2.21019,0x1ead1fb0;
-	}
-}
