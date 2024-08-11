@@ -5,6 +5,8 @@
 		screen_name = Chapter 1: Valley Ball;
 		[*]
 		{
+			description = "";
+		  i order = 0;
 		}
 	}
 }
