@@ -56,11 +56,11 @@
 	[t:stitch_index,n:0x00000014]
 	{
 		* = 0x403832af,6,0x383c9611,6;
-		* = 0x162265b8,7,0x6e9d33aa,7;
+		* = 0x162265b8,7,0x6E9D33AA,7;
 	}
 	[t:stitch_index,n:0x0000001f]
 	{
-		* = 0x6e9d33aa,7,0x162265b8,7;
+		* = 0x6E9D33AA,7,0x162265b8,7;
 	}
 	[t:node_connect_info,n:0x162265b8]
 	{

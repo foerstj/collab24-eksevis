@@ -152,18 +152,6 @@
 	  p position = -1.94953,0,2.60669,0xe0c4f891;
 	}
 }
-[t:tree_grs_oak_03,n:0x01400005]
-{
-	[aspect]
-	{
-	  b does_block_path = true;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.382683,0,0.92388;
-	  p position = 1.31274,0,0.387711,0x3fe7cc20;
-	}
-}
 [t:fern_grs_04,n:0x01400018]
 {
 	[placement]
@@ -524,14 +512,6 @@
 	[placement]
 	{
 	  p position = -1.01572,5.90116,1.21853,0xa657db29;
-	}
-}
-[t:gpg_bush_glb_dead_02,n:0x01400099]
-{
-	[placement]
-	{
-	  q orientation = 6.07796e-022,-0.707107,-6.07796e-022,0.707107;
-	  p position = 0.874985,0,-0.0177345,0x57cc332f;
 	}
 }
 [t:rocks_cav_02,n:0x01400076]

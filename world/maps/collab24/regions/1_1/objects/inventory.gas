@@ -1,3 +1,15 @@
+[t:fire_poker,n:0x0110017b]
+{
+	[aspect]
+	{
+	  b is_selectable = false;
+	}
+	[placement]
+	{
+	  q orientation = -0.594823,0,0,0.803857;
+	  p position = 2.28157,-2.18358,2.52306,0x2f385786;
+	}
+}
 [t:book_glb_placeholder,n:0x011000c3]
 {
 	[common]
@@ -25,17 +37,5 @@
 	[placement]
 	{
 	  p position = -6.02209,-1,3.77331,0x67705a8c;
-	}
-}
-[t:fire_poker,n:0x0110017b]
-{
-	[aspect]
-	{
-	  b is_selectable = false;
-	}
-	[placement]
-	{
-	  q orientation = -0.594823,0,0,0.803857;
-	  p position = 2.28157,-2.18358,2.52306,0x2f385786;
 	}
 }
