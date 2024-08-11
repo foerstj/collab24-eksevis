@@ -215,14 +215,6 @@
 	  p position = -1.33342,0,-1.13224,0x7b6d1939;
 	}
 }
-[t:phrak_piercer,n:0x01100254]
-{
-	[placement]
-	{
-	  q orientation = 0,0.707107,0,0.707107;
-	  p position = 3.39506,0,-1.04723,0x3fe7cc20;
-	}
-}
 [t:phrak,n:0x01100258]
 {
 	[placement]

@@ -313,6 +313,7 @@
 {
 	[aspect]
 	{
+	  b does_block_camera = false;
 	  f lodfi_lower = 0;
 	  f lodfi_upper = -1;
 	}
