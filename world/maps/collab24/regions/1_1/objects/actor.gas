@@ -500,60 +500,6 @@
 	  p position = 0.796745,-0.6,-1.73016,0x31b4a7bc;
 	}
 }
-[t:gypsy_female_02,n:0x01100226]
-{
-	[placement]
-	{
-	  q orientation = 0,-0.75471,0,0.656059;
-	  p position = 2.56008,-3,-0.697811,0xd25b329f;
-	}
-}
-[t:chicken_white,n:0x01100217]
-{
-	[mind]
-	{
-	  b on_enemy_entered_weapon_engage_range_attack = true;
-	}
-	[placement]
-	{
-	  p position = -2.51742,0,-3.72892,0x227a887c;
-	}
-}
-[t:chicken_white,n:0x01100215]
-{
-	[mind]
-	{
-	  b on_enemy_entered_weapon_engage_range_attack = true;
-	}
-	[placement]
-	{
-	  p position = 0.943299,-2.3,-3.14862,0xd12eb82e;
-	}
-}
-[t:chicken_white,n:0x01100218]
-{
-	[mind]
-	{
-	  b on_enemy_entered_weapon_engage_range_attack = true;
-	}
-	[placement]
-	{
-	  q orientation = 0,1,0,0;
-	  p position = -1.85561,-2.3,-3.38131,0xd12eb82e;
-	}
-}
-[t:chicken_red,n:0x01100219]
-{
-	[mind]
-	{
-	  b on_enemy_entered_weapon_engage_range_attack = true;
-	}
-	[placement]
-	{
-	  q orientation = 0,1,0,0;
-	  p position = 0.592035,-2.3,-3.76556,0xd12eb82e;
-	}
-}
 [t:krug_grouse,n:0x01100009]
 {
 	[placement]
@@ -789,6 +735,60 @@
 	[placement]
 	{
 	  p position = 0.392524,-0.791466,-1.91466,0xd2164593;
+	}
+}
+[t:chicken_white,n:0x01100217]
+{
+	[mind]
+	{
+	  b on_enemy_entered_weapon_engage_range_attack = true;
+	}
+	[placement]
+	{
+	  p position = -2.51742,0,-3.72892,0x227a887c;
+	}
+}
+[t:gypsy_female_02,n:0x01100226]
+{
+	[placement]
+	{
+	  q orientation = 0,-0.75471,0,0.656059;
+	  p position = 2.56008,-3,-0.697811,0xd25b329f;
+	}
+}
+[t:chicken_white,n:0x01100215]
+{
+	[mind]
+	{
+	  b on_enemy_entered_weapon_engage_range_attack = true;
+	}
+	[placement]
+	{
+	  p position = 0.943299,-2.3,-3.14862,0xd12eb82e;
+	}
+}
+[t:chicken_white,n:0x01100218]
+{
+	[mind]
+	{
+	  b on_enemy_entered_weapon_engage_range_attack = true;
+	}
+	[placement]
+	{
+	  q orientation = 0,1,0,0;
+	  p position = -1.85561,-2.3,-3.38131,0xd12eb82e;
+	}
+}
+[t:chicken_red,n:0x01100219]
+{
+	[mind]
+	{
+	  b on_enemy_entered_weapon_engage_range_attack = true;
+	}
+	[placement]
+	{
+	  q orientation = 0,1,0,0;
+	  p position = 0.592035,-2.3,-3.76556,0xd12eb82e;
 	}
 }
 [t:krug_apprentice,n:0x011001a7]
