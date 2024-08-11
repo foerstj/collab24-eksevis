@@ -1,0 +1,11 @@
+[t:region,n:region]
+{
+	created = flupsnpups,flups;
+	description = none;
+  x guid = 0x0000001F;
+	lastmodified = FLUPSNPUPS,flups;
+  x mesh_range = 0x0000001F;
+	notes = none;
+  x scid_range = 0x0000001F;
+	se_version = 1.70.0.4;
+}

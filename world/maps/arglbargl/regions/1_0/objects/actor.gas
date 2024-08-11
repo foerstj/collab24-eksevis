@@ -1,0 +1,18 @@
+[t:collab_ek_eccentric-old-man,n:0x0100004d]
+{
+	[inventory]
+	{
+		[equipment]
+		{
+			es_weapon_hand = pickaxe;
+		}
+		[other]
+		{
+			il_main = bd_ro_m_g_c_002;
+		}
+	}
+	[placement]
+	{
+	  p position = -0.552713,0,-0.348041,0x20ec4f89;
+	}
+}
