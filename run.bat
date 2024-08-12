@@ -1,6 +1,5 @@
-chcp 65001
 :: name of map
-set map=Collab24
+set map=collab24
 :: path of Bits dir
 set bits=%~dp0.
 :: path of DS installation

@@ -1,4 +1,3 @@
-chcp 65001
 :: name of map, case-sensitive
 set map_cs=Collab 24 Eksevis
 :: path of DS installation
