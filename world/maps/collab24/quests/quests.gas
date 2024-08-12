@@ -2,7 +2,7 @@
 {
 	[c1_valleyball]
 	{
-		screen_name = Chapter 1: Valley Ball;
+		screen_name = chapter I: valley ball;
 		[*]
 		{
 			description = "";
@@ -16,18 +16,18 @@
 	{
 		chapter = c1_valleyball;
 		quest_image = b_gui_ig_mnu_quest;
-		screen_name = I Must Scream;
+		screen_name = i must scream;
 		[*]
 		{
-			description = Talk to the goblin in the bar.;
+			description = talk to the goblin in the bar. [placeholder step];
 		  b is_consumable = true;
 		  i order = 0;
-		  b required = true;
+		  b required = false;
 			speaker = ;
 		}
 		[*]
 		{
-			description = Stop the Blasted Goblin;
+			description = stop the blasted goblin;
 		  b is_consumable = true;
 		  i order = 1;
 		  b required = true;
