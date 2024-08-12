@@ -6,10 +6,3 @@
 	  p position = 0.0979614,-1.90735e-006,0.937714,0x4a59a01b;
 	}
 }
-[t:blocking_object,n:0x01400085]
-{
-	[placement]
-	{
-	  p position = -0.0630379,1.51734,0.322353,0xd322280b;
-	}
-}
