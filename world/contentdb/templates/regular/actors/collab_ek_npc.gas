@@ -596,7 +596,10 @@ ARCHEOLOGISTS
 	}
 	[common]
 	{
-		screen_name = "Goblin Grunt";
+		screen_name = "Wise Goblin";
+	}
+	[conversation]
+	{
 	}
 	[defend]
 	{
