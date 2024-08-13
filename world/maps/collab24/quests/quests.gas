@@ -1,6 +1,6 @@
 [chapters]
 {
-	[c1_valleyball]
+	[chapter_01_valleyball]
 	{
 		screen_name = Chapter I: The Ancient Valley;
 		[*]
@@ -14,9 +14,9 @@
 {
 	[i_must_scream]
 	{
-		chapter = c1_valleyball;
+		chapter = chapter_01_valleyball;
 		quest_image = b_gui_ig_mnu_quest;
-		screen_name = i must scream;
+		screen_name = I Must Scream;
 		[*]
 		{
 			description = talk to the goblin in the bar. [placeholder step];
