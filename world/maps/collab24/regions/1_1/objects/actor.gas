@@ -754,7 +754,7 @@
 		{
 			[*]
 			{
-				action* = send_world_message("we_req_activate",0x00000000,0f,"default","every",0);
+				action* = change_quest_state("i_must_scream","active",1);
 			  b can_self_destruct = true;
 				condition* = receive_world_message("we_req_activate",0,"on_every_message");
 			  f delay = 0.000000;
@@ -767,6 +767,13 @@
 			  b single_shot = false;
 			  b start_active = true;
 			}
+		}
+	}
+	[conversation]
+	{
+		[conversations]
+		{
+			* = goblin_quest_stage;
 		}
 	}
 	[placement]

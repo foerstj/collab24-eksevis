@@ -1,0 +1,13 @@
+[goblin_quest_stage]
+{
+	[text*]
+	{
+	  b quest_dialog = true;
+		screen_text = "Skribidi dee da da da Quest Advanced ACTIVATE 
+
+HIIIIII
+
+HOOOO!!!!";
+	  f scroll_rate = 10.000000;
+	}
+}

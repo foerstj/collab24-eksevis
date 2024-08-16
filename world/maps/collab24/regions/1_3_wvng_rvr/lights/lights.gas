@@ -15,10 +15,31 @@
 	  f outer_radius = 0.000000;
 		[direction]
 		{
-		  x node = 0x788A6FE2;
-		  f x = 0.471672;
+		  x node = 0x00326081;
+		  f x = -0.471672;
 		  f y = 0.500000;
-		  f z = 0.726310;
+		  f z = -0.726310;
+		}
+	}
+	[t:directional,n:light_0xf0aaec4d]
+	{
+	  b active = true;
+	  b affects_actors = true;
+	  b affects_items = true;
+	  b affects_terrain = true;
+	  x color = 0xFFB24342;
+	  b draw_shadow = true;
+	  f inner_radius = 0.000000;
+	  f intensity = 0.700000;
+	  b occlude_geometry = false;
+	  b on_timer = false;
+	  f outer_radius = 0.000000;
+		[direction]
+		{
+		  x node = 0x788A6FE2;
+		  f x = -0.663414;
+		  f y = 0.500000;
+		  f z = -0.556670;
 		}
 	}
 }
