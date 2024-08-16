@@ -6,7 +6,7 @@
 	  b affects_actors = true;
 	  b affects_items = true;
 	  b affects_terrain = true;
-	  x color = 0xFFFFFFFF;
+	  x color = 0xFF09071A;
 	  b draw_shadow = true;
 	  f inner_radius = 0.000000;
 	  f intensity = 1.000000;
@@ -15,10 +15,31 @@
 	  f outer_radius = 0.000000;
 		[direction]
 		{
-		  x node = 0x6AC3DCE2;
-		  f x = 0.471672;
+		  x node = 0x00172803;
+		  f x = -0.471672;
 		  f y = 0.500000;
-		  f z = 0.726310;
+		  f z = -0.726310;
+		}
+	}
+	[t:directional,n:light_0x9aade322]
+	{
+	  b active = true;
+	  b affects_actors = true;
+	  b affects_items = true;
+	  b affects_terrain = true;
+	  x color = 0xFFB24342;
+	  b draw_shadow = true;
+	  f inner_radius = 0.000000;
+	  f intensity = 1.000000;
+	  b occlude_geometry = true;
+	  b on_timer = false;
+	  f outer_radius = 0.000000;
+		[direction]
+		{
+		  x node = 0x6AC3DCE2;
+		  f x = 0.000000;
+		  f y = 1.000000;
+		  f z = 0.000000;
 		}
 	}
 }

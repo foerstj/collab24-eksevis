@@ -741,6 +741,39 @@
 	  p position = -2.51742,0,-3.72892,0x227a887c;
 	}
 }
+[t:collab_ek_goblin_wise,n:0x01100166]
+{
+	[actor]
+	{
+		alignment = aa_good;
+	  b is_male = false;
+	}
+	[common]
+	{
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = send_world_message("we_req_activate",0x00000000,0f,"default","every",0);
+			  b can_self_destruct = true;
+				condition* = receive_world_message("we_req_activate",0,"on_every_message");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+		}
+	}
+	[placement]
+	{
+	  p position = -0.539541,-3,-0.798946,0xd25b329f;
+	}
+}
 [t:gypsy_female_02,n:0x01100226]
 {
 	[placement]
