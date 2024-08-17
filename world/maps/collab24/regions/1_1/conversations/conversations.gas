@@ -3,11 +3,9 @@
 	[text*]
 	{
 	  b quest_dialog = true;
-		screen_text = "Skribidi dee da da da Quest Advanced ACTIVATE 
+		screen_text = "That bastard Blasted Goblin has always been an overly greedy one. This one had only just managed to escape from his control -- that must be who's behind this all.
 
-HIIIIII
-
-HOOOO!!!!";
+You humans have little reason to trust us Goblins, and right now, I don't even blame you, but please, this one asks ever so politely for you to take him down that extra notch.";
 	  f scroll_rate = 10.000000;
 	}
 }
