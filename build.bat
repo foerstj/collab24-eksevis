@@ -25,6 +25,6 @@ if %errorlevel% neq 0 pause
 rmdir /S /Q "%tmp%\Bits"
 robocopy "%bits%\art" "%tmp%\Bits\art" /S
 robocopy "%bits%\ui" "%tmp%\Bits\ui" /S
-robocopy "%bits%\world\contentdb\templates" "%tmp%\Bits\world\contentdb\templates" /S
+robocopy "%bits%\world\contentdb\templates\regular" "%tmp%\Bits\world\contentdb\templates\regular" /S
 "%tc%\RTC.exe" -source "%tmp%\Bits" -out "%ds%\DSLOA\%map_cs%.dsres" -copyright "%copyright%" -title "%title%" -author "%author%"
 if %errorlevel% neq 0 pause
