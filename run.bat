@@ -1,5 +1,5 @@
 :: name of map
-set map=collab24
+set map=collab24-eksevis
 :: path of Bits dir
 set bits=%~dp0.
 :: path of DS installation

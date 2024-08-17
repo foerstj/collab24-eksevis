@@ -1,5 +1,5 @@
 :: name of map
-set map=collab24
+set map=collab24-eksevis
 :: name of map, case-sensitive
 set map_cs=Collab 24 Eksevis
 :: tank properties
