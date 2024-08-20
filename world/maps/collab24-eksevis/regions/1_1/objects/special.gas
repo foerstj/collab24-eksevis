@@ -49,7 +49,7 @@
 		{
 			[*]
 			{
-				action* = mood_change("map_world_cr_r1_1");
+				action* = mood_change("1_0_crypt_mood");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(2.000000,1.000000,0.500000,"on_every_enter");
 			  f delay = 0.000000;
@@ -132,5 +132,91 @@
 	[placement]
 	{
 	  p position = 1.59543,1.95,1.83279,0x3bee4ae2;
+	}
+}
+[t:trigger_generic,n:0x01100160]
+{
+	[common]
+	{
+		screen_name = "anc_ruins -> Valley Town Fade";
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = mood_change("");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(1.000000,4.000000,3.000000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+		}
+	}
+	[placement]
+	{
+	  p position = 3.78643,2.98611,4.47966,0x7176325a;
+	}
+}
+[t:trigger_generic,n:0x01100162]
+{
+	[common]
+	{
+		screen_name = "Valley Town Mood Begin";
+		[instance_triggers]
+		{
+			[*]
+			{
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(1.000000,2.000000,2.500000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+		}
+	}
+	[placement]
+	{
+	  p position = 6.16506,-3.43318,-1.05056,0xe1af8701;
+	}
+}
+[t:trigger_generic,n:0x01100169]
+{
+	[common]
+	{
+		screen_name = "1_1 -> 1_2 mood";
+		[instance_triggers]
+		{
+			[*]
+			{
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(1.000000,0.500000,10.000000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+		}
+	}
+	[placement]
+	{
+	  q orientation = 0,2.98023e-008,0,1;
+	  p position = 2.58006,0,-0.53508,0xac1422b1;
 	}
 }
