@@ -74,6 +74,7 @@
   b 0x1415b31b = false;
   b 0x143182f3 = false;
   b 0x144f9827 = false;
+  b 0x14511f52 = false;
   b 0x14a34e71 = false;
   b 0x14a969c3 = false;
   b 0x1502e0a5 = false;
@@ -280,6 +281,7 @@
   b 0x49473902 = false;
   b 0x4978ccd0 = false;
   b 0x49abf965 = false;
+  b 0x49aebfcc = false;
   b 0x49d497ab = false;
   b 0x49f58a62 = false;
   b 0x4a072230 = false;
@@ -455,6 +457,7 @@
   b 0x7709cb61 = false;
   b 0x77536beb = false;
   b 0x77a5ec52 = false;
+  b 0x781a7eae = false;
   b 0x7842b1c4 = false;
   b 0x78519693 = false;
   b 0x788d67e0 = false;

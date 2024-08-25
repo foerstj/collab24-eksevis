@@ -111,9 +111,12 @@
 	0x01100c5a = t_grs01_houses_coop-a;
 	0x01100c5b = t_grs01_houses_generic-a-log-door-top;
 	0x01100c5c = t_grs01_houses_generic-a-log;
+	0x01100c5d = t_grs01_houses_generic-a-roof-shingle;
+	0x01100c5e = t_grs01_houses_generic-a-roof-thatch;
 	0x01100c60 = t_grs01_houses_generic-a-stone;
 	0x01100c6a = t_grs01_houses_generic-c-log-lv1-door-top;
 	0x01100c6b = t_grs01_houses_generic-c-log-lv1;
+	0x01100c6c = t_grs01_houses_generic-c-log-lv2;
 	0x01100c6d = t_grs01_houses_generic-c-log-stairs;
 	0x01100c6e = t_grs01_houses_generic-flr-a-stone-door-top;
 	0x01100c72 = t_grs01_houses_guard-balcony-short;
