@@ -137,6 +137,7 @@
 	0x01100c9b = t_grs01_houses_stable-base-a;
 	0x01100c9c = t_grs01_houses_stable-roof-a;
 	0x01100c9d = t_grs01_houses_stone-chapel-a-door-top;
+	0x01100c9e = t_grs01_houses_stone-chapel-a-roof;
 	0x01100c9f = t_grs01_houses_stone-chapel-a;
 	0x01100ca4 = t_grs01_houses_toolshed-base-a;
 	0x01100ca5 = t_grs01_houses_toolshed-roof-a;

@@ -1,3 +1,15 @@
+[t:door_glb_chapel_right,n:0x0110020e]
+{
+	[aspect]
+	{
+	  b is_usable = false;
+	}
+	[placement]
+	{
+	  q orientation = 0.341566,-0.695432,-0.474422,-0.417888;
+	  p position = 11.1537,-2,-6.77062,0x67705a8c;
+	}
+}
 [t:door_glb_chapel_left,n:0x01100247]
 {
 	[aspect]
@@ -24,17 +36,5 @@
 	{
 	  q orientation = 0,-0.681999,0,0.731354;
 	  p position = -0.715343,-1.75,2.41216,0x534d3234;
-	}
-}
-[t:door_glb_chapel_right,n:0x0110020e]
-{
-	[aspect]
-	{
-	  b is_usable = false;
-	}
-	[placement]
-	{
-	  q orientation = 0.341566,-0.695432,-0.474422,-0.417888;
-	  p position = 11.1537,-2,-6.77062,0x67705a8c;
 	}
 }
