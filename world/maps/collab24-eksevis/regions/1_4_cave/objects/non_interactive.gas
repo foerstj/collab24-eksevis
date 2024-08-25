@@ -619,7 +619,7 @@
 	[placement]
 	{
 	  q orientation = 0,-0.843392,0,-0.5373;
-	  p position = 0.583206,-3.86153,-1.42789,0xe2fd1539;
+	  p position = 0.579567,-3.85779,-1.41534,0xe2fd1539;
 	}
 }
 [t:grass_grs_09,n:0x01400028]
