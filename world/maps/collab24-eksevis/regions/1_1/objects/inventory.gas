@@ -46,14 +46,6 @@
 	  p position = 3.95907,0,1.58985,0xa9521396;
 	}
 }
-[t:st_un_toothpick,n:0x01100265]
-{
-	[placement]
-	{
-	  q orientation = 0,1,0,-1.78223e-007;
-	  p position = -1.8646,4.85422,0.200644,0xb2496ad8;
-	}
-}
 [t:st_un_toothpick,n:0x01100266]
 {
 	[aspect]
