@@ -324,14 +324,6 @@
 	  p position = 6.2435,-4.35733,1.37476,0x419926f3;
 	}
 }
-[t:tree_grs_apple_01,n:0x01100111]
-{
-	[placement]
-	{
-	  q orientation = 0,0.707107,0,0.707107;
-	  p position = 3.15336,0,3.7526,0x1bea88e1;
-	}
-}
 [t:tree_grs_deciduous_16,n:0x01100115]
 {
 	[placement]
@@ -1791,6 +1783,14 @@
 	{
 	  q orientation = 0,0.707107,0,0.707107;
 	  p position = -1.4858,-1.90735e-006,-3.38573,0x3e9ddb66;
+	}
+}
+[t:tree_grs_apple_01,n:0x01100111]
+{
+	[placement]
+	{
+	  q orientation = 0,0.707107,0,0.707107;
+	  p position = 3.15336,0,3.7526,0x1bea88e1;
 	}
 }
 [t:cobweb_csl_03,n:0x011002bc]
