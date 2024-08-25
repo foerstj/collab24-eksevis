@@ -81,18 +81,6 @@
 		}
 		[start_position]
 		{
-		  i id = 9;
-			position = 1.470932,0.000000,0.043861,0x524671DB;
-			[camera]
-			{
-			  f azimuth = 0.500000;
-			  f distance = 20.000000;
-			  f orbit = 0.000000;
-				position = 1.470932,0.000000,0.043861,0x524671DB;
-			}
-		}
-		[start_position]
-		{
 		  i id = 6;
 			position = -1.644781,0.000000,0.591516,0x7BD97FEF;
 			[camera]
