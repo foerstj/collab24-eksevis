@@ -1,8 +1,10 @@
 [lore]
 {
-	[placeholder]
+	[lore_clb24_quest_eks]
 	{
-		description = "To do!";
+		description = "I've heard it... the bells chime in my dreams. We all know what that means, and it's never anything good
+		\n\Sure enough, this morning I had gotten the news that a Goblin had begun an uprising, some are whispering the name "Blasted Goblin". Odd name, that one, but what does one expect from goblins? Names aren't especially their strong suite.
+		\n\But I do not have time to jest! I must warn my fellow villagers... and now I hear Krug knocking in the door.. Ah, damnfool kr-";
 	}
 }
 

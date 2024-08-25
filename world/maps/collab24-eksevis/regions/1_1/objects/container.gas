@@ -1,11 +1,11 @@
-[t:crate_swp_01,n:0x01100225]
+[t:crate_ice_03,n:0x01100225]
 {
 	[placement]
 	{
 	  p position = 0.309572,0,1.16805,0xafa4e712;
 	}
 }
-[t:crate_swp_01,n:0x01100243]
+[t:crate_ice_03,n:0x01100243]
 {
 	[placement]
 	{
@@ -19,7 +19,7 @@
 	  p position = 1.20904,0,1.73043,0xafa4e712;
 	}
 }
-[t:chest_csl_06,n:0x01100001]
+[t:chest_csl_05,n:0x01100001]
 {
 	[placement]
 	{
@@ -27,7 +27,7 @@
 	  p position = 0.0364151,-3.61091,2.3215,0x4a655687;
 	}
 }
-[t:crate_swp_01,n:0x011000fc]
+[t:crate_ice_03,n:0x011000fc]
 {
 	[placement]
 	{
@@ -41,7 +41,7 @@
 	{
 		[other]
 		{
-			il_main = spell_zap;
+			il_main = spell_wraith_zap;
 		}
 	}
 	[placement]
@@ -63,7 +63,7 @@
 	{
 		[other]
 		{
-			il_main = spell_fireshot;
+			il_main = spell_firerain;
 		}
 	}
 	[placement]

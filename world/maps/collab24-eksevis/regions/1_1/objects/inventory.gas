@@ -1,4 +1,4 @@
-[t:fire_poker,n:0x0110017b]
+[t:dsx_spell_zaurask_caster,n:0x0110017b]
 {
 	[aspect]
 	{
@@ -10,32 +10,25 @@
 	  p position = 2.28157,-2.18358,2.52306,0x2f385786;
 	}
 }
-[t:book_glb_placeholder,n:0x011000c3]
+[t:book_glb_magic_22,n:0x0110027c]
 {
-	[common]
-	{
-		screen_name = "Placeholder Quest START";
-		[instance_triggers]
-		{
-			[*]
-			{
-				action* = change_quest_state("i_must_scream","active",0);
-			  b can_self_destruct = true;
-				condition* = receive_world_message("we_picked_up",0,"on_first_message");
-			  f delay = 0.000000;
-			  b flip_flop = false;
-			  b multi_player = true;
-			  b no_trig_bits = false;
-				occupants_group = ;
-			  f reset_duration = 0.000000;
-			  b single_player = true;
-			  b single_shot = false;
-			  b start_active = true;
-			}
-		}
-	}
 	[placement]
 	{
-	  p position = -6.02209,-1,3.77331,0x67705a8c;
+	  p position = 1.4449,-0.170511,-2.4167,0xe8b7e8bc;
+	}
+}
+[t:book_glb_magic_25,n:0x0110027d]
+{
+	[placement]
+	{
+	  p position = 0.94741,-0.151504,-2.99211,0xe8b7e8bc;
+	}
+}
+[t:dev_staff,n:0x01100285]
+{
+	[placement]
+	{
+	  q orientation = 0,0.522499,0,0.85264;
+	  p position = 2.84361,-0.317369,-3.35035,0xe8b7e8bc;
 	}
 }
