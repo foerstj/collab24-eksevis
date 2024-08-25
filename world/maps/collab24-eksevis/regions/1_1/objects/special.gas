@@ -101,6 +101,35 @@
 	  p position = 1.77495,1.95,1.96628,0x2a6a3a62;
 	}
 }
+[t:trigger_generic,n:0x01100166]
+{
+	[common]
+	{
+		screen_name = "Chapter 1 Trigger";
+		[instance_triggers]
+		{
+			[*]
+			{
+			  b can_self_destruct = true;
+				condition* = party_member_within_sphere(2.500000,"on_first_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = true;
+			  b start_active = true;
+			}
+		}
+	}
+	[placement]
+	{
+	  q orientation = 0,1,0,0;
+	  p position = -1.08879,0.8364,1.16712,0xb2da9684;
+	}
+}
 [t:trigger_generic,n:0x01100013]
 {
 	[common]
@@ -220,34 +249,5 @@
 	[placement]
 	{
 	  p position = 1.59543,1.95,1.83279,0x3bee4ae2;
-	}
-}
-[t:trigger_generic,n:0x01100166]
-{
-	[common]
-	{
-		screen_name = "Chapter 1 Trigger";
-		[instance_triggers]
-		{
-			[*]
-			{
-			  b can_self_destruct = true;
-				condition* = party_member_within_sphere(2.500000,"on_every_enter");
-			  f delay = 0.000000;
-			  b flip_flop = false;
-			  b multi_player = true;
-			  b no_trig_bits = false;
-				occupants_group = ;
-			  f reset_duration = 0.000000;
-			  b single_player = true;
-			  b single_shot = true;
-			  b start_active = true;
-			}
-		}
-	}
-	[placement]
-	{
-	  q orientation = 0,1,0,0;
-	  p position = -1.08879,0.8364,1.16712,0xb2da9684;
 	}
 }

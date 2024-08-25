@@ -14,13 +14,6 @@
 	  p position = 0.477121,-3.75,0.34015,0x419926f3;
 	}
 }
-[t:collab_ek_daewin,n:0x01100172]
-{
-	[placement]
-	{
-	  p position = -0.371904,-3.75,1.68877,0x419926f3;
-	}
-}
 [t:krug_scout_mtn,n:0x0110001b]
 {
 	[placement]
@@ -484,6 +477,14 @@
 	[placement]
 	{
 	  p position = 3.33502,0,0.0690536,0x7f06cfcc;
+	}
+}
+[t:collab_ek_daewin,n:0x01100172]
+{
+	[placement]
+	{
+	  q orientation = 0,-0.707107,0,0.707107;
+	  p position = -2.06931,0,-2.1342,0x455721f5;
 	}
 }
 [t:collab_ek_archeologist_female_02,n:0x01100187]
