@@ -321,7 +321,7 @@
 	[placement]
 	{
 	  q orientation = 0,3.80952e-009,0,1;
-	  p position = 6.70165,-4.75,2.94271,0x419926f3;
+	  p position = 6.2435,-4.35733,1.37476,0x419926f3;
 	}
 }
 [t:tree_grs_apple_01,n:0x01100111]
@@ -329,7 +329,7 @@
 	[placement]
 	{
 	  q orientation = 0,0.707107,0,0.707107;
-	  p position = 6.64068,-4.75,-5.06876,0x419926f3;
+	  p position = 3.15336,0,3.7526,0x1bea88e1;
 	}
 }
 [t:tree_grs_deciduous_16,n:0x01100115]
