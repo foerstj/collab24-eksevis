@@ -6,7 +6,7 @@
 	[fog]
 	{
 	  x fog_color = 0xFF000000;
-	  f fog_density = 1.000000;
+	  f fog_density = 0.500000;
 	  f fog_far_dist = 25.000000;
 	  f fog_lowdetail_far_dist = 25.000000;
 	  f fog_lowdetail_near_dist = 10.000000;
@@ -20,7 +20,7 @@
 	  f battle_intro_delay = 0.000000;
 	  f battle_repeat_delay = 0.000000;
 		battle_track = ;
-		room_type = ;
+		room_type = rt_stonecorridor;
 	  f standard_intro_delay = 0.000000;
 	  f standard_repeat_delay = 0.000000;
 		standard_track = ;
