@@ -169,13 +169,45 @@
 	  f fog_density = 0.500000;
 	  f fog_far_dist = 25.000000;
 	  f fog_lowdetail_far_dist = 25.000000;
-	  f fog_lowdetail_near_dist = 12.000000;
-	  f fog_near_dist = 12.000000;
+	  f fog_lowdetail_near_dist = 10.000000;
+	  f fog_near_dist = 10.000000;
 	}
 }
 [mood_setting*]
 {
-  b interior = false;
+  b interior = true;
 	mood_name = 1_4_cave_collapse;
   f transition_time = 0.000000;
+	[fog]
+	{
+	  x fog_color = 0xFFFAE9C0;
+	  f fog_density = 0.500000;
+	  f fog_far_dist = 25.000000;
+	  f fog_lowdetail_far_dist = 40.000000;
+	  f fog_lowdetail_near_dist = 12.000000;
+	  f fog_near_dist = 12.000000;
+	}
+	[music]
+	{
+	  f ambient_intro_delay = 0.000000;
+	  f ambient_repeat_delay = 0.000000;
+		ambient_track = s_m_misc_06;
+	  f battle_intro_delay = 0.000000;
+	  f battle_repeat_delay = 0.000000;
+		battle_track = ;
+		room_type = ;
+	  f standard_intro_delay = 0.000000;
+	  f standard_repeat_delay = 0.000000;
+		standard_track = ;
+	}
+	[rain]
+	{
+	  b lightning = false;
+	  f rain_density = 70.000000;
+	}
+	[wind]
+	{
+	  f wind_direction = 1.000000;
+	  f wind_velocity = 15.000000;
+	}
 }
