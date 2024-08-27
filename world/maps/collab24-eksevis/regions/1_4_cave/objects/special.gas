@@ -1,4 +1,12 @@
-[t:trigger_generic,n:0x01400061]
+[t:blocking_object,n:0x0140006c]
+{
+	[placement]
+	{
+	  q orientation = 0,-0.707107,0,0.707107;
+	  p position = 0.0979614,-1.90735e-006,0.937714,0x4a59a01b;
+	}
+}
+[t:trigger_generic,n:0x01400085]
 {
 	[common]
 	{
@@ -7,6 +15,21 @@
 			[*]
 			{
 				action* = mood_change("1_4_cave_collapse");
+			  b can_self_destruct = true;
+				condition* = party_member_within_sphere(40.000000,"on_every_leave");
+			  f delay = 0.000000;
+			  b flip_flop = true;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+			[*]
+			{
+				action* = mood_change("1_4_cave");
 			  b can_self_destruct = true;
 				condition* = party_member_within_sphere(40.000000,"on_every_enter");
 			  f delay = 0.000000;
@@ -24,14 +47,6 @@
 	[placement]
 	{
 	  q orientation = 0,1,0,0;
-	  p position = 0.843002,0,0.30394,0x4a59a01b;
-	}
-}
-[t:blocking_object,n:0x0140006c]
-{
-	[placement]
-	{
-	  q orientation = 0,-0.707107,0,0.707107;
-	  p position = 0.0979614,-1.90735e-006,0.937714,0x4a59a01b;
+	  p position = 0.897568,0,0.374496,0x4a59a01b;
 	}
 }
