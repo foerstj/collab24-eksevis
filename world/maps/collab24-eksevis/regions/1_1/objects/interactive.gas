@@ -19,7 +19,7 @@
 	[placement]
 	{
 	  q orientation = 0.0181839,0.694421,0.719093,-0.0188303;
-	  p position = 10.7131,-2,-4.62456,0x67705a8c;
+	  p position = 10.7124,-2,-4.58858,0x67705a8c;
 	}
 }
 [t:door_glb_woodfence_left_01,n:0x0110029f]

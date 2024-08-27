@@ -723,6 +723,14 @@
 	  p position = 0.392524,-0.791466,-1.91466,0xd2164593;
 	}
 }
+[t:gypsy_female_02,n:0x01100226]
+{
+	[placement]
+	{
+	  q orientation = 0,-0.75471,0,0.656059;
+	  p position = 2.56008,-3,-0.697811,0xd25b329f;
+	}
+}
 [t:chicken_white,n:0x01100217]
 {
 	[mind]
@@ -732,14 +740,6 @@
 	[placement]
 	{
 	  p position = -2.51742,0,-3.72892,0x227a887c;
-	}
-}
-[t:gypsy_female_02,n:0x01100226]
-{
-	[placement]
-	{
-	  q orientation = 0,-0.75471,0,0.656059;
-	  p position = 2.56008,-3,-0.697811,0xd25b329f;
 	}
 }
 [t:chicken_white,n:0x01100215]
