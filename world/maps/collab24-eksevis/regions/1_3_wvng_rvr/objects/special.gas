@@ -1,9 +1,13 @@
 [t:frag_glb_rubble_01,n:0x013000bb]
 {
+	[aspect]
+	{
+	  b does_block_path = true;
+	}
 	[placement]
 	{
-	  q orientation = 0,-5.96046e-008,0,1;
-	  p position = -1.03599,1.41473,-0.400742,0xbadc15a1;
+	  q orientation = 0,0.707107,0,0.707107;
+	  p position = 1.52861,-4.53527,-1.96639,0x622f6e6d;
 	}
 }
 [t:trigger_generic,n:0x0130004c]
