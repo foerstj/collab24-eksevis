@@ -39,13 +39,6 @@
 	  p position = -6.02209,-1,3.77331,0x67705a8c;
 	}
 }
-[t:st_un_toothpick,n:0x01100275]
-{
-	[placement]
-	{
-	  p position = 3.95907,0,1.58985,0xa9521396;
-	}
-}
 [t:st_un_toothpick,n:0x01100266]
 {
 	[aspect]

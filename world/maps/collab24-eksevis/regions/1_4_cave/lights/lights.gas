@@ -29,7 +29,7 @@
 	  b affects_terrain = true;
 	  x color = 0xFFFFFFFF;
 	  b draw_shadow = true;
-	  f inner_radius = 5.000000;
+	  f inner_radius = 15.000000;
 	  f intensity = 1.000000;
 	  b occlude_geometry = false;
 	  b on_timer = true;

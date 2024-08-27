@@ -7,7 +7,7 @@
 		{
 			[*]
 			{
-				action* = mood_change("1_1_valley_town"), delay(0.5);
+				action* = mood_change("1_1_anc_ruins"), delay(0.5);
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(1.000000,4.000000,3.000000,"on_every_enter");
 			  f delay = 0.000000;
@@ -74,7 +74,7 @@
 		{
 			[*]
 			{
-				action* = mood_change("1_1_anc_ruins");
+				action* = mood_change("1_1_valley_town");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(1.000000,2.000000,2.500000,"on_every_enter");
 			  f delay = 0.000000;
