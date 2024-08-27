@@ -26,4 +26,5 @@
 	0x0100012f = t_cry01_wal_archdor-1-a;
 	0x01000130 = t_cry01_wal_archdor-1-b;
 	0x01000133 = t_cry01_wal_hal-3;
+	0x0100013c = t_cry01_cap-arch-1-a-custom;
 }

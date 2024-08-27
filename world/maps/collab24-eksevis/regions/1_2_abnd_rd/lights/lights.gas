@@ -15,10 +15,10 @@
 	  f outer_radius = 0.000000;
 		[direction]
 		{
-		  x node = 0x00172803;
-		  f x = 0.471672;
+		  x node = 0x6AC3DCE2;
+		  f x = -0.663414;
 		  f y = 0.500000;
-		  f z = 0.726310;
+		  f z = -0.556670;
 		}
 	}
 	[t:directional,n:light_0x1334f7b8]
@@ -28,7 +28,7 @@
 	  b affects_items = true;
 	  b affects_terrain = true;
 	  x color = 0xFFB24342;
-	  b draw_shadow = true;
+	  b draw_shadow = false;
 	  f inner_radius = 0.000000;
 	  f intensity = 0.700000;
 	  b occlude_geometry = false;

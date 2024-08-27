@@ -54,3 +54,11 @@
 	  p position = 0.0946274,-6,-0.399841,0x383c9611;
 	}
 }
+[t:frag_glb_rubble_01,n:0x013000bb]
+{
+	[placement]
+	{
+	  q orientation = 0,-5.96046e-008,0,1;
+	  p position = -1.03599,1.41473,-0.400742,0xbadc15a1;
+	}
+}

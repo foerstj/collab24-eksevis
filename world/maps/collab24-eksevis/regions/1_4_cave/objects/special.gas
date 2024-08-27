@@ -1,11 +1,3 @@
-[t:blocking_object,n:0x0140006c]
-{
-	[placement]
-	{
-	  q orientation = 0,-0.707107,0,0.707107;
-	  p position = 0.0979614,-1.90735e-006,0.937714,0x4a59a01b;
-	}
-}
 [t:trigger_generic,n:0x01400061]
 {
 	[common]
@@ -33,5 +25,13 @@
 	{
 	  q orientation = 0,1,0,0;
 	  p position = 0.843002,0,0.30394,0x4a59a01b;
+	}
+}
+[t:blocking_object,n:0x0140006c]
+{
+	[placement]
+	{
+	  q orientation = 0,-0.707107,0,0.707107;
+	  p position = 0.0979614,-1.90735e-006,0.937714,0x4a59a01b;
 	}
 }

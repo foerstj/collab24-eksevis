@@ -14,6 +14,7 @@
 	0x0140055f = t_xxx_cnr_tee-08-04-12-l;
 	0x01400560 = t_xxx_cnr_tee-08-04-12-r;
 	0x014006b5 = t_xxx_flr_04x04-v0;
+	0x014006b8 = t_xxx_flr_04x04-v3;
 	0x014006b9 = t_xxx_flr_04x08-v0;
 	0x014006ba = t_xxx_flr_08x08-v0;
 	0x014006bc = t_xxx_flr_08x08-v2;
