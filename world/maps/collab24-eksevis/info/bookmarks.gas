@@ -1,3 +1,102 @@
 [bookmarks]
 {
+	[t:bookmark,n:1_0_crypt]
+	{
+		description = "";
+		position = 0.000000,0.000000,0.000000,0xbff67125;
+		[camera]
+		{
+		  f azimuth = 0.500000;
+		  f distance = 14.000000;
+		  f orbit = 135.000000;
+		}
+	}
+	[t:bookmark,n:1_1_quest_start]
+	{
+		description = "";
+		position = 0.000000,0.000000,0.000000,0x19b29336;
+		[camera]
+		{
+		  f azimuth = 0.500000;
+		  f distance = 14.000000;
+		  f orbit = 135.000000;
+		}
+	}
+	[t:bookmark,n:1_1_valley_town]
+	{
+		description = "";
+		position = 0.000000,0.000000,0.000000,0x28c6576e;
+		[camera]
+		{
+		  f azimuth = 0.500000;
+		  f distance = 14.000000;
+		  f orbit = 135.000000;
+		}
+	}
+	[t:bookmark,n:1_2_abnd_road]
+	{
+		description = "";
+		position = 0.000000,0.000000,0.000000,0x6ac3dce2;
+		[camera]
+		{
+		  f azimuth = 0.500000;
+		  f distance = 14.000000;
+		  f orbit = 135.000000;
+		}
+	}
+	[t:bookmark,n:1_2_arch_ruins]
+	{
+		description = "";
+		position = 0.000000,0.000000,0.000000,0x916d09d9;
+		[camera]
+		{
+		  f azimuth = 0.500000;
+		  f distance = 14.000000;
+		  f orbit = 135.000000;
+		}
+	}
+	[t:bookmark,n:1_3_wvng_rvr]
+	{
+		description = "";
+		position = 0.000000,0.000000,0.000000,0x66ccba8e;
+		[camera]
+		{
+		  f azimuth = 0.500000;
+		  f distance = 14.000000;
+		  f orbit = 135.000000;
+		}
+	}
+	[t:bookmark,n:1_4_cave]
+	{
+		description = "";
+		position = 0.000000,0.000000,0.000000,0x16f2c37e;
+		[camera]
+		{
+		  f azimuth = 0.500000;
+		  f distance = 14.000000;
+		  f orbit = 135.000000;
+		}
+	}
+	[t:bookmark,n:mood_test]
+	{
+		description = "";
+		position = 0.000000,0.000000,0.000000,0x5e853793;
+		[camera]
+		{
+		  f azimuth = 0.500000;
+		  f distance = 14.000000;
+		  f orbit = 135.000000;
+		}
+	}
+	[t:bookmark,n:1_4_collapse]
+	{
+		description = "";
+		position = 0.000000,0.000000,0.000000,0x3F8DCDA9;
+		[camera]
+		{
+		  f azimuth = 0.500000;
+		  f distance = 14.000000;
+		  f orbit = 135.000000;
+		}
+	}
 }

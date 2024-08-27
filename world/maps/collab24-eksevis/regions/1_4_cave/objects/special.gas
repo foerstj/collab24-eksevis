@@ -16,7 +16,7 @@
 			{
 				action* = mood_change("1_4_cave_collapse");
 			  b can_self_destruct = true;
-				condition* = party_member_within_sphere(40.000000,"on_every_leave");
+				condition* = party_member_within_sphere(40.000000,"on_every_enter");
 			  f delay = 0.000000;
 			  b flip_flop = true;
 			  b multi_player = true;
@@ -31,7 +31,7 @@
 			{
 				action* = mood_change("1_4_cave");
 			  b can_self_destruct = true;
-				condition* = party_member_within_sphere(40.000000,"on_every_enter");
+				condition* = party_member_within_sphere(40.000000,"on_every_leave");
 			  f delay = 0.000000;
 			  b flip_flop = false;
 			  b multi_player = true;

@@ -595,18 +595,18 @@
 	  p position = -1.22084,3.8147e-006,1.26864,0xc1f3e5e3;
 	}
 }
-[t:phrak_piercer,n:0x01300055]
-{
-	[placement]
-	{
-	  p position = 0.134605,-3.8147e-006,-0.225864,0x19496823;
-	}
-}
 [t:wolf_gray,n:0x01300006]
 {
 	[placement]
 	{
 	  p position = 2.67894,-5.99163,-1.9414,0x2fb8b164;
+	}
+}
+[t:phrak_piercer,n:0x01300055]
+{
+	[placement]
+	{
+	  p position = 0.134605,-3.8147e-006,-0.225864,0x19496823;
 	}
 }
 [t:wolf_gray,n:0x01300007]
