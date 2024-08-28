@@ -182,8 +182,8 @@
 	{
 	  x fog_color = 0xFFFAE9C0;
 	  f fog_density = 0.500000;
-	  f fog_far_dist = 25.000000;
-	  f fog_lowdetail_far_dist = 40.000000;
+	  f fog_far_dist = 30.000000;
+	  f fog_lowdetail_far_dist = 30.000000;
 	  f fog_lowdetail_near_dist = 12.000000;
 	  f fog_near_dist = 12.000000;
 	}

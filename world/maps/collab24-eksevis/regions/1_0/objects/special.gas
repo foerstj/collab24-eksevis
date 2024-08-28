@@ -65,9 +65,9 @@
 		{
 			[*]
 			{
-				action* = mood_change("map_world_cr_r1_1");
+				action* = mood_change("1_0_crypt_mood");
 			  b can_self_destruct = true;
-				condition* = party_member_within_bounding_box(2.000000,1.000000,2.000000,"on_every_enter");
+				condition* = party_member_within_sphere(35.000000,"on_every_enter");
 			  f delay = 0.000000;
 			  b flip_flop = false;
 			  b multi_player = true;

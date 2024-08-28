@@ -14,7 +14,7 @@
 		{
 			[*]
 			{
-				action* = mood_change("1_4_cave_collapse");
+				action* = mood_change("1_4_cave_collapse"), delay(2);
 			  b can_self_destruct = true;
 				condition* = party_member_within_sphere(40.000000,"on_every_enter");
 			  f delay = 0.000000;
@@ -29,7 +29,7 @@
 			}
 			[*]
 			{
-				action* = mood_change("1_4_cave");
+				action* = mood_change("1_4_cave"), delay(2);
 			  b can_self_destruct = true;
 				condition* = party_member_within_sphere(40.000000,"on_every_leave");
 			  f delay = 0.000000;

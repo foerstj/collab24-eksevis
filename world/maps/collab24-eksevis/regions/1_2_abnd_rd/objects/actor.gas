@@ -140,6 +140,10 @@
 }
 [t:collab_ek_archeologist_male_02,n:0x01200119]
 {
+	[common]
+	{
+		screen_name = "Archaeologist Lead Lukal";
+	}
 	[conversation]
 	{
 		[conversations]
@@ -157,6 +161,10 @@
 			es_head = he_un_ca_brim;
 			es_weapon_hand = sd_g_c_dsx_chr_1h_avg;
 		}
+	}
+	[mind]
+	{
+		jat_talk = world\ai\jobs\common\job_talk.skrit;
 	}
 	[placement]
 	{

@@ -2,11 +2,21 @@
 {
 	[text*]
 	{
-		screen_text = "Blasted..
+		choice = more;
+	  i order = 1;
+		screen_text = "Blasted, I probably should've listened to the survevoyers and brought some deforesters.
 
-I probably should've listened to the survevoyers and brought some deforesters.
+Ah well, it's too late now.
 
-Ah well, it's too late now.";
+Anyway, it was quiet here about.. I don't know, 20 minutes ago. What happened?";
+	  f scroll_rate = 40.000000;
+	}
+	[text*]
+	{
+		screen_text = "Some Goblin ne'er-do-well calling himself a Blasted Goblin is behind all of this? That's absurd! ... but I don't doubt it either. At least that'd explain everything.
+
+Thankfully I have a state of the art gladius right here, so I should be fine.
+";
 	  f scroll_rate = 10.000000;
 	}
 }
