@@ -8,6 +8,13 @@
 }
 [t:collab_ek_radicus,n:0x01100010]
 {
+	[conversation]
+	{
+		[conversations]
+		{
+			* = melee_store;
+		}
+	}
 	[placement]
 	{
 	  q orientation = 0,0.990268,0,-0.139173;
@@ -802,6 +809,13 @@
 }
 [t:collab_ek_daewin,n:0x01100172]
 {
+	[conversation]
+	{
+		[conversations]
+		{
+			* = potion_seller;
+		}
+	}
 	[placement]
 	{
 	  q orientation = 0,-0.833886,0,-0.551937;

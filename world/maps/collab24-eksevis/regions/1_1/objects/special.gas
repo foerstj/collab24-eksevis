@@ -251,3 +251,39 @@
 	  p position = 1.59543,1.95,1.83279,0x3bee4ae2;
 	}
 }
+[t:trigger_generic,n:0x01100260]
+{
+	[common]
+	{
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = fade_nodes(0xFFFFFFFF,5,5,5,"in");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(1.000000,0.500000,1.000000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+		}
+	}
+	[placement]
+	{
+	  p position = 0.232433,-4.15671,-4.44775,0x419926f3;
+	}
+}
+[t:trigger_generic,n:0x01100262]
+{
+	[placement]
+	{
+	  q orientation = 0,-0.173648,0,0.984808;
+	  p position = 0.649915,0.5,1.50329,0xf9ebc200;
+	}
+}

@@ -1,0 +1,19 @@
+[crypt_hobo]
+{
+	[text*]
+	{
+	  i order = 1;
+		screen_text = "Well... there goes the rest of my home....
+
+By Azunai, I am infinitely grateful that I have my pickaxe. ";
+	  f scroll_rate = 25.000000;
+	}
+	[text*]
+	{
+	  i order = 2;
+		screen_text = "Oh. It's okay, I'll be fine on my own. 
+
+It's what I'm used to anyway.";
+	  f scroll_rate = 25.000000;
+	}
+}

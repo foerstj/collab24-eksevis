@@ -1,5 +1,12 @@
 [t:collab_ek_eccentric-old-man,n:0x0100004d]
 {
+	[conversation]
+	{
+		[conversations]
+		{
+			* = Crypt_Hobo;
+		}
+	}
 	[inventory]
 	{
 		[equipment]

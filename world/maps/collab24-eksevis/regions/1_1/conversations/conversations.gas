@@ -9,3 +9,25 @@ You humans have little reason to trust us Goblins, and right now, I don't even b
 	  f scroll_rate = 10.000000;
 	}
 }
+[melee_store]
+{
+	[text*]
+	{
+		choice = shop;
+		screen_text = "Welcome and welcome to my ever humble store!
+
+Would you like to browse my goods? If there's anything you're not seeing, please head upstairs and speak with my wife -- she'll most likely have what you seek!";
+	  f scroll_rate = 30.000000;
+	}
+}
+[potion_seller]
+{
+	[text*]
+	{
+		choice = shop;
+		screen_text = "Why, hello there! Potions? Spells? I've got them all! 
+
+Well, since you're here, I assume you've already spoken to Radicus, my husband, but in case you haven't make sure to check his goods as well!";
+	  f scroll_rate = 30.000000;
+	}
+}
