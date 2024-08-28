@@ -15,6 +15,10 @@
 			* = melee_store;
 		}
 	}
+	[mind]
+	{
+		jat_talk = world\ai\jobs\common\job_talk.skrit;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.990268,0,-0.139173;
@@ -732,6 +736,10 @@
 }
 [t:gypsy_female_02,n:0x01100226]
 {
+	[common]
+	{
+		screen_name = "Bar Owner";
+	}
 	[placement]
 	{
 	  q orientation = 0,-0.75471,0,0.656059;
@@ -815,6 +823,10 @@
 		{
 			* = potion_seller;
 		}
+	}
+	[mind]
+	{
+		jat_talk = world\ai\jobs\common\job_talk.skrit;
 	}
 	[placement]
 	{
