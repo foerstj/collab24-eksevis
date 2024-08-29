@@ -100,7 +100,7 @@
 [mood_setting*]
 {
   b interior = false;
-	mood_name = 1_2_abandoned road;
+	mood_name = 1_2_abandoned_road;
   f transition_time = 1.000000;
 	[fog]
 	{

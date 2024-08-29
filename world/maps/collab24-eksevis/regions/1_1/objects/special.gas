@@ -96,7 +96,7 @@
 		{
 			[*]
 			{
-				action* = mood_change("1_2_abandoned road");
+				action* = mood_change("1_2_abandoned_road");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(1.000000,0.500000,10.000000,"on_every_enter");
 			  f delay = 0.000000;
