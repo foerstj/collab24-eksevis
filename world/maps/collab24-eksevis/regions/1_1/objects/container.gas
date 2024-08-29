@@ -76,17 +76,24 @@
 	{
 		[other]
 		{
-			il_main = spell_zap;
+			il_main = spell_fireshot;
 		}
 	}
 	[placement]
 	{
 	  q orientation = 0,0.707107,0,0.707107;
-	  p position = -0.257221,2,0.4879,0x8d83303f;
+	  p position = -0.268826,2,0.468935,0x8d83303f;
 	}
 }
 [t:barrel_swp_01,n:0x0110019b]
 {
+	[inventory]
+	{
+		[other]
+		{
+			il_main = bw_g_d_s_s_c_avg;
+		}
+	}
 	[placement]
 	{
 	  p position = 0.666218,2,-0.16083,0x8d83303f;
@@ -98,7 +105,7 @@
 	{
 		[other]
 		{
-			il_main = spell_fireshot;
+			il_main = spell_zap;
 		}
 	}
 	[placement]
