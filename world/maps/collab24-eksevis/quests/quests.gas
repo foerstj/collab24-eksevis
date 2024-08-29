@@ -21,7 +21,7 @@
 		{
 			description = Stop the Blasted Goblin;
 		  b is_consumable = false;
-		  i order = 1;
+		  i order = 0;
 		  b required = true;
 			speaker = ;
 		}
