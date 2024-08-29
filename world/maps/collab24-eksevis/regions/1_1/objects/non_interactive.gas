@@ -4040,3 +4040,18 @@
 	  p position = 2.38904,-0.949999,-2.5706,0x49aebfcc;
 	}
 }
+[t:debris_cav_lg_01,n:0x011002a3]
+{
+	[placement]
+	{
+	  p position = -2.73657,-3,13.1039,0x67705a8c;
+	}
+}
+[t:debris_cav_med_01,n:0x011002b8]
+{
+	[placement]
+	{
+	  q orientation = 0,-0.642788,0,0.766044;
+	  p position = 7.4851,-3,-13.5633,0x67705a8c;
+	}
+}
