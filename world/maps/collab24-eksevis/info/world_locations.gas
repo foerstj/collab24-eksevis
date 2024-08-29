@@ -1,0 +1,8 @@
+[world_locations]
+{
+    [t:location,n:eksieland]
+    {
+        id = 0101;
+        screen_name = "Eksieland";
+    }
+}
