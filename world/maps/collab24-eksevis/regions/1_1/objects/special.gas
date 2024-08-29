@@ -65,7 +65,7 @@
 		{
 			[*]
 			{
-				action* = mood_change("1_1_anc_ruins"), delay(0.5);
+				action* = mood_change("1_1_anc_ruins"), delay(1);
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(1.000000,4.000000,3.000000,"on_every_enter");
 			  f delay = 0.000000;
@@ -94,7 +94,7 @@
 		{
 			[*]
 			{
-				action* = mood_change("1_2_abandoned road");
+				action* = mood_change("1_2_abandoned road"), delay(1);
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(1.000000,0.500000,10.000000,"on_every_enter");
 			  f delay = 0.000000;
@@ -132,7 +132,7 @@
 		{
 			[*]
 			{
-				action* = mood_change("1_1_valley_town");
+				action* = mood_change("1_1_valley_town"), delay(1);
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(1.000000,2.000000,2.500000,"on_every_enter");
 			  f delay = 0.000000;
@@ -196,7 +196,7 @@
 		{
 			[*]
 			{
-				action* = mood_change("1_1_anc_ruins");
+				action* = mood_change("1_1_anc_ruins"), delay(1);
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(2.000000,1.000000,0.500000,"on_every_enter");
 			  f delay = 0.000000;
@@ -224,7 +224,7 @@
 		{
 			[*]
 			{
-				action* = mood_change("1_0_crypt_mood");
+				action* = mood_change("1_0_crypt_mood"), delay(1);
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(2.000000,1.000000,0.500000,"on_every_enter");
 			  f delay = 0.000000;

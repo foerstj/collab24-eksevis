@@ -6,7 +6,7 @@
 		{
 			[*]
 			{
-				action* = mood_change("1_3_wvng_rvr");
+				action* = mood_change("1_3_wvng_rvr"), delay(1);
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(5.500000,0.500000,1.000000,"on_every_enter");
 			  f delay = 0.000000;
