@@ -36,7 +36,6 @@
 	0x01100860 = t_xxx_pth_08x04-g;
 	0x01100861 = t_xxx_pth_08x04-h;
 	0x01100862 = t_xxx_pth_08x04-i;
-	0x01100863 = t_xxx_pth_08x04-j;
 	0x01100865 = t_xxx_pth_08x08-b;
 	0x01100866 = t_xxx_pth_08x08-c;
 	0x01100867 = t_xxx_pth_08x08-d;
