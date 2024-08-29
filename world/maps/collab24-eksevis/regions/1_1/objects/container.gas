@@ -19,6 +19,20 @@
 	  p position = 3.15333,-1.15,4.36279,0xca1e1384;
 	}
 }
+[t:barrel_csl_webbed_01,n:0x011002a5]
+{
+	[placement]
+	{
+	  p position = -2.91126,-0.596466,-3.26211,0xef661890;
+	}
+}
+[t:barrel_csl_webbed_01,n:0x011002a7]
+{
+	[placement]
+	{
+	  p position = -2.41029,-0.648713,-1.86716,0xef661890;
+	}
+}
 [t:crate_swp_01,n:0x01100225]
 {
 	[placement]
