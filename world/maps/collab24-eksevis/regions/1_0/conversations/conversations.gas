@@ -10,7 +10,6 @@ By Azunai, I am infinitely grateful that I have my pickaxe. ";
 	}
 	[text*]
 	{
-	  i order = 1;
 		screen_text = "Oh. It's okay, I'll be fine on my own. 
 
 It's what I'm used to anyway.";
