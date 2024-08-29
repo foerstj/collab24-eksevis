@@ -7,6 +7,7 @@
 			[*]
 			{
 				action* = fade_nodes(0x00000011,6,6,6,"out:instant");
+				action* = fade_nodes(0x00000011,7,7,7,"out:instant");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(1.000000,0.500000,1.000000,"on_every_enter");
 			  f delay = 0.000000;
@@ -36,6 +37,7 @@
 			[*]
 			{
 				action* = fade_nodes(0x00000011,6,6,6,"in:instant");
+				action* = fade_nodes(0x00000011,7,7,7,"in:instant");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(1.000000,0.500000,1.000000,"on_every_enter");
 			  f delay = 0.000000;
@@ -52,7 +54,7 @@
 	}
 	[placement]
 	{
-	  q orientation = 0,-0.199368,0,-0.979925;
+	  q orientation = 0,0.199368,0,0.979925;
 	  p position = 0.0978584,-4.17525,-4.75504,0x419926f3;
 	}
 }
