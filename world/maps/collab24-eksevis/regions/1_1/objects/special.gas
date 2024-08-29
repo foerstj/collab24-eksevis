@@ -190,6 +190,60 @@
 	  p position = -1.08879,0.8364,1.16712,0xb2da9684;
 	}
 }
+[t:trigger_generic,n:0x01100200]
+{
+	[common]
+	{
+		dev_instance_text = "CHAPTER";
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = send_world_message("we_req_activate",0x01100224,0f,"0x4003","every",0), doc("interface");
+				action* = send_world_message("we_req_activate",0x01100254,0f,"default","every",0), doc("chapter");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(4.000000,1.000000,2.000000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+		}
+	}
+	[placement]
+	{
+	  p position = 0.0105544,0.0109615,-4.38246,0xa904e428;
+	}
+}
+[t:interface_fade,n:0x01100224]
+{
+	[interface_fade]
+	{
+	  f duration = 10;
+		interface = "clb24_chapter_1";
+	}
+	[placement]
+	{
+	  q orientation = 0,1,0,0;
+	  p position = -1.32546,0.106279,-4.55957,0xa904e428;
+	}
+}
+[t:activate_chapter,n:0x01100254]
+{
+	[activate_chapter]
+	{
+		chapter = "chapter_01_valleyball";
+	}
+	[placement]
+	{
+	  p position = 1.49653,0.0781116,-4.44873,0xa904e428;
+	}
+}
 [t:trigger_generic,n:0x01100013]
 {
 	[common]
