@@ -22,9 +22,12 @@
 	0x01000129 = t_cry01_wal_1a-broken;
 	0x0100012a = t_cry01_wal_1a;
 	0x0100012b = t_cry01_wal_1b;
+	0x0100012c = t_cry01_wal_1c;
 	0x0100012d = t_cry01_wal_arch-1-a;
 	0x0100012f = t_cry01_wal_archdor-1-a;
 	0x01000130 = t_cry01_wal_archdor-1-b;
 	0x01000133 = t_cry01_wal_hal-3;
-	0x0100013c = t_cry01_cap-arch-1-a-custom;
+	0x01000137 = t_cry01_cap-02x02-a;
+	0x01000138 = t_cry01_cap-02x04-a;
+	0x0100013d = t_cry01_cap-arch-1-a;
 }
