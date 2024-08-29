@@ -3,7 +3,7 @@
 	[text*]
 	{
 		choice = more;
-	  i order = 1;
+	  i order = 0;
 		screen_text = "Blasted, I probably should've listened to the survevoyers and brought some deforesters.
 
 Ah well, it's too late now.
