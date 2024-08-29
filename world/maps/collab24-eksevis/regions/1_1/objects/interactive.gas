@@ -24,6 +24,11 @@
 }
 [t:door_glb_woodfence_left_01,n:0x0110029f]
 {
+	[aspect]
+	{
+	  b is_selectable = false;
+	  b is_usable = false;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.737277,0,0.675591;
@@ -32,6 +37,11 @@
 }
 [t:door_glb_woodfence_left_01,n:0x011002a1]
 {
+	[aspect]
+	{
+	  b is_selectable = false;
+	  b is_usable = false;
+	}
 	[placement]
 	{
 	  q orientation = 0,-0.681999,0,0.731354;
