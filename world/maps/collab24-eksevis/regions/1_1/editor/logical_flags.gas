@@ -30,6 +30,12 @@
 			* = lf_dirt;
 		}
 	}
+	[t:lf_snode,n:0x018d9cd3]
+	{
+		[t:lf_lnode,n:0]
+		{
+		}
+	}
 	[t:lf_snode,n:0x01c42796]
 	{
 		[t:lf_lnode,n:0]

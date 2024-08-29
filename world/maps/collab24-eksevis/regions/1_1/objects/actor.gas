@@ -809,6 +809,11 @@
 }
 [t:dog_sleeping,n:0x0110021a]
 {
+	[common]
+	{
+		description = "He's baby!";
+		screen_name = "Woofenstien the Third";
+	}
 	[placement]
 	{
 	  q orientation = 0,-0.173648,0,0.984808;
