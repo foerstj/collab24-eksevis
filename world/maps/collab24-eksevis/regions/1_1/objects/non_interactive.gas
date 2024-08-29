@@ -413,6 +413,10 @@
 }
 [t:planter_csl_01,n:0x01100208]
 {
+	[aspect]
+	{
+	  b does_block_path = false;
+	}
 	[placement]
 	{
 	  q orientation = 0,-0.25038,0,0.968148;
@@ -3546,7 +3550,7 @@
 	[placement]
 	{
 	  q orientation = 0,-0.608762,0,-0.793354;
-	  p position = 1.51151,-3,-1.33939,0xd25b329f;
+	  p position = 1.62908,-3,-1.32668,0xd25b329f;
 	}
 }
 [t:dsx_wizcty_bench,n:0x01100213]
@@ -3554,7 +3558,7 @@
 	[placement]
 	{
 	  q orientation = 0,-0.121869,0,0.992547;
-	  p position = 3.28278,-3,-1.58781,0xd25b329f;
+	  p position = 3.46354,-3,-1.70333,0xd25b329f;
 	}
 }
 [t:dsx_wizcty_rug,n:0x01100216]

@@ -1611,6 +1611,12 @@
 		{
 		}
 	}
+	[t:lf_snode,n:0x21ce4359]
+	{
+		[t:lf_lnode,n:0]
+		{
+		}
+	}
 	[t:lf_snode,n:0x22068200]
 	{
 		[t:lf_lnode,n:0]
@@ -7078,12 +7084,6 @@
 			* = lf_human_player;
 			* = lf_computer_player;
 			* = lf_dirt;
-		}
-	}
-	[t:lf_snode,n:0x8b3835d2]
-	{
-		[t:lf_lnode,n:0]
-		{
 		}
 	}
 	[t:lf_snode,n:0x8b7f804d]

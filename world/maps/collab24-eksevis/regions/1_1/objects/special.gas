@@ -6,8 +6,8 @@
 		{
 			[*]
 			{
-				action* = fade_nodes(0x00000011,6,6,6,"out:instant");
-				action* = fade_nodes(0x00000011,7,7,7,"out:instant");
+				action* = fade_nodes(0x00000011,6,6,6,"out:black");
+				action* = fade_nodes(0x00000011,7,7,7,"out:black");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(1.000000,0.500000,1.000000,"on_every_enter");
 			  f delay = 0.000000;
@@ -36,8 +36,8 @@
 		{
 			[*]
 			{
-				action* = fade_nodes(0x00000011,6,6,6,"in:instant");
-				action* = fade_nodes(0x00000011,7,7,7,"in:instant");
+				action* = fade_nodes(0x00000011,6,6,6,"in");
+				action* = fade_nodes(0x00000011,7,7,7,"in");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(1.000000,0.500000,1.000000,"on_every_enter");
 			  f delay = 0.000000;
@@ -319,7 +319,7 @@
 		{
 			[*]
 			{
-				action* = fade_nodes(0x00000011,6,6,6,"in:instant");
+				action* = fade_nodes(0x00000011,6,6,6,"in");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(1.000000,0.500000,1.000000,"on_every_enter");
 			  f delay = 0.000000;
@@ -347,7 +347,7 @@
 		{
 			[*]
 			{
-				action* = fade_nodes(0x00000011,6,6,6,"out:instant");
+				action* = fade_nodes(0x00000011,6,6,6,"out:black");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(1.000000,0.500000,1.000000,"on_every_enter");
 			  f delay = 0.000000;
