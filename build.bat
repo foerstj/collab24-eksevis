@@ -15,6 +15,12 @@ set ds=%DungeonSiege%
 :: path of TankCreator
 set tc=%TankCreator%
 
+:: pre-build checks
+pushd %gaspy%
+venv\Scripts\python -m build.pre_build_checks %map% --check standard --bits "%bits%"
+if %errorlevel% neq 0 pause
+popd
+
 :: Compile map file
 rmdir /S /Q "%tmp%\Bits"
 robocopy "%bits%\world\maps\%map%" "%tmp%\Bits\world\maps\%map%" /S
