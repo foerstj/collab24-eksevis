@@ -72,3 +72,14 @@
 	  p position = -0.715343,-1.75,2.41216,0x534d3234;
 	}
 }
+[t:door_csl_cell,n:0x01100282]
+{
+	[aspect]
+	{
+	  f scale_base = 0.7;
+	}
+	[placement]
+	{
+	  p position = 0.0699978,-1.53037,-5.22462,0xa784d2a7;
+	}
+}
