@@ -22,13 +22,13 @@
 		[start_position]
 		{
 		  i id = 3;
-			position = 0.803185,-1.500000,-2.728329,0x923B5599;
+			position = -1.124106,0.000000,-0.145267,0x607B15ED;
 			[camera]
 			{
 			  f azimuth = 0.500000;
 			  f distance = 20.000000;
 			  f orbit = 0.000000;
-				position = 0.803185,-1.500000,-2.728329,0x923B5599;
+				position = -1.124106,0.000000,-0.145267,0x607B15ED;
 			}
 		}
 		[start_position]
@@ -46,61 +46,61 @@
 		[start_position]
 		{
 		  i id = 5;
-			position = 0.153696,0.000000,-0.375289,0xCF77949E;
+			position = -0.734151,0.000000,-0.004837,0xB80BE6F0;
 			[camera]
 			{
 			  f azimuth = 0.500000;
 			  f distance = 20.000000;
 			  f orbit = 0.000000;
-				position = 0.153696,0.000000,-0.375289,0xCF77949E;
+				position = -0.734151,0.000000,-0.004837,0xB80BE6F0;
 			}
 		}
 		[start_position]
 		{
 		  i id = 7;
-			position = 0.192965,0.000004,-0.901426,0xD0009945;
+			position = -1.342227,0.000004,0.950879,0xD9536A7D;
 			[camera]
 			{
 			  f azimuth = 0.500000;
 			  f distance = 20.000000;
 			  f orbit = 0.000000;
-				position = 0.192965,0.000004,-0.901426,0xD0009945;
+				position = -1.342227,0.000004,0.950879,0xD9536A7D;
 			}
 		}
 		[start_position]
 		{
 		  i id = 8;
-			position = 1.020210,0.000004,-0.218538,0x4E1595E5;
+			position = -1.010273,0.000004,-0.081727,0x1CE8F124;
 			[camera]
 			{
 			  f azimuth = 0.500000;
 			  f distance = 20.000000;
 			  f orbit = 0.000000;
-				position = 1.020210,0.000004,-0.218538,0x4E1595E5;
+				position = -1.010273,0.000004,-0.081727,0x1CE8F124;
 			}
 		}
 		[start_position]
 		{
 		  i id = 6;
-			position = -1.644781,0.000000,0.591516,0x7BD97FEF;
+			position = -1.269928,0.000000,-1.483770,0x6FC08C7E;
 			[camera]
 			{
 			  f azimuth = 0.500000;
 			  f distance = 20.000000;
 			  f orbit = 0.000000;
-				position = -1.644781,0.000000,0.591516,0x7BD97FEF;
+				position = -1.269928,0.000000,-1.483770,0x6FC08C7E;
 			}
 		}
 		[start_position]
 		{
 		  i id = 2;
-			position = 0.179220,0.000000,-0.361099,0xDEFBE6F9;
+			position = 1.896062,0.000000,0.735946,0xD9536A7D;
 			[camera]
 			{
 			  f azimuth = 0.500000;
 			  f distance = 20.000000;
 			  f orbit = 0.000000;
-				position = 0.179220,0.000000,-0.361099,0xDEFBE6F9;
+				position = 1.896062,0.000000,0.735946,0xD9536A7D;
 			}
 		}
 		[world_levels]
