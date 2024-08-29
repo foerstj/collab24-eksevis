@@ -34,35 +34,6 @@
 	  p position = -0.862778,-2.3,0.102987,0x4e3a0938;
 	}
 }
-[t:book_glb_placeholder,n:0x011000c3]
-{
-	[common]
-	{
-		screen_name = "Placeholder Quest START";
-		[instance_triggers]
-		{
-			[*]
-			{
-				action* = change_quest_state("i_must_scream","active",0);
-			  b can_self_destruct = true;
-				condition* = receive_world_message("we_picked_up",0,"on_first_message");
-			  f delay = 0.000000;
-			  b flip_flop = false;
-			  b multi_player = true;
-			  b no_trig_bits = false;
-				occupants_group = ;
-			  f reset_duration = 0.000000;
-			  b single_player = true;
-			  b single_shot = false;
-			  b start_active = true;
-			}
-		}
-	}
-	[placement]
-	{
-	  p position = -6.02209,-1,3.77331,0x67705a8c;
-	}
-}
 [t:book_glb_lore,n:0x011002b4]
 {
 	[placement]
@@ -103,5 +74,33 @@
 	{
 	  q orientation = 0,-0.580703,0,-0.814116;
 	  p position = 1.28111,-0.160266,-3.22846,0x49aebfcc;
+	}
+}
+[t:c24_eks_quest_book,n:0x01100166]
+{
+	[common]
+	{
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = change_quest_state("i_must_scream","active",0);
+			  b can_self_destruct = true;
+				condition* = receive_world_message("we_picked_up",0,"on_first_message");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+		}
+	}
+	[placement]
+	{
+	  p position = -6.04089,-1,3.73384,0x67705a8c;
 	}
 }

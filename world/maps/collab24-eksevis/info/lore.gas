@@ -1,8 +1,11 @@
 [lore]
 {
-	[placeholder]
+	[eks_quest_book]
 	{
-		description = "To do!";
+		description = "[Much of the book has nothing to do with what you see before you, and went on as such for nearly 50 pages.. until, naturally, at the end...]/n
+		I've just received horrible news. A goblin -- strangely enough calling himself a 'Blasted' -- has begun an uprising. Has he brainwashed the creatures of our beautiful land, or is there something else to it?/n
+		Really, it should matter not. I must warn my fellow villagers.... By Azunai! It sounds as though something is trying to knock the chapel's doors down!/n
+		If I am not alive to do it; please, whoever is reading this, warn the villagers, or at least make the Blasted Goblin sque";
 	}
 }
 

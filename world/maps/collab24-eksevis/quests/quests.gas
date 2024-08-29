@@ -2,7 +2,7 @@
 {
 	[chapter_01_valleyball]
 	{
-		screen_name = Chapter I: The Ancient Valley;
+		screen_name = chapter i: the ancient valley;
 		[*]
 		{
 			description = "";
@@ -16,10 +16,10 @@
 	{
 		chapter = chapter_01_valleyball;
 		quest_image = b_gui_ig_mnu_quest;
-		screen_name = I Must Squeal;
+		screen_name = Make A Goblin Squeal;
 		[*]
 		{
-			description = Stop the Blasted Goblin;
+			description = stop the blasted goblin;
 		  b is_consumable = false;
 		  i order = 0;
 		  b required = true;
