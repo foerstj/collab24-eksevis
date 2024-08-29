@@ -2,7 +2,7 @@
 {
   b interior = true;
 	mood_name = 1_0_crypt_mood;
-  f transition_time = 0.000000;
+  f transition_time = 1.000000;
 	[fog]
 	{
 	  x fog_color = 0xFF000000;
@@ -35,7 +35,7 @@
 {
   b interior = false;
 	mood_name = 1_1_anc_ruins;
-  f transition_time = 0.000000;
+  f transition_time = 1.000000;
 	[fog]
 	{
 	  x fog_color = 0xFFECB495;
@@ -68,7 +68,7 @@
 {
   b interior = false;
 	mood_name = 1_1_valley_town;
-  f transition_time = 0.000000;
+  f transition_time = 1.000000;
 	[fog]
 	{
 	  x fog_color = 0xFFECB495;
@@ -101,7 +101,7 @@
 {
   b interior = false;
 	mood_name = 1_2_abandoned road;
-  f transition_time = 0.000000;
+  f transition_time = 1.000000;
 	[fog]
 	{
 	  x fog_color = 0xFFECB495;
@@ -134,7 +134,7 @@
 {
   b interior = false;
 	mood_name = 1_3_wvng_rvr;
-  f transition_time = 0.000000;
+  f transition_time = 1.000000;
 	[fog]
 	{
 	  x fog_color = 0xFFECB495;
@@ -160,9 +160,9 @@
 }
 [mood_setting*]
 {
-  b interior = false;
+  b interior = true;
 	mood_name = 1_4_cave;
-  f transition_time = 0.000000;
+  f transition_time = 1.000000;
 	[fog]
 	{
 	  x fog_color = 0xFF080600;
@@ -177,7 +177,7 @@
 {
   b interior = true;
 	mood_name = 1_4_cave_collapse;
-  f transition_time = 0.000000;
+  f transition_time = 1.000000;
 	[fog]
 	{
 	  x fog_color = 0xFFFAE9C0;
