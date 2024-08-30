@@ -7,15 +7,14 @@
 		{
 			model = m_i_glb_book-magic;
 			[textures]
+			{
+				0 = b_i_glb_book-lore;
+			}
+			[voice]
+			{
+				[put_down]
 				{
-					0 = b_i_glb_book-lore;
-				}
-				[voice]
-				{
-					[put_down]
-					{
-						* = s_e_gui_put_down_book;
-					}
+					* = s_e_gui_put_down_book;
 				}
 			}
 		}
@@ -26,9 +25,9 @@
 		[gui]
 		{
 			lore_key = "eks_quest_book";
+			inventory_width = 1;
 			inventory_height = 2;
 			inventory_icon = b_gui_ig_i_it_lore-book;
 			is_lorebook = true;
 		}
-	}
 }
