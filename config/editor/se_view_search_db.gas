@@ -1,0 +1,829 @@
+
+//This controls the Development Sorted Game Object view in SE.
+//Category names are assigned in the object templates and Items_Master.xls
+
+
+[se_view_search_db]
+{
+	[Unsorted]
+	{
+		search_category = "pending";//This is where all unsorted junk leftover from specialization sorted tree will go
+	}
+	
+	
+	[Landscape]
+	{
+		[Dead]
+		{
+			search_category = "dead";  //all bones, bodies, carcasses
+		}
+		
+		[Foliage]
+		{
+			[Bushes]
+			{
+				search_category = "bushes";
+			}
+			[Flowers]
+			{
+				search_category = "flowers";
+			}
+			[Grass]
+			{
+				search_category = "grass";
+			}
+			[General]
+			{
+				search_category = "foliage";      //all greenery like bushes, grass, flowers
+			}
+		}
+		
+		
+		[Trees]
+		{
+			search_category  = "trees";     //all trees and tree-related objects like stumps and branches
+			
+		}
+		[Rocks]
+		{
+			search_category  = "rocks";   //all rocks, crystals, ore, and gems
+			
+		}
+		[Logs]
+		{
+			search_category = "logs";
+		}
+		[Misc]
+		{
+			search_category  = "misc";         //all miscellaneous natural items like brush, dirt, logs, woodpiles
+		}
+		
+	}
+	
+	
+	
+	[Furnishings]
+	{
+		[Indoor]
+		{
+			search_category = "indoor";     //all indoor furnishings like tables, paintings, plates
+			search_category = "picture"; // all pictures
+		}
+		[statues]
+		{
+			search_category = "statue";     //all statues
+		}
+		
+		[Outdoor]
+		{
+			search_category = "outdoor";    //all outdoor, man-made furnishings like carts, tents, tombstones
+		}
+		[Signs]
+		{
+			search_category  = "sign";    //all signs
+		}
+		
+		[Containers]
+		{
+			[Map_Expansion]
+			{				
+				[a1] { search_category = "dsx_a1"; }
+				[a2] { search_category = "dsx_a2"; }
+				[a3] { search_category = "dsx_a3"; }
+				[a4] { search_category = "dsx_a4"; }
+				[a5] { search_category = "dsx_a5"; }
+				[a6] { search_category = "dsx_a6"; }
+				[a7] { search_category = "dsx_a7"; }
+				[a8] { search_category = "dsx_a8"; }
+				[a9] { search_category = "dsx_a9"; }
+			}
+			
+			[Misc]
+			{
+				search_category  = "container";   //all containers like barrels, crates, jugs, sarcophagi and lids
+			}
+			[Regional_Containers]
+			{
+				[ac_r1]			{ search_category = "ac_r1";		}	//all containers for ac_r1
+				[ac_r2]			{ search_category = "ac_r2";		}	//all containers for ac_r2
+				[ac_r3]			{ search_category = "ac_r3";		}	//all containers for ac_r3
+				[ac_r5]			{ search_category = "ac_r5";		}	//all containers for ac_r5
+				[bc_r1]			{ search_category = "bc_r1";		}	//all containers for bc_r1
+				[bt_r1]			{ search_category = "bt_r1";		}	//all containers for bt_r1
+				[cd_r1]			{ search_category = "cd_r1";		}	//all containers for cd_r1
+				[ce_r1]			{ search_category = "ce_r1";		}	//all containers for ce_r1
+				[ce_r2]			{ search_category = "ce_r2";		}	//all containers for ce_r2
+				[cf_r1]			{ search_category = "cf_r1";		}	//all containers for cf_r1
+				[cr_r1]			{ search_category = "cr_r1";		}	//all containers for cr_r1
+				[dc_r0]			{ search_category = "dc_r0";		}	//all containers for dc_r0
+				[dc_r1]			{ search_category = "dc_r1";		}	//all containers for dc_r1
+				[dc_r2]			{ search_category = "dc_r2";		}	//all containers for dc_r2
+				[df_bandits]	{ search_category = "df_bandits";	}	//all containers for df_bandits
+				[df_r0]			{ search_category = "df_r0";		}	//all containers for df_r0
+				[df_r1]			{ search_category = "df_r1";		}	//all containers for df_r1
+				[dl_r1]			{ search_category = "dl_r1";		}	//all containers for dl_r1
+				[dm_r10]		{ search_category = "dm_r10";		}	//all containers for dm_r10
+				[dm_r11]		{ search_category = "dm_r11";		}	//all containers for dm_r11
+				[dm_r2]			{ search_category = "dm_r2";		}	//all containers for dm_r2
+				[dm_r8]			{ search_category = "dm_r8";		}	//all containers for dm_r8
+				[ds_r1]			{ search_category = "ds_r1";		}	//all containers for ds_r1
+				[ds_r2]			{ search_category = "ds_r2";		}	//all containers for ds_r2
+				[ed_r1]			{ search_category = "ed_r1";		}	//all containers for ed_r1
+				[fc_r1]			{ search_category = "fc_r1";		}	//all containers for fc_r1
+				[fd_r1]			{ search_category = "fd_r1";		}	//all containers for fd_r1
+				[fh_r1]			{ search_category = "fh_r1";		}	//all containers for fh_r1
+				[fh_r3]			{ search_category = "fh_r3";		}	//all containers for fh_r3
+				[fk_01]			{ search_category = "fk_01";		}	//all containers for fk_01
+				[fk_02]			{ search_category = "fk_02";		}	//all containers for fk_02
+				[fk_03]			{ search_category = "fk_03";		}	//all containers for fk_03
+				[fk_04]			{ search_category = "fk_04";		}	//all containers for fk_04
+				[gc_r1]			{ search_category = "gc_r1";		}	//all containers for gc_r1
+				[gc_r2]			{ search_category = "gc_r2";		}	//all containers for gc_r2
+				[gc_r3]			{ search_category = "gc_r3";		}	//all containers for gc_r3
+				[gd_a_r1]		{ search_category = "gd_a_r1";		}	//all containers for gd_a_r1
+				[gd_b]			{ search_category = "gd_b";			}	//all containers for gd_b
+				[gi_r1]			{ search_category = "gi_r1";		}	//all containers for gi_r1
+				[gi_r10]		{ search_category = "gi_r10";		}	//all containers for gi_r10
+				[gi_r11]		{ search_category = "gi_r11";		}	//all containers for gi_r11
+				[gi_r3]			{ search_category = "gi_r3";		}	//all containers for gi_r3
+				[gi_r3_b]		{ search_category = "gi_r3_b";		}	//all containers for gi_r3_b
+				[gi_r4]			{ search_category = "gi_r4";		}	//all containers for gi_r4
+				[gi_r5]			{ search_category = "gi_r5";		}	//all containers for gi_r5
+				[gl_r1]			{ search_category = "gl_r1";		}	//all containers for gl_r1
+				[gom2]			{ search_category = "gom2";			}	//all containers for gom2
+				[hc_r1]			{ search_category = "hc_r1";		}	//all containers for hc_r1
+				[hs_r1]			{ search_category = "hs_r1";		}	//all containers for hs_r1
+				[id_r1]			{ search_category = "id_r1";		}	//all containers for id_r1
+				[id_r2]			{ search_category = "id_r2";		}	//all containers for id_r2
+				[lc_r1a]		{ search_category = "lc_r1a";		}	//all containers for lc_r1a
+				[lc_r5]			{ search_category = "lc_r5";		}	//all containers for lc_r5
+				[ll_01]			{ search_category = "ll_01";		}	//all containers for ll_01
+				[ll_02]			{ search_category = "ll_02";		}	//all containers for ll_02
+				[ll_03]			{ search_category = "ll_03";		}	//all containers for ll_03
+				[ll_05]			{ search_category = "ll_05";		}	//all containers for ll_05
+				[ll_06]			{ search_category = "ll_06";		}	//all containers for ll_06
+				[mg_side]		{ search_category = "mg_side";		}	//all containers for mg_side
+				[mm_r1]			{ search_category = "mm_r1";		}	//all containers for mm_r1
+				[nt_r1]			{ search_category = "nt_r1";		}	//all containers for nt_r1
+				[path2ac]		{ search_category = "path2ac";		}	//all containers for path2ac
+				[path2ce]		{ search_category = "path2ce";		}	//all containers for path2ce
+				[path2crypts]	{ search_category = "path2crypts";	}	//all containers for path2crypts
+				[path2dc]		{ search_category = "path2dc";		}	//all containers for path2dc
+				[path2dm]		{ search_category = "path2dm";		}	//all containers for path2dm
+				[path2nt]		{ search_category = "path2nt";		}	//all containers for path2nt
+				[path2sd]		{ search_category = "path2sd";		}	//all containers for path2sd
+				[path2sd_a]		{ search_category = "path2sd_a";	}	//all containers for path2sd_a
+				[dunes2hades]	{ search_category = "dunes2hades";	}	//all containers for dunes2hades
+				[sd_r1]			{ search_category = "sd_r1";		}	//all containers for sd_r1
+				[sd_r2]			{ search_category = "sd_r2";		}	//all containers for sd_r2
+				[sq_01]			{ search_category = "sq_01";		}	//all containers for sq_01
+				[sq_02]			{ search_category = "sq_02";		}	//all containers for sq_02
+				[sq_03]			{ search_category = "sq_03";		}	//all containers for sq_03
+				[sq_04]			{ search_category = "sq_04";		}	//all containers for sq_04
+				[sq_05]			{ search_category = "sq_05";		}	//all containers for sq_05
+				[sq_06]			{ search_category = "sq_06";		}	//all containers for sq_06
+				[sr_r1]			{ search_category = "sr_r1";		}	//all containers for sr_r1
+				[sr_r2]			{ search_category = "sr_r2";		}	//all containers for sr_r2
+				[sr_r3]			{ search_category = "sr_r3";		}	//all containers for sr_r3
+				[sr_r4]			{ search_category = "sr_r4";		}	//all containers for sr_r4
+				[sr_side]		{ search_category = "sr_side";		}	//all containers for sr_side
+				[tr_05]			{ search_category = "tr_05";		}	//all containers for tr_05
+				[tp_r1]			{ search_category = "tp_r1";		}	//all containers for tp_r1
+				[tr_r1]			{ search_category = "tr_r1";		}	//all containers for tr_r1
+				[tr_r2]			{ search_category = "tr_r2";		}	//all containers for tr_r2
+				[tr_r3]			{ search_category = "tr_r3";		}	//all containers for tr_r3
+				[wd_r1]			{ search_category = "wd_r1";		}	//all containers for wd_r1
+			}
+			[Edens_End]
+			{
+				[ee_regional_container]
+				{
+					[ee_00]			{ search_category = "ee_00";		}	//all containers for ee_00
+					[ee_01]			{ search_category = "ee_01";		}	//all containers for ee_01
+					[ee_02]			{ search_category = "ee_02";		}	//all containers for ee_02
+					[ee_03]			{ search_category = "ee_03";		}	//all containers for ee_03
+					[ee_03a]		{ search_category = "ee_03a";		}	//all containers for ee_03a
+					[ee_04]			{ search_category = "ee_04";		}	//all containers for ee_04
+					[ee_05]			{ search_category = "ee_05";		}	//all containers for ee_05
+					[ee_05a]		{ search_category = "ee_05a";		}	//all containers for ee_05a
+					[ee_06]			{ search_category = "ee_06";		}	//all containers for ee_06
+					[ee_07]			{ search_category = "ee_07";		}	//all containers for ee_07
+					[ee_07a]		{ search_category = "ee_07a";		}	//all containers for ee_07a
+					[ee_08]			{ search_category = "ee_08";		}	//all containers for ee_08
+					[ee_09]			{ search_category = "ee_09";		}	//all containers for ee_09
+					[ee_10]			{ search_category = "ee_10";		}	//all containers for ee_10
+				}
+				[ee_detail]
+				{
+					search_category  = "ee_container_detail";   //all containers like barrels, crates, jugs, sarcophagi and lids
+				}
+			}
+			[collab_ss_container]
+			{
+				[ss_1_valley]		{ search_category = "ss_1_valley";		}	//all containers for ss_1_valley
+				[ss_1a_family-tomb]	{ search_category = "ss_1a_family-tomb";}	//all containers for ss_1a_family-tomb
+				[ss_2_prison]		{ search_category = "ss_2_prison";		}	//all containers for ss_2_prison
+				[ss_3_plains]		{ search_category = "ss_3_plains";		}	//all containers for ss_3_highway & ss_4_merc_camp
+				[ss_5_dungeon]		{ search_category = "ss_5_dungeon";		}	//all containers for ss_5_dungeon
+				[ss_6_death_valley]	{ search_category = "ss_6_death_valley";}	//all containers for ss_6_death_valley
+				[ss_6a_basement]	{ search_category = "ss_6a_basement";	}	//all containers for ss_6a_basement
+				[ss_7_crypt]		{ search_category = "ss_7_crypt";		}	//all containers for ss_7_crypt
+				[ss_8_volcano]		{ search_category = "ss_8_volcano";		}	//all containers for ss_8_volcano
+				[ss_9_exit]			{ search_category = "ss_9_exit";		}	//all containers for ss_9_exit
+			}
+			[collab_ek_container]
+			{
+				[1_0]	{ search_category = "1_0"; }
+				[1_1]	{ search_category = "1_1"; }
+				[1_2]	{ search_category = "1_2"; }
+				[1_3]	{ search_category = "1_3"; }
+				[1_4]	{ search_category = "1_4"; }
+			}
+		}
+		[Lighting]
+		{
+			search_category  = "lighting";     //all light fixtures like lamps, torches, candles, firepits
+		}	
+	}
+
+	[Frags]
+	{
+	search_template = "frag";    //all frags
+	
+}
+
+	[Node_Objects]
+	{
+		search_category  = "node";     //all node specific objects like windows, waterwheels, mill vanes, broken walls
+		search_category = "dsx_node";
+	}
+	
+	[Treasure]
+	{
+		[Inventory]
+		{
+			search_category  = "treasure";   //all inventory treasure like gold, gems, jewelry, fury eyes
+			search_template = "amulet";
+			
+			
+		}		
+		[Spells]
+		{
+			search_category  = "magic";    //all magic spells
+			
+		}
+		[Magic_books]
+		{
+			search_category  = "mbook";    //all magic books
+			
+		}
+		
+		[Potions]
+		{
+			search_category = "potions";     //all potions
+			
+		}
+		[Quest]
+		{
+			search_category = "quest";     //all quest-related objects
+			
+		}
+		[Lorebooks]
+		{
+			search_category = "lorebook";     //all lorebooks
+			
+		}
+		[Backpacks]
+		{
+			search_category = "backpack";		// all backpacks
+		}
+		[Set_Items]
+		{
+			search_category = "set_item";
+		}		
+	}
+	
+	[Gizmos]
+	{
+	
+		[Interactive_tools]
+		{
+			search_category  = "levers";    //all levers
+			search_category  = "interactive";    //all interactive objects like health fountains
+			
+		}
+		[Triggers]
+		{
+			search_category = "trigger";     //all triggers
+			
+		}
+		
+		[Commands]
+		{
+			[AI]
+			{
+				[Catalyst_Commands]
+				{
+					search_category = "catalyst";      //C type commands
+				}
+				[Target_Commands]
+				{
+					search_category = "target";      //T type commands
+				}
+			}
+			[Specialized]
+			{
+				search_category = "zurb";      //Specilized commands which don't use normal jat/next scid
+				search_category = "skrev";		//Skrit Event commands
+			}
+			[Effects]
+			{
+				search_category = "effects";    //All effect commands like camera shakes
+			}
+			[NIS]
+			{
+				search_category = "nis";      //NIS commands
+			}
+		}
+		[Special]
+		{
+			search_category = "emitter";     //SFX emitters like froth and smoke
+			
+			search_category = "special";     //misc special features like shrine effects and spot snappers
+		}
+		[Traps]
+		{
+			search_category = "trap";     //SFX traps like fireballs
+		}
+		[Elevator]
+		{
+			search_category = "elevator";    //elevators
+		}
+		[Generators]
+		{
+			[Base]
+			{
+				[regular]
+				{
+					search_category = "1w_generator";    //generators and spawners
+				}
+				[veteran]
+				{
+					search_category = "2w_generator";    //generators and spawners
+				}
+				[elite]
+				{
+					search_category = "3w_generator";    //generators and spawners
+				}
+				
+				
+			}      	
+			
+			[Automated]
+			{
+				
+				[regular]
+				{
+					search_category = "1w_automated";    //automated generators
+				}
+				[veteran]
+				{
+					search_category = "2w_automated";    //automated generators
+				}
+				[elite]
+				{
+					search_category = "3w_automated";    //automated generators
+				}
+			}			
+		}
+		[ee_gizmo]
+		{
+			[ee_party_commands]
+			{
+				search_category = "ee_gizmo_party_commands";
+			}
+			[ee_generic_gizmo]
+			{
+				search_category = "ee_gizmo_generic";
+			}
+			[ee_player_gizmo]
+			{
+				search_category = "ee_gizmo_player";
+			}
+			[ee_camera_gizmo]
+			{
+				search_category = "ee_gizmo_camera";
+			}
+			[ee_NIS_gizmo]
+			{
+				search_category = "ee_gizmo_NIS";
+			}
+			[ee_quest_gizmo]
+			{
+				search_category = "ee_gizmo_quest";
+			}
+		}
+		[collab_gizmo]
+		{
+			search_category = "collab_ss_gizmo";
+		}
+	}
+	[Doors]
+	{
+	
+		[normal]
+		{
+			search_category  = "doors";    //all normal doors
+		}
+		[Use_toggle]
+		{
+			search_category  = "use_toggle";    //all use toggle doors
+		}
+		[ee_door]
+		{
+			search_category = "ee_door";
+		}
+	}
+	[Weapons]
+	{
+		[Swords]
+		{
+			search_template = "sd_g_";    //all swords
+			search_template = "sd_ra_";
+			search_template = "sd_un_";
+			search_template = "ss_g_";
+			search_template = "ss_ra_";
+			search_template = "ss_un_";
+			search_template = "scythe_";
+		}
+		[Staves]
+		{
+			search_category = "staff";
+			
+			search_template = "st_g_";
+			search_template = "st_ra_";
+			search_template = "st_un_";
+		}
+		[Maces]
+		{
+			search_template = "mc";
+		}
+		[Hammers]
+		{
+			search_template = "hm";
+		}
+		[Daggers]
+		{
+			search_template = "dg_g_";
+		}
+		[Clubs]
+		{
+			search_template = "cb_g_";
+			search_template = "cb_un_";
+			search_template = "cb_ra_";
+		}
+		[Bows]
+		{
+			search_template = "bw_g_";
+			search_template = "bw_ra_";
+			search_template = "bw_un_";
+		}
+		[Axes]
+		{
+			search_template = "ax";
+			
+		}
+		[Misc]
+		{
+			search_template = "tongs";
+			search_category = "other";
+		}
+	}
+	[Armor]
+	{
+		[Body]
+		{
+			[Chain]
+			{
+				search_template = "bd_ch_";
+				search_template = "bd_sc";
+				search_template = "bd_un_ch";
+				search_template = "bd_un_sc";
+				search_template = "bd_ra_ch";
+				search_template = "bd_ra_sc";
+			}
+			[Cloth]
+			{
+				search_template = "bd_ra_ro_";
+				search_template = "bd_ro_";
+			}
+			[Leather]
+			{
+				search_template = "bd_bl_";
+				search_template = "bd_le_";
+				search_template = "bd_sl_";
+				search_template = "bd_ra_bl_";
+				search_template = "bd_ra_le_";
+				search_template = "bd_ra_sl_";
+				search_template = "bd_un_bl_";
+				search_template = "bd_un_le_";
+				search_template = "bd_un_sl_";
+				
+			}
+			[Plate]
+			{
+				search_template = "bd_ba_";
+				search_template = "bd_bp";
+				search_template = "bd_br";
+				search_template = "bd_fp";
+				search_template = "bd_pl";
+				search_template = "bd_ra_ba";
+				search_template = "bd_ra_bp";
+				search_template = "bd_ra_br";
+				search_template = "bd_ra_fp";
+				search_template = "bd_ra_pl";
+				search_template = "bd_un_ba";
+				search_template = "bd_un_bp";
+				search_template = "bd_un_br";
+				search_template = "bd_un_fp";
+				search_template = "bd_un_pl";
+				
+			}
+		}
+		[Boots]
+		{
+			search_template = "bo_bo_";
+			search_template = "bo_gr";
+			search_template = "bo_ra_bo";
+			search_template = "bo_ra_gr";
+			search_template = "bo_un_bo";
+			search_template = "bo_un_gr";
+			
+		}
+		[Gloves]
+		{
+			search_template = "gl_gl";
+			search_template = "gl_ga";
+			search_template = "gl_un_gl";
+			search_template = "gl_un_ga";
+			search_template = "gl_ra_gl";
+			search_template = "gl_ra_ga";
+		}
+		[Helms]
+		{
+			search_template = "he_ca";
+			search_template = "he_fu";
+			search_template = "he_op";
+			search_template = "he_ra_ca";
+			search_template = "he_ra_fu";
+			search_template = "he_ra_op";
+			search_template = "he_un_ca";
+			search_template = "he_un_fu";
+			search_template = "he_un_op";
+			search_template = "he_threestorms";
+		}
+		[Shields]
+		{
+			search_template = "sh_m";
+			search_template = "sh_u";
+			search_template = "sh_w";
+			search_template = "sh_z";
+			search_template = "sh_ra";
+		}
+	}	
+	
+	[Actors]
+	{
+		[Ambients]
+		{
+			[Regular]
+			{
+				search_category = "1W_ambients";   //neutrally aligned creatures like deer, cows, bears
+			}
+			
+			[Veteran]
+			{
+				search_category = "2W_ambients";
+			}
+			[Elite]
+			{
+				search_category = "3W_ambients";
+			}	
+		}
+		
+		[Evil_A]
+		{
+			//Primary evil races of Krug, Seck, Droog, and Goblins
+			[Regular]
+			{
+				search_category = "1W_evil_a";   
+			}
+			
+			[Veteran]
+			{
+				search_category = "2W_evil_a";
+			}
+			[Elite]
+			{
+				search_category = "3W_evil_a";
+			}
+		}
+		
+		[Evil_B]
+		{                                 //Evil boss monsters like the dragon, fury, giant spider, goblin inventor, gom
+			
+			[Regular]
+			{
+				search_category = "1W_evil_b";   
+			}
+			
+			[Veteran]
+			{
+				search_category = "2W_evil_b";
+			}
+			[Elite]
+			{
+				search_category = "3W_evil_b";
+			}
+		}
+		
+		[Evil_C]
+		{
+			//Lesser evil races like skeletons, trog, cyclops, etc
+			[Regular]
+			{
+				search_category = "1W_evil_c";   
+			}
+			
+			[Veteran]
+			{
+				search_category = "2W_evil_c";
+			}
+			[Elite]
+			{
+				search_category = "3W_evil_c";
+			}
+		}
+		
+		[Evil_D]
+		{
+			//Individual evil monsters like molten golem, frostnig spider, googore
+			[Regular]
+			{
+				search_category = "1W_evil_d";   
+			}
+			
+			[Veteran]
+			{
+				search_category = "2W_evil_d";
+			}
+			[Elite]
+			{
+				search_category = "3W_evil_d";
+			}
+		}
+		[Collab_Evil]
+		{
+			[ss_1_valley_enemies]
+			{
+				search_category = "ss_1_valley_enemies"; 
+			}
+			[ss_1a_family-tomb_enemies]
+			{
+				search_category = "ss_1a_family-tomb_enemies"; 
+			}
+			[ss_2_prison_enemies]
+			{
+				search_category = "ss_2_prison_enemies"; 
+			}
+			[ss_3_highway_enemies]
+			{
+				search_category = "ss_3_highway_enemies"; 
+			}
+			[ss_4_merc_camp_enemies]
+			{
+				search_category = "ss_4_merc_camp_enemies"; 
+			}
+			[ss_5_dungeon_enemies]
+			{
+				search_category = "ss_5_dungeon_enemies"; 
+			}
+			[ss_6_death_valley_enemies]
+			{
+				search_category = "ss_6_death_valley_enemies"; 
+			}
+			[ss_6a_basement_enemies]
+			{
+				search_category = "ss_6a_basement_enemies"; 
+			}
+			[ss_7_crypt_enemies]
+			{
+				search_category = "ss_7_crypt_enemies"; 
+			}
+			[ss_8_volcano_enemies]
+			{
+				search_category = "ss_8_volcano_enemies"; 
+			}
+			[ss_9_exit_enemies]
+			{
+				search_category = "ss_9_exit_enemies"; 
+			}
+			
+		}
+		
+		[Good_Characters]    //The Reaper has been assigned to this category even though he is templated as an Evil D. -Sarah 11/16/00
+		{
+			[Guards_and_PMs]
+			{
+				//Non-player characters like barkeep, Inkeep, blacksmith
+				//good-aligned characters like the droog_villager
+				//Main player characters Farmgirl and Farmboy
+				//characters that can alternate between NPC and PC like Merik, townspeople, dwarven foreman
+				[Regular]
+				{
+					search_category  = "1W_npc";      
+					search_category  = "1W_good";      
+					search_category  = "1W_hero";     
+					search_category  = "1W_character";   
+				}
+				
+				[Veteran]
+				{
+					search_category  = "2W_npc";      
+					search_category  = "2W_good";      
+					search_category  = "2W_hero";     
+					search_category  = "2W_character";
+				}
+				[Elite]
+				{
+					search_category  = "3W_npc";      
+					search_category  = "3W_good";      
+					search_category  = "3W_hero";     
+					search_category  = "3W_character";
+				}
+			}
+			[Townspeople]
+			{
+				//NPC Townspeople
+				[Regular]
+				{
+					search_category = "1W_townsperson";   
+				}
+				
+				[Veteran]
+				{
+					search_category = "2W_townsperson";
+				}
+				[Elite]
+				{
+					search_category = "3W_townsperson";
+				}
+			}
+			[Storekeeps]
+			{
+				// NPC Shopkeepers
+				[Regular]
+				{
+					search_category = "1W_shopkeep";   
+				}
+				
+				[Veteran]
+				{
+					search_category = "2W_shopkeep";
+				}
+				[Elite]
+				{
+					search_category = "3W_shopkeep";
+				}
+			}
+			[ee_npc_storekeeps] //NPC's that are able to sell items.
+			{
+				search_category = "ee_npc_storekeeps";
+			}
+			[ee_npc_quest] //Anyone explicitly attached to a quest, whether they can fight or not.
+			{
+				search_category = "ee_npc_quest";
+			}
+			[ee_npc_guard]
+			{
+				search_category = "ee_npc_guard";
+			}
+			[ee_npc_regular] //Generic NPC's with no other category.
+			{
+				search_category = "ee_npc_regular";
+			}
+			[ee_npc_potential_member]
+			{
+				search_category = "ee_npc_potential_member";
+			}
+			[ee_npc_igc] //I dont know why this category still exists but the editor kept crashing without it.
+			{
+				search_category = "ee_npc_igc";
+			}
+			[ee_npc_test] //Anything I am testing random stuff with.
+			{
+				search_category = "ee_npc_test";
+			}
+		}
+	}
+}

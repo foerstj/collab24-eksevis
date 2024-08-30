@@ -4,39 +4,37 @@
 	doc = "C24_barrel_mossy_c24_1_1";
 	specializes = base_container_barrel;
 	[aspect]
-		{
-			model = m_i_cav_barrel-01;
-		}
+	{
+		model = m_i_cav_barrel-01;
+	}
 	[attack]
+	{
+		damage_max = 20;
+		damage_min = 4;
+	}
+	[inventory]
+	{
+		[pcontent]
 		{
-			damage_max = 20;
-			damage_min = 4;
-		}
-	[inventory
-		{
-			[pcontent]
+			[oneof*]
+			{
+				[gold*]
 				{
-					[oneof*]
-					{
-						[gold*]
-						{
-							chance = 0.2;
-							max = 32;
-							min = 6;
-						}
-						[oneof*]
-						{
-							chance = 0.2;
-							il_main = potion_mana_small;
-							il_main = potion_health_small;
-						}
-						[oneof*]
-						{
-							chance = 0.25;
-							il_main = potion_mana_small;
-							il_main = potion_health_small;
-						}
-					}
+					chance = 0.2;
+					max = 32;
+					min = 6;
+				}
+				[oneof*]
+				{
+					chance = 0.2;
+					il_main = potion_mana_small;
+					il_main = potion_health_small;
+				}
+				[oneof*]
+				{
+					chance = 0.25;
+					il_main = potion_mana_small;
+					il_main = potion_health_small;
 				}
 			}
 		}
@@ -48,47 +46,45 @@
 	doc = "C24_barrel_mossy_c24_1_4";
 	specializes = base_container_barrel;
 	[aspect]
-		{
-			model = m_i_cav_barrel-01;
-		}
+	{
+		model = m_i_cav_barrel-01;
+	}
 	[attack]
+	{
+		damage_max = 20;
+		damage_min = 4;
+	}
+	[inventory]
+	{
+		[pcontent]
 		{
-			damage_max = 20;
-			damage_min = 4;
-		}
-	[inventory
-		{
-			[pcontent]
+			[oneof*]
+			{
+				[gold*]
 				{
-					[oneof*]
-					{
-						[gold*]
-						{
-							chance = 0.2;
-							max = 56;
-							min = 10;
-						}
-						[oneof*]
-						{
-							chance = 0.2;
-							il_main = potion_mana_small;
-							il_main = potion_health_small;
-						}
-						[oneof*]
-						{
-							chance = 0.25;
-							il_main = potion_mana_small;
-							il_main = potion_health_small;
-						}
-					}
+					chance = 0.2;
+					max = 56;
+					min = 10;
+				}
+				[oneof*]
+				{
+					chance = 0.2;
+					il_main = potion_mana_small;
+					il_main = potion_health_small;
+				}
+				[oneof*]
+				{
+					chance = 0.25;
+					il_main = potion_mana_small;
+					il_main = potion_health_small;
 				}
 			}
 		}
 	}
 }
-[crate_mossy_c24_1_1]
-
-	category_name = "path2dm";
+[t:template,n:crate_mossy_c24_1_1]
+{
+	category_name = "1_1";
 	doc = "c24_crate_mossy_1_1";
 	specializes = base_container_wood;
 	[aspect]
