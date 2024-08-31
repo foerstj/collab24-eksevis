@@ -2457,6 +2457,13 @@
 	  p position = 1.6765,0,0.780854,0xafa4e712;
 	}
 }
+[t:grass_sea_09,n:0x011000c0]
+{
+	[placement]
+	{
+	  p position = 1.49157,0,-3.61508,0xe55fad00;
+	}
+}
 [t:tree_grs_oak_02,n:0x011000da]
 {
 	[placement]
@@ -4191,12 +4198,5 @@
 	[placement]
 	{
 	  p position = 2.38904,-0.949999,-2.5706,0x49aebfcc;
-	}
-}
-[t:grass_sea_09,n:0x011000c0]
-{
-	[placement]
-	{
-	  p position = 1.49157,0,-3.61508,0xe55fad00;
 	}
 }

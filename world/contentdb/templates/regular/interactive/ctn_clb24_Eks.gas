@@ -5,7 +5,8 @@
 	specializes = base_container_barrel;
 	[aspect]
 	{
-		model = m_i_cav_barrel-01;
+		model = m_i_glb_barrel;
+		[textures] {0=b_i_swp_barrel_small;}
 	}
 	[attack]
 	{
@@ -47,7 +48,8 @@
 	specializes = base_container_barrel;
 	[aspect]
 	{
-		model = m_i_cav_barrel-01;
+		model = m_i_glb_barrel;
+		[textures] {0=b_i_swp_barrel_small;}
 	}
 	[attack]
 	{
@@ -90,10 +92,7 @@
 	[aspect]
 	{
 		model = m_i_glb_crate-krug;
-		[textures]
-		{
-			0 = b_i_glb_crate-02;
-		}
+		[textures]	{0=b_i_swp_crate-01;}
 	}
 	[attack]
 	{
