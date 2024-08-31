@@ -1,0 +1,56 @@
+[t:template,n:base_sarcophagus_cav_01_open]
+{
+	specializes			= non_interactive_blocking;
+
+	doc					= "sarcophagus_stone_ornate";
+    category_name       = "container";
+
+	common:screen_name	= "Sarcophagus";
+
+	aspect:model		= m_i_cav_sarcophagus-01;
+	//aspect:material 	= stone;
+}
+
+[t:template,n:sarcophagus_cav_01_open_01]
+{
+	specializes			= base_sarcophagus_cav_01_open;
+
+	[body]
+	{
+		initial_chore = chore_default;
+		[chore_dictionary]
+		{
+			chore_prefix = a_i_cav;
+			[chore_default]
+			{
+				skrit = transition;
+				[anim_files]
+				{
+					00=sarcophagus-open-01;
+				}
+			}
+		}
+	}
+}
+
+[t:template,n:sarcophagus_cav_01_open_02]
+{
+	specializes			= base_sarcophagus_cav_01_open;
+
+	[body]
+	{
+		initial_chore = chore_default;
+		[chore_dictionary]
+		{
+			chore_prefix = a_i_cav;
+			[chore_default]
+			{
+				skrit = transition;
+				[anim_files]
+				{
+					00=sarcophagus-open-02;
+				}
+			}
+		}
+	}
+}

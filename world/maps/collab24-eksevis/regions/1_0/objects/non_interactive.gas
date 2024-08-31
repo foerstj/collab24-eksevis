@@ -83,6 +83,21 @@
 	  p position = 1.0463,0.282849,1.17889,0x4d5a0be6;
 	}
 }
+[t:container_cav_break_01,n:0x0100001f]
+{
+	[placement]
+	{
+	  p position = 0.0415688,0.0229627,1.61942,0xee6e1fc7;
+	}
+}
+[t:container_cav_break_01,n:0x0100001d]
+{
+	[placement]
+	{
+	  q orientation = 0,-0.707107,0,0.707107;
+	  p position = -1.78591,0,1.47619,0x11e47ff6;
+	}
+}
 [t:urn_cav_break_01,n:0x01000032]
 {
 	[placement]
@@ -347,6 +362,20 @@
 	  p position = 0.893124,-1.5,-0.556349,0xd8cf677b;
 	}
 }
+[t:container_cav_break_01,n:0x01000024]
+{
+	[placement]
+	{
+	  p position = -0.412731,0,-1.99205,0x50e42092;
+	}
+}
+[t:container_cav_break_01,n:0x01000022]
+{
+	[placement]
+	{
+	  p position = -1.49249,0,1.12941,0x186b4de7;
+	}
+}
 [t:urn_cav_break_01,n:0x01000048]
 {
 	[placement]
@@ -376,19 +405,11 @@
 	  p position = 3.54063,-1.5,0.790431,0x55df26a0;
 	}
 }
-[t:urn_cav_break_02,n:0x0100004b]
+[t:container_cav_break_01,n:0x01000023]
 {
 	[placement]
 	{
-	  q orientation = 0,0.707107,0,0.707107;
-	  p position = 1.94438,1.19209e-007,1.9848,0xc65ed4cd;
-	}
-}
-[t:urn_cav_break_01,n:0x01000074]
-{
-	[placement]
-	{
-	  p position = -1.63777,0,-0.864464,0xdefbe6f9;
+	  p position = -1.12998,9.53674e-007,-1.65853,0xb84cac03;
 	}
 }
 [t:urn_cav_break_01,n:0x01000046]
@@ -403,6 +424,21 @@
 	[placement]
 	{
 	  p position = 3.61036,-1.5,0.093019,0x9976bb7c;
+	}
+}
+[t:urn_cav_break_02,n:0x0100004b]
+{
+	[placement]
+	{
+	  q orientation = 0,0.707107,0,0.707107;
+	  p position = 1.94438,1.19209e-007,1.9848,0xc65ed4cd;
+	}
+}
+[t:urn_cav_break_01,n:0x01000074]
+{
+	[placement]
+	{
+	  p position = -1.63777,0,-0.864464,0xdefbe6f9;
 	}
 }
 [t:rock_grs_03,n:0x01000003]
@@ -430,6 +466,14 @@
 	{
 	  q orientation = 0,0.707107,0,0.707107;
 	  p position = -0.774442,-1.5,-0.624786,0xa0eb4fa9;
+	}
+}
+[t:rock_grs_02,n:0x01000041]
+{
+	[placement]
+	{
+	  q orientation = 0,1,0,2.98023e-008;
+	  p position = 0.678029,-1.5,0.323646,0xa0eb4fa9;
 	}
 }
 [t:rock_grs_03,n:0x0100003a]
@@ -519,6 +563,13 @@
 	  p position = 1.8616,9.53674e-007,1.35274,0x607b15ed;
 	}
 }
+[t:container_cav_break_01,n:0x01000020]
+{
+	[placement]
+	{
+	  p position = 3.671,-1.5,-2.00985,0xbecd7501;
+	}
+}
 [t:urn_cav_break_01,n:0x01000038]
 {
 	[placement]
@@ -562,28 +613,6 @@
 	  p position = -1.23129,0,1.15681,0xcf77949e;
 	}
 }
-[t:container_cav_break_01,n:0x0100001d]
-{
-	[placement]
-	{
-	  q orientation = 0,-0.707107,0,0.707107;
-	  p position = -1.78591,0,1.47619,0x11e47ff6;
-	}
-}
-[t:container_cav_break_01,n:0x0100001f]
-{
-	[placement]
-	{
-	  p position = 0.0415688,0.0229627,1.61942,0xee6e1fc7;
-	}
-}
-[t:container_cav_break_01,n:0x01000020]
-{
-	[placement]
-	{
-	  p position = 3.671,-1.5,-2.00985,0xbecd7501;
-	}
-}
 [t:container_cav_break_01,n:0x01000021]
 {
 	[placement]
@@ -591,32 +620,75 @@
 	  p position = -1.84007,0,1.55755,0xdeb50015;
 	}
 }
-[t:container_cav_break_01,n:0x01000022]
+[t:sarcophagus_cav_01_open_02,n:0x0100002f]
 {
 	[placement]
 	{
-	  p position = -1.49249,0,1.12941,0x186b4de7;
+	  q orientation = 0,-0.71325,0,0.700909;
+	  p position = 1.42262,0,-0.838053,0x0d23df37;
 	}
 }
-[t:container_cav_break_01,n:0x01000023]
+[t:sarcophagus_cav_01_open_01,n:0x01000033]
 {
 	[placement]
 	{
-	  p position = -1.12998,9.53674e-007,-1.65853,0xb84cac03;
+	  q orientation = 0,-0.681998,0,0.731354;
+	  p position = 1.32572,0,0.752129,0x0d23df37;
 	}
 }
-[t:container_cav_break_01,n:0x01000024]
+[t:sarcophagus_cav_01_open_02,n:0x01000039]
 {
 	[placement]
 	{
-	  p position = -0.412731,0,-1.99205,0x50e42092;
+	  q orientation = 0,-0.999848,0,-0.0174524;
+	  p position = -0.0251312,0,1.44608,0x6fc694a8;
 	}
 }
-[t:rock_grs_02,n:0x01000041]
+[t:sarcophagus_cav_01_open_01,n:0x01000042]
 {
 	[placement]
 	{
-	  q orientation = 0,1,0,2.98023e-008;
-	  p position = 0.678029,-1.5,0.323646,0xa0eb4fa9;
+	  q orientation = 0,0.694659,0,0.71934;
+	  p position = -1.2507,0,-0.0182896,0xef600530;
+	}
+}
+[t:sarcophagus_cav_01_open_01,n:0x01000059]
+{
+	[placement]
+	{
+	  q orientation = 0,1.56925e-007,0,-1;
+	  p position = -0.452545,0,-1.46711,0xd9536a7d;
+	}
+}
+[t:sarcophagus_cav_01_open_02,n:0x0100005b]
+{
+	[placement]
+	{
+	  q orientation = 0,0.999848,0,-0.0174526;
+	  p position = 0.0207288,0,1.02179,0x7bd97fef;
+	}
+}
+[t:sarcophagus_cav_01_open_02,n:0x0100005c]
+{
+	[placement]
+	{
+	  q orientation = 0,0.71934,0,0.694658;
+	  p position = -0.841036,0,0.500931,0xe708a5cc;
+	}
+}
+[t:sarcophagus_cav_01_open_01,n:0x0100005d]
+{
+	[placement]
+	{
+	  q orientation = 0,-1,0,1.68435e-007;
+	  p position = -0.862245,0,0.806763,0xc65ed4cd;
+	}
+}
+[t:sarcophagus_cav_01_open_02,n:0x01000062]
+{
+	[placement]
+	{
+	  q orientation = 0,0.999962,0,0.00872623;
+	  p position = -0.36607,0,1.16051,0xc312b496;
 	}
 }
