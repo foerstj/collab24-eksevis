@@ -9,4 +9,12 @@
 		please, whoever is reading this, warn the villagers or at least make that blasted goblin squeel. The informant has --well, informed-- me that his base is found in Sunset Slopes of Larissa.\n
 		Unfortunately there isn't any ideal way to get there from here. You'll have to go through the Frostfingers and the Underlands";
 	}
+	[eks_abandoned_camp]
+	{
+		description = "It is here that we have liked to have met an end.\n
+		It was our choice to have left our homes and found this place -- a place of comfort and peace and of tranquility. We had hated the life provided to us in the the Kingdom of Ehb, and much of us had also disliked the Utraean way of life\n
+		We chose to spend the rest of our like-to-be short lives together, in the midst of what we had thought to be nowhere. The road was quiet most times, our days and nights following likewise as such.\n
+		Khars had left to explore and found a small village not far away from where we had settled, but he had came back with the news that they showed little care to where we lived, and even less interest to interfere with our small group\n
+		Shadeni found ruins just west of us. Many had looked as though they were only abandoned within the last several decades, but little of actual use was left there.\n";
+	}
 }
