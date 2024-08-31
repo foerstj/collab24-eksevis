@@ -1,0 +1,269 @@
+[t:sarcophagus_cav_01,n:0x01000031]
+{
+	[common]
+	{
+	  b is_pcontent_allowed = false;
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = send_world_message("we_req_use",0x01000031,0f,"default","every",0);
+			  b can_self_destruct = true;
+				condition* = receive_world_message("we_entered_world",0,"on_first_message");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+		}
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.700909,0,0.713251;
+	  p position = 1.54678,0,-0.601607,0x0d23df37;
+	}
+}
+[t:sarcophagus_cav_01,n:0x01000034]
+{
+	[common]
+	{
+	  b is_pcontent_allowed = false;
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = send_world_message("we_req_use",0x01000034,0f,"default","every",0);
+			  b can_self_destruct = true;
+				condition* = receive_world_message("we_entered_world",0,"on_first_message");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+		}
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.700909,0,0.713251;
+	  p position = 1.54033,0,1.17461,0x0d23df37;
+	}
+}
+[t:sarcophagus_cav_01,n:0x01000036]
+{
+	[common]
+	{
+	  b is_pcontent_allowed = false;
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = send_world_message("we_req_use",0x01000036,0f,"default","every",0);
+			  b can_self_destruct = true;
+				condition* = receive_world_message("we_entered_world",0,"on_first_message");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+		}
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.71325,0,-0.700909;
+	  p position = -1.76584,0,-0.151063,0xef600530;
+	}
+}
+[t:sarcophagus_cav_01,n:0x0100005a]
+{
+	[common]
+	{
+	  b is_pcontent_allowed = false;
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = send_world_message("we_req_use",0x0100005A,0f,"default","every",0);
+			  b can_self_destruct = true;
+				condition* = receive_world_message("we_req_use",0,"on_first_message");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+		}
+	}
+	[placement]
+	{
+	  q orientation = 0,-1,0,-3.06235e-008;
+	  p position = -0.0190089,0,0.997167,0x7bd97fef;
+	}
+}
+[t:sarcophagus_cav_01,n:0x0100005e]
+{
+	[common]
+	{
+	  b is_pcontent_allowed = false;
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = send_world_message("we_req_use",0x0100005E,0f,"default","every",0);
+			  b can_self_destruct = true;
+				condition* = receive_world_message("we_entered_world",0,"on_first_message");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+		}
+	}
+	[placement]
+	{
+	  q orientation = 0,0.71934,0,0.694659;
+	  p position = -1.13775,0,0.0145031,0xe708a5cc;
+	}
+}
+[t:sarcophagus_cav_01,n:0x0100005f]
+{
+	[common]
+	{
+	  b is_pcontent_allowed = false;
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = send_world_message("we_req_use",0x0100005F,0f,"default","every",0);
+			  b can_self_destruct = true;
+				condition* = receive_world_message("we_entered_world",0,"on_first_message");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+		}
+	}
+	[placement]
+	{
+	  q orientation = 0,1,0,9.20387e-009;
+	  p position = -0.713244,0,1.10567,0xc65ed4cd;
+	}
+}
+[t:sarcophagus_cav_01,n:0x01000060]
+{
+	[common]
+	{
+	  b is_pcontent_allowed = false;
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = send_world_message("we_req_use",0x01000060,0f,"default","every",0);
+			  b can_self_destruct = true;
+				condition* = receive_world_message("we_req_activate",0,"on_first_message");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+		}
+	}
+	[placement]
+	{
+	  q orientation = 0,1,0,9.20387e-009;
+	  p position = 0.102015,0,0.963127,0xc312b496;
+	}
+}
+[t:sarcophagus_cav_01,n:0x01000061]
+{
+	[common]
+	{
+	  b is_pcontent_allowed = false;
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = send_world_message("we_req_use",0x01000061,0f,"default","every",0);
+			  b can_self_destruct = true;
+				condition* = receive_world_message("we_entered_world",0,"on_first_message");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+		}
+	}
+	[placement]
+	{
+	  p position = -0.748523,0,-1.38116,0xd9536a7d;
+	}
+}
+[t:sarcophagus_cav_01,n:0x01000067]
+{
+	[common]
+	{
+	  b is_pcontent_allowed = false;
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = send_world_message("we_req_use",0x01000067,0f,"default","every",0);
+			  b can_self_destruct = true;
+				condition* = receive_world_message("we_entered_world",0,"on_first_message");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+		}
+	}
+	[placement]
+	{
+	  q orientation = 0,0.999963,0,0.00872679;
+	  p position = -0.188485,0,1.26212,0x6fc694a8;
+	}
+}
