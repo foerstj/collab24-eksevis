@@ -34,7 +34,7 @@
 		[start_position]
 		{
 		  i id = 4;
-			position = 1.246423,-1.500000,-3.118464,0x923B5599;
+			position = -0.314075,-1.500000,-3.024249,0x923B5599;
 			[camera]
 			{
 			  f azimuth = 0.500000;
@@ -46,7 +46,7 @@
 		[start_position]
 		{
 		  i id = 5;
-			position = -1.675064,0.000000,0.386355,0xB838ACCA;
+			position = -0.680176,0.000000,1.444113,0x186B4DE7;
 			[camera]
 			{
 			  f azimuth = 0.500000;
@@ -58,7 +58,7 @@
 		[start_position]
 		{
 		  i id = 7;
-			position = 1.947286,0.000004,1.893830,0xE708A5CC;
+			position = -0.908098,0.000004,-0.940254,0x607B15ED;
 			[camera]
 			{
 			  f azimuth = 0.500000;
@@ -70,7 +70,7 @@
 		[start_position]
 		{
 		  i id = 8;
-			position = 1.316971,0.000004,0.743659,0x4E1595E5;
+			position = -0.162239,0.000004,0.482157,0x4E1595E5;
 			[camera]
 			{
 			  f azimuth = 0.500000;
@@ -82,7 +82,7 @@
 		[start_position]
 		{
 		  i id = 6;
-			position = 0.406116,0.000000,0.260815,0x50E42092;
+			position = 1.360027,0.000000,-0.944086,0xCF77949E;
 			[camera]
 			{
 			  f azimuth = 0.500000;
@@ -94,7 +94,7 @@
 		[start_position]
 		{
 		  i id = 2;
-			position = 1.569091,0.000000,0.977535,0xB838ACCA;
+			position = 1.986317,0.000000,0.094285,0xDEFBE6F9;
 			[camera]
 			{
 			  f azimuth = 0.500000;
