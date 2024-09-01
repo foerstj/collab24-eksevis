@@ -1,3 +1,10 @@
+[t:crate_mossy_c24_1_1,n:0x01300041]
+{
+	[placement]
+	{
+	  p position = -2.88515,-2,-5.6805,0xdd6f7b17;
+	}
+}
 [t:barrel_mossy_c24_1_1,n:0x01300036]
 {
 	[placement]
@@ -10,13 +17,6 @@
 	[placement]
 	{
 	  p position = 3.90536,-1.90735e-006,-3.89398,0x60d1115b;
-	}
-}
-[t:crate_mossy_c24_1_1,n:0x01300041]
-{
-	[placement]
-	{
-	  p position = -2.88515,-2,-5.6805,0xdd6f7b17;
 	}
 }
 [t:barrel_mossy_c24_1_1,n:0x01300047]
