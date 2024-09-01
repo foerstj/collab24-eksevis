@@ -6,7 +6,7 @@
 	}
 	[sound_emitter]
 	{
-		event_sound = "s_e_env_brook";
+		event_sound = "env_brook";
 	  f max_dist = 20;
 	  f repeat_rate = 0;
 	}
