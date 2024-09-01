@@ -1,0 +1,403 @@
+/*
+	MELEE WEAPONS
+*/
+
+[t:template,n:collab_ss_mercenary_melee_fullblade]
+{
+	doc = "collab_ss_mercenary_melee_fullblade";
+	specializes = base_sword;
+	[aspect]
+	{
+		model 			= m_w_swd_014;
+		is_visible 		= false;
+		is_selectable 	= false;
+	}
+	[attack]
+	{
+	  f damage_max 		= 10.0;
+	  f damage_min 		= 10.0;
+	}
+	[common]
+	{
+		screen_name = "Mercenary Full Blade";
+		is_pcontent_allowed = false;
+	}
+	[gui]
+	{
+		inventory_height = 3;
+		inventory_icon = b_gui_ig_i_w_swd_014;
+		inventory_width = 1;
+		is_droppable = false;
+	}
+}
+[t:template,n:collab_ss_mercenary_melee_gladius]
+{
+	doc = "collab_ss_mercenary_melee_gladius";
+	specializes = base_sword;
+	[aspect]
+	{
+		model 			= m_w_swd_011;
+		is_visible 		= false;
+		is_selectable 	= false;
+	}
+	[attack]
+	{
+	  f damage_max 		= 10.0;
+	  f damage_min 		= 10.0;
+	}
+	[common]
+	{
+		screen_name = "Mercenary Gladius";
+		is_pcontent_allowed = false;
+	}
+	[gui]
+	{
+		active_icon = b_gui_ig_i_ic_swd_001;
+		inventory_height = 3;
+		inventory_icon = b_gui_ig_i_w_swd_004;
+		inventory_width = 1;
+		is_droppable = false;
+	}
+}
+[t:template,n:collab_ss_mercenary_melee_axe]
+{
+	doc = "collab_ss_mercenary_melee_axe";
+	specializes = base_axe;
+	[aspect]
+	{
+		model 			= m_w_axe_049;
+		is_visible 		= false;
+		is_selectable 	= false;
+	}
+	[attack]
+	{
+		attack_range 	= 0.5;
+	  f damage_max 		= 10.0;
+	  f damage_min 		= 10.0;
+	}
+	[common]
+	{
+		screen_name = "Mercenary Wedge Axe";
+		is_pcontent_allowed = false;
+	}
+	[gui]
+	{
+		active_icon = b_gui_ig_i_ic_axe_001;
+		inventory_height = 2;
+		inventory_icon = b_gui_ig_i_w_axe_143;
+		inventory_width = 1;
+		is_droppable = false;
+	}
+}
+
+/*
+	RANGED WEAPONS
+*/
+
+[t:template,n:collab_ss_mercenary_ranged_LongBackedBow]
+{
+	doc = "collab_ss_mercenary_ranged_LongBackedBow";
+	specializes = base_bow;
+	[aspect]
+	{
+		model 			= m_w_bow_028;
+		is_visible 		= false;
+		is_selectable 	= false;
+	}
+	[attack]
+	{
+		attack_range 	= 12;
+	  f damage_max 		= 10.0;
+	  f damage_min 		= 10.0;
+		reload_delay 	= 0.15;
+	}
+	[common]
+	{
+		screen_name = "Mercenary Long Backed Bow";
+		is_pcontent_allowed = false;
+	}
+	[gui]
+	{
+		inventory_height = 4;
+		inventory_icon = b_gui_ig_i_w_bow_099;
+		inventory_width = 1;
+		is_droppable = false;
+	}
+}
+[t:template,n:collab_ss_mercenary_ranged_LongBow]
+{
+	doc = "collab_ss_mercenary_ranged_LongBow";
+	specializes = base_bow;
+	[aspect]
+	{
+		model 			= m_w_bow_025;
+		is_visible 		= false;
+		is_selectable 	= false;
+	}
+	[attack]
+	{
+		attack_range 	= 15;
+	  f damage_max 		= 10.0;
+	  f damage_min 		= 10.0;
+		reload_delay 	= 0.3;
+	}
+	[common]
+	{
+		screen_name = "Mercenary Long Bow";
+		is_pcontent_allowed = false;
+	}
+	[gui]
+	{
+		active_icon = b_gui_ig_i_ic_bow_002;
+		inventory_height = 4;
+		inventory_icon = b_gui_ig_i_w_bow_014;
+		inventory_width = 1;
+		is_droppable = false;
+	}
+}
+[t:template,n:collab_ss_mercenary_ranged_PeasantLongBow]
+{
+	doc = "collab_ss_mercenary_ranged_PeasantLongBow";
+	specializes = base_bow;
+	[aspect]
+	{
+		model			= m_w_bow_017;
+		is_visible 		= false;
+		is_selectable 	= false;
+	}
+	[attack]
+	{
+		attack_range 	= 13;
+		damage_max 		= 10.0;
+		damage_min 		= 10.0;
+		reload_delay 	= 0.3;
+	}
+	[common]
+	{
+        allow_modifiers = false;
+		screen_name 	= "Peasant Long Bow";
+		is_pcontent_allowed = false;
+	}
+	[gui]
+	{
+		active_icon = b_gui_ig_i_ic_bow_002;
+		inventory_height = 4;
+		inventory_icon = b_gui_ig_i_w_bow_052;
+		inventory_width = 1;
+		is_droppable = false;
+	}
+}
+
+/*
+	SHIELDS
+*/
+
+[t:template,n:collab_ss_mercenary_kiteshield_base]
+{
+	doc = "collab_ss_mercenary_kiteshield_base";
+	specializes = base_shield;
+	[aspect]
+	{
+		model = m_a_shd_26;
+		is_visible 		= false;
+		is_selectable 	= false;
+		[textures]
+		{
+			0 = b_a_shd_109;
+		}
+	}
+	[common]
+	{
+	  b allow_modifiers = false;
+		screen_name = "Kite Shield";
+		is_pcontent_allowed = false;
+	}
+	[defend]
+	{
+	  f defense = 10.000000;
+	}
+	[gui]
+	{
+		inventory_height = 3;
+		inventory_icon = b_gui_ig_i_a_shd_109;
+		inventory_width = 2;
+		is_droppable = false;
+	}
+	[magic]
+	{
+		[enchantments]
+		{
+			[*]
+			{
+				alteration = alter_chance_to_block_melee_damage;
+				description = "35% Chance to Block Melee Attack";
+				duration = #infinite;
+				innate_enchantment = true;
+				is_permanent = true;
+				is_single_instance = false;
+				value = 35;
+			}
+			[*]
+			{
+				alteration = alter_chance_to_block_ranged_damage;
+				description = "20% Chance to Block Ranged Attack";
+				duration = #infinite;
+				innate_enchantment = true;
+				is_permanent = true;
+				is_single_instance = false;
+				value = 20;
+			}
+		}
+	}
+}
+[t:template,n:collab_ss_mercenary_kiteshield_01]
+{
+	doc = "collab_ss_mercenary_kiteshield_01";
+	specializes = collab_ss_mercenary_kiteshield_base;
+	[aspect]
+	{
+		model = m_a_shd_26;
+		[textures]
+		{
+			0 = b_a_shd_110;
+		}
+	}
+}
+[t:template,n:collab_ss_mercenary_kiteshield_02]
+{
+	doc = "collab_ss_mercenary_kiteshield_02";
+	specializes = collab_ss_mercenary_kiteshield_base;
+	[aspect]
+	{
+		model = m_a_shd_26;
+		[textures]
+		{
+			0 = b_a_shd_111;
+		}
+	}
+}
+[t:template,n:collab_ss_mercenary_kiteshield_03]
+{
+	doc = "collab_ss_mercenary_kiteshield_02";
+	specializes = collab_ss_mercenary_kiteshield_base;
+	[aspect]
+	{
+		model = m_a_shd_26;
+		[textures]
+		{
+			0 = b_a_shd_112;
+		}
+	}
+}
+[t:template,n:collab_ss_mercenary_kiteshield_04]
+{
+	doc = "collab_ss_mercenary_kiteshield_04";
+	specializes = collab_ss_mercenary_kiteshield_base;
+	[aspect]
+	{
+		model = m_a_shd_26;
+		[textures]
+		{
+			0 = b_a_shd_113;
+		}
+	}
+}
+[t:template,n:collab_ss_mercenary_kiteshield_05]
+{
+	doc = "collab_ss_mercenary_kiteshield_05";
+	specializes = collab_ss_mercenary_kiteshield_base;
+	[aspect]
+	{
+		model = m_a_shd_26;
+		[textures]
+		{
+			0 = b_a_shd_114;
+		}
+	}
+}
+[t:template,n:collab_ss_mercenary_kiteshield_06]
+{
+	doc = "collab_ss_mercenary_kiteshield_06";
+	specializes = collab_ss_mercenary_kiteshield_base;
+	[aspect]
+	{
+		model = m_a_shd_26;
+		[textures]
+		{
+			0 = b_a_shd_115;
+		}
+	}
+}
+
+/*
+	BOOTS
+*/
+
+[t:template,n:collab_ss_mercenary_boots_base]
+{
+	doc = "collab_ss_mercenary_boots_base";
+	specializes = base_boot;
+	[aspect]
+	{
+		is_visible 		= false;
+		is_selectable 	= false;
+	}
+	[common]
+	{
+	  b allow_modifiers = false;
+		screen_name = "Scale Boots";
+	}
+	[defend]
+	{
+		armor_style = 005;
+		armor_type = type1;
+	  f defense = 10.0;
+	}
+	[gui]
+	{
+		inventory_height = 2;
+		inventory_icon = b_gui_ig_i_a_boot_005;
+		inventory_width = 1;
+		is_droppable = false;
+	}
+}
+[t:template,n:collab_ss_mercenary_boots_melee]
+{
+	doc = "collab_ss_mercenary_boots_melee";
+	specializes = collab_ss_mercenary_boots_base;
+	[defend]
+	{
+		armor_style = 005;
+		armor_type = type1;
+	}
+}
+[t:template,n:collab_ss_mercenary_boots_ranged]
+{
+	doc = "collab_ss_mercenary_boots_melee";
+	specializes = collab_ss_mercenary_boots_base;
+	[defend]
+	{
+		armor_style = 040;
+		armor_type = type1;
+	}
+}
+[t:template,n:collab_ss_mercenary_boots_nmagic]
+{
+	doc = "collab_ss_mercenary_boots_nmagic";
+	specializes = collab_ss_mercenary_boots_base;
+	[defend]
+	{
+		armor_style = 041;
+		armor_type = type1;
+	}
+}
+[t:template,n:collab_ss_mercenary_boots_cmagic]
+{
+	doc = "collab_ss_mercenary_boots_nmagic";
+	specializes = collab_ss_mercenary_boots_base;
+	[defend]
+	{
+		armor_style = 019;
+		armor_type = type1;
+	}
+}
