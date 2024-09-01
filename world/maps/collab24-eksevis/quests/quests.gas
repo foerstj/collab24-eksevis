@@ -5,7 +5,7 @@
 		screen_name = chapter i: the ancient valley;
 		[*]
 		{
-			description = "";
+			description = "The crypt collapsed behind you, now there's no going back. It doesn't take long for you to realize something is going wrong";
 		  i order = 0;
 		}
 	}
