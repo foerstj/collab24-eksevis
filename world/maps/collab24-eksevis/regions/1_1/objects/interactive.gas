@@ -2,8 +2,8 @@
 {
 	[placement]
 	{
-	  q orientation = 0,0.130526,0,-0.991445;
-	  p position = 0.947388,-3,-3.20093,0x2f385786;
+	  q orientation = 0,-0.130526,0,0.991445;
+	  p position = 0.92777,-3,-3.13696,0x2f385786;
 	}
 }
 [t:door_grs_left_05,n:0x0110027f]
