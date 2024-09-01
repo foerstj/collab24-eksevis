@@ -12,6 +12,20 @@
 	  p position = 3.55993,0,2.66217,0x8127173e;
 	}
 }
+[t:barrel_mossy_c24_1_1,n:0x0120025b]
+{
+	[placement]
+	{
+	  p position = 0.879639,9.53674e-007,-3.3821,0xc69cd635;
+	}
+}
+[t:barrel_mossy_c24_1_1,n:0x0120025c]
+{
+	[placement]
+	{
+	  p position = 2.72659,0,-3.42509,0xc69cd635;
+	}
+}
 [t:chest_c24_1_2,n:0x012000c6]
 {
 	[placement]
@@ -46,19 +60,5 @@
 	[placement]
 	{
 	  p position = -2.24177,-3.90953,-1.48429,0x7f12b997;
-	}
-}
-[t:barrel_mossy_c24_1_1,n:0x0120025b]
-{
-	[placement]
-	{
-	  p position = 0.879639,9.53674e-007,-3.3821,0xc69cd635;
-	}
-}
-[t:barrel_mossy_c24_1_1,n:0x0120025c]
-{
-	[placement]
-	{
-	  p position = 2.72659,0,-3.42509,0xc69cd635;
 	}
 }
