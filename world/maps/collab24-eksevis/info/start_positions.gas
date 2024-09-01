@@ -3,10 +3,10 @@
 	[t:start_group,n:default]
 	{
 	  b default = true;
-		description = "This is the default group.";
+		description = "Your journey begins here...";
 	  b dev_only = false;
 	  i id = 0;
-		screen_name = "Rock Bottom";
+		screen_name = "Collapsed Crypt";
 		[start_position]
 		{
 		  i id = 1;
@@ -21,7 +21,7 @@
 		}
 		[start_position]
 		{
-		  i id = 3;
+		  i id = 2;
 			position = 0.282801,0.000000,0.664150,0x80E42A5E;
 			[camera]
 			{
@@ -33,7 +33,7 @@
 		}
 		[start_position]
 		{
-		  i id = 4;
+		  i id = 3;
 			position = -0.314075,-1.500000,-3.024249,0x923B5599;
 			[camera]
 			{
@@ -45,7 +45,7 @@
 		}
 		[start_position]
 		{
-		  i id = 5;
+		  i id = 4;
 			position = -0.680176,0.000000,1.444113,0x186B4DE7;
 			[camera]
 			{
@@ -57,7 +57,7 @@
 		}
 		[start_position]
 		{
-		  i id = 7;
+		  i id = 5;
 			position = -0.908098,0.000004,-0.940254,0x607B15ED;
 			[camera]
 			{
@@ -69,7 +69,7 @@
 		}
 		[start_position]
 		{
-		  i id = 8;
+		  i id = 6;
 			position = -0.162239,0.000004,0.482157,0x4E1595E5;
 			[camera]
 			{
@@ -81,7 +81,7 @@
 		}
 		[start_position]
 		{
-		  i id = 6;
+		  i id = 7;
 			position = 1.360027,0.000000,-0.944086,0xCF77949E;
 			[camera]
 			{
@@ -93,7 +93,7 @@
 		}
 		[start_position]
 		{
-		  i id = 2;
+		  i id = 8;
 			position = 1.986317,0.000000,0.094285,0xDEFBE6F9;
 			[camera]
 			{
