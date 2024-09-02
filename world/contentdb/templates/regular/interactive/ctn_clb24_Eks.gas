@@ -184,25 +184,11 @@
 				[oneof*]
 				{
 					chance = 0.5;
-					il_main = #weapon/12-55;
-					il_main = #armor/20-155;
-					il_main = #*/12-55;
+					il_main = #weapon/12-37;
+					il_main = #armor/20-100;
+					il_main = #*/12-25;
 					max = 2;
 					min = 1;
-				}
-				[oneof*]
-				{
-					chance = 0.004;
-					il_main = #weapon/-rare(1)/56-63;
-					il_main = #armor/-rare(1)/149-168;
-					il_main = #*/-rare(1)/56-63;
-				}
-				[oneof*]
-				{
-					chance = 0.002;
-					il_main = #weapon/-unique(2)/56-63;
-					il_main = #armor/-unique(2)/149-168;
-					il_main = #*/-unique(2)/56-63;
 				}
 			}
 		}
@@ -264,25 +250,11 @@
 				[oneof*]
 				{
 					chance = 0.5;
-					il_main = #weapon/12-55;
-					il_main = #armor/20-155;
-					il_main = #*/12-55;
+					il_main = #weapon/12-35;
+					il_main = #armor/20-100;
+					il_main = #*/12-25;
 					max = 2;
 					min = 1;
-				}
-				[oneof*]
-				{
-					chance = 0.004;
-					il_main = #weapon/-rare(1)/56-63;
-					il_main = #armor/-rare(1)/149-168;
-					il_main = #*/-rare(1)/56-63;
-				}
-				[oneof*]
-				{
-					chance = 0.002;
-					il_main = #weapon/-unique(2)/56-63;
-					il_main = #armor/-unique(2)/149-168;
-					il_main = #*/-unique(2)/56-63;
 				}
 			}
 		}
