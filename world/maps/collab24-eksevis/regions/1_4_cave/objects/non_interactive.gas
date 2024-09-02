@@ -77,7 +77,7 @@
 	[placement]
 	{
 	  q orientation = 0,0.382683,0,0.92388;
-	  p position = -0.521268,0,-3.60166,0x303b7490;
+	  p position = -0.558609,0,-3.55681,0x303b7490;
 	}
 }
 [t:rocks_cav_02,n:0x01400074]

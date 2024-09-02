@@ -431,6 +431,94 @@
 	  p position = 0.796745,-0.6,-1.73016,0x31b4a7bc;
 	}
 }
+[t:spider_baby,n:0x011002ea]
+{
+	[placement]
+	{
+	  p position = -3.88061,0,1.42037,0x379c1e29;
+	}
+}
+[t:spider_baby,n:0x011002f1]
+{
+	[placement]
+	{
+	  p position = -3.81142,0,1.39642,0x379c1e29;
+	}
+}
+[t:spider_baby,n:0x011002f2]
+{
+	[placement]
+	{
+	  p position = -0.272039,-1.90735e-006,-1.23081,0x3a722c60;
+	}
+}
+[t:bat,n:0x0110015d]
+{
+	[mind]
+	{
+	  b on_enemy_entered_weapon_engage_range_attack = true;
+	}
+	[placement]
+	{
+	  p position = 4.41318,-1.5,2.39943,0xef661890;
+	}
+}
+[t:bat,n:0x011001d8]
+{
+	[mind]
+	{
+	  b on_enemy_entered_weapon_engage_range_attack = true;
+	}
+	[placement]
+	{
+	  p position = 3.61981,-1.5,0.463847,0xef661890;
+	}
+}
+[t:bat,n:0x011002d3]
+{
+	[mind]
+	{
+	  b on_enemy_entered_weapon_engage_range_attack = true;
+	}
+	[placement]
+	{
+	  p position = 2.92636,-1.5,3.0108,0xef661890;
+	}
+}
+[t:bat,n:0x011002d6]
+{
+	[mind]
+	{
+	  b on_enemy_entered_weapon_engage_range_attack = true;
+	}
+	[placement]
+	{
+	  p position = 0.819475,-1.5,2.6975,0xef661890;
+	}
+}
+[t:spider_baby,n:0x011002f3]
+{
+	[placement]
+	{
+	  p position = 1.83911,-1.5,1.23064,0xef661890;
+	}
+}
+[t:spider_baby,n:0x011002f5]
+{
+	[placement]
+	{
+	  q orientation = 0,0.707107,0,0.707107;
+	  p position = -7.66483,-1.5,2.5536,0xef661890;
+	}
+}
+[t:spider_baby,n:0x011002f4]
+{
+	[placement]
+	{
+	  q orientation = 0,0.707107,0,0.707107;
+	  p position = 2.99307,-4,-3.63366,0xf426a60e;
+	}
+}
 [t:krug_grouse,n:0x01100009]
 {
 	[placement]
@@ -601,8 +689,8 @@
 	{
 		[other]
 		{
-			il_main = potion_mana_small;
 			il_main = potion_health_small;
+			il_main = potion_mana_small;
 		}
 	}
 	[placement]
@@ -622,7 +710,8 @@
 {
 	[placement]
 	{
-	  p position = 5.99109,-0.000495166,2.15975,0xa904e428;
+	  q orientation = 0,1,0,5.96046e-008;
+	  p position = 2.47176,0,-1.34223,0xe2f87e47;
 	}
 }
 [t:krug_scavenger_mtn,n:0x0110001a]
@@ -739,7 +828,7 @@
 {
 	[placement]
 	{
-	  p position = 1.40349,-0.8,1.24159,0xbc88be93;
+	  p position = -0.960169,-0.799999,0.792152,0x48c5cacb;
 	}
 }
 [t:krug_scavenger_mtn,n:0x011000a9]
