@@ -119,6 +119,10 @@
 }
 [t:book_glb_lore,n:0x011002b4]
 {
+	[aspect]
+	{
+	  b is_selectable = false;
+	}
 	[placement]
 	{
 	  p position = 4.30684,-0.0877399,0.498558,0xca1e1384;
