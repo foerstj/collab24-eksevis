@@ -114,8 +114,6 @@
 					chance = 0.2;
 					max = 70;
 					min = 50;
-					min_pile = 11;
-					piles = 2 - 4;
 				}
 				[oneof*]
 				{
