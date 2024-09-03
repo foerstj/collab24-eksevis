@@ -1133,7 +1133,7 @@
 {
 	[placement]
 	{
-	  p position = 0.0147481,-0.450001,3.93686,0xf4af49e4;
+	  p position = -3.45666,-0.109455,2.35618,0x4e4ea548;
 	}
 }
 [t:tree_grs_deciduous_sway_07,n:0x012001f3]
@@ -1467,7 +1467,7 @@
 {
 	[placement]
 	{
-	  p position = -1.78655,-3.8147e-006,-1.18091,0xea702d1e;
+	  p position = -1.78655,0,-1.18091,0xea702d1e;
 	}
 }
 [t:tree_grs_deciduous_15,n:0x012001ca]
@@ -1496,7 +1496,7 @@
 {
 	[placement]
 	{
-	  p position = -3.93446,0,-0.246387,0x06327029;
+	  p position = -3.70728,0,1.00969,0x06327029;
 	}
 }
 [t:tree_grs_deciduous_sway_07,n:0x012001f7]
@@ -1511,14 +1511,14 @@
 {
 	[placement]
 	{
-	  p position = -2.33957,0.4,1.84227,0x27442dc8;
+	  p position = -2.62479,-5.70045,0.389187,0xa46a0b56;
 	}
 }
 [t:grass_sea_06,n:0x01200149]
 {
 	[placement]
 	{
-	  p position = 1.26402,-0.379782,-0.56739,0xf39e76f9;
+	  p position = 1.26402,-0.62985,-0.567383,0xf39e76f9;
 	}
 }
 [t:grass_sea_06,n:0x01200182]
@@ -2794,7 +2794,7 @@
 {
 	[placement]
 	{
-	  p position = -0.132832,0,-1.60616,0x12a293d4;
+	  p position = -2.32297,0,0.47065,0x586cedd0;
 	}
 }
 [t:bush_grs_rhod_02,n:0x0120021a]
