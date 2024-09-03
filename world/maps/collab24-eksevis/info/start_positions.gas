@@ -21,18 +21,6 @@
 		}
 		[start_position]
 		{
-		  i id = 2;
-			position = 0.282801,0.000000,0.664150,0x80E42A5E;
-			[camera]
-			{
-			  f azimuth = 0.500000;
-			  f distance = 20.000000;
-			  f orbit = 0.000000;
-				position = 0.282801,0.000000,0.664150,0x80E42A5E;
-			}
-		}
-		[start_position]
-		{
 		  i id = 3;
 			position = -0.306819,-1.500000,-3.017005,0x923B5599;
 			[camera]
@@ -40,7 +28,7 @@
 			  f azimuth = 0.500000;
 			  f distance = 20.000000;
 			  f orbit = 0.000000;
-				position = -0.314075,-1.500000,-3.024249,0x923B5599;
+				position = -0.306819,-1.500000,-3.017005,0x923B5599;
 			}
 		}
 		[start_position]
