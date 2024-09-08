@@ -1,0 +1,7 @@
+[t:tsd,n:b_gui_ig_mnu_jnl_quest_c24_1_goblin_squeal]
+{
+  b dither = true;
+  b hasalpha = true;
+    layer1texture1 = b_gui_ig_mnu_jnl_quest_c24_1_goblin_squeal;
+  i texturedetail = 0;
+}
