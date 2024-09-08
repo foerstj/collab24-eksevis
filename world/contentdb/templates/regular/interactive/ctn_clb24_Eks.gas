@@ -180,10 +180,12 @@
 				}
 				[oneof*]
 				{
-					chance = 0.3;
+					chance = 0.5;
 					il_main = #weapon/4-22;
 					il_main = #armor/8-15;
 					il_main = #*/4-22;
+					max = 2;
+					min = 1;
 				}
 			}
 		}
@@ -244,10 +246,10 @@
 				}
 				[oneof*]
 				{
-					chance = 0.5;
-					il_main = #weapon/12-20;
-					il_main = #armor/9-20;
-					il_main = #*/12-20;
+					chance = 0.75;
+					il_main = #weapon/12-30;
+					il_main = #armor/9-30;
+					il_main = #*/12-30;
 					max = 2;
 					min = 1;
 				}
