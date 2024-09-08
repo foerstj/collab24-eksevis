@@ -15,7 +15,7 @@
 	[i_must_scream]
 	{
 		chapter = chapter_01_valleyball;
-		quest_image = b_gui_ig_mnu_quest;
+		quest_image = b_gui_ig_mnu_jnl_quest_c24_1_goblin_squeal;
 		screen_name = Make A Goblin Squeal;
 		[*]
 		{
