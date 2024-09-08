@@ -6,9 +6,9 @@
 	}
 	[sound_emitter]
 	{
-		event_sound = "s_e_env_waterfall";
+	  b continual_loop = true;
+		event_sound = "env_waterfall";
 	  f max_dist = 20;
-	  f repeat_rate = 0;
 	}
 }
 [t:emt_sound,n:0x01300068]
@@ -20,9 +20,9 @@
 	}
 	[sound_emitter]
 	{
+	  b continual_loop = true;
 		event_sound = "env_brook";
 	  f max_dist = 40;
-	  f repeat_rate = 0;
 	}
 }
 [t:emt_sound,n:0x013000c2]
@@ -34,9 +34,9 @@
 	}
 	[sound_emitter]
 	{
-		event_sound = "s_e_env_brook";
+	  b continual_loop = true;
+		event_sound = "env_brook";
 	  f max_dist = 40;
-	  f repeat_rate = 0;
 	}
 }
 [t:emt_sound,n:0x013000c4]
@@ -47,8 +47,8 @@
 	}
 	[sound_emitter]
 	{
-		event_sound = "s_e_env_brook";
-	  f repeat_rate = 0;
+	  b continual_loop = true;
+		event_sound = "env_brook";
 	}
 }
 [t:emt_sound,n:0x0130008c]
@@ -59,8 +59,8 @@
 	}
 	[sound_emitter]
 	{
-		event_sound = "s_e_env_waterfall";
+	  b continual_loop = true;
+		event_sound = "env_waterfall";
 	  f max_dist = 20;
-	  f repeat_rate = 0;
 	}
 }
