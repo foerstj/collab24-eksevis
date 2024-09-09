@@ -149,3 +149,24 @@
 	  p position = 1.21075,2,0.596817,0x8d83303f;
 	}
 }
+[t:barrel_mossy_c24_1_1,n:0x0110015b]
+{
+	[placement]
+	{
+	  p position = -3.40263,-1.46942,3.89123,0x8d66e7e4;
+	}
+}
+[t:barrel_mossy_c24_1_1,n:0x0110015d]
+{
+	[placement]
+	{
+	  p position = -2.50948,-1.48017,4.31239,0x8d66e7e4;
+	}
+}
+[t:crate_mossy_c24_1_1,n:0x011002d3]
+{
+	[placement]
+	{
+	  p position = -1.92608,-1.51428,4.75664,0x8d66e7e4;
+	}
+}
