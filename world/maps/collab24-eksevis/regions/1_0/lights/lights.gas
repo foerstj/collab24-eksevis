@@ -6,9 +6,9 @@
 	  b affects_actors = true;
 	  b affects_items = true;
 	  b affects_terrain = true;
-	  x color = 0xFFFFFFFF;
+	  x color = 0xFFEBB395;
 	  b draw_shadow = true;
-	  f inner_radius = 1.000000;
+	  f inner_radius = 2.000000;
 	  f intensity = 0.500000;
 	  b occlude_geometry = true;
 	  b on_timer = true;
