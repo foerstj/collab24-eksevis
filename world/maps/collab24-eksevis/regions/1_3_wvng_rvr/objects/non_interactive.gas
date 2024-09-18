@@ -1527,3 +1527,18 @@
 	  p position = 0.711197,0,0.995471,0x65238bc9;
 	}
 }
+[t:tree_swp_08,n:0x013000c1]
+{
+	[placement]
+	{
+	  q orientation = 0,-0.707107,0,0.707107;
+	  p position = -0.871714,0,0.0994568,0x8761360d;
+	}
+}
+[t:tree_grs_plum_01,n:0x013000cb]
+{
+	[placement]
+	{
+	  p position = -1.52115,3.8147e-006,0.488922,0xff6d1d02;
+	}
+}
