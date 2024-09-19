@@ -133,13 +133,6 @@
 	  p position = -0.351389,-5,6.05673,0x2f385786;
 	}
 }
-[t:bush_sea_06,n:0x0110002c]
-{
-	[placement]
-	{
-	  p position = -2.06539,-4.91622,5.52124,0x2f385786;
-	}
-}
 [t:bush_sea_04,n:0x0110002e]
 {
 	[placement]
@@ -294,13 +287,6 @@
 	{
 	  q orientation = 0,-0.130526,0,0.991445;
 	  p position = 2.88932,-3,-0.957228,0x2f385786;
-	}
-}
-[t:bush_sea_06,n:0x01100012]
-{
-	[placement]
-	{
-	  p position = -3.53114,-4.70192,-3.74131,0x419926f3;
 	}
 }
 [t:bush_sea_08,n:0x01100017]
@@ -4687,5 +4673,29 @@
 	[placement]
 	{
 	  p position = 2.38904,-0.949999,-2.5706,0x49aebfcc;
+	}
+}
+[t:lamp_glb_oil_01,n:0x01100363]
+{
+	[placement]
+	{
+	  q orientation = 0,-0.990268,0,-0.139173;
+	  p position = 4.41778,-1.33545,-2.7687,0x2f385786;
+	}
+}
+[t:lamp_glb_oil_01,n:0x01100365]
+{
+	[placement]
+	{
+	  q orientation = 0,0.965926,0,-0.258819;
+	  p position = 1.81761,-1.46186,-4.33839,0x419926f3;
+	}
+}
+[t:lamp_glb_oil_01,n:0x0110036c]
+{
+	[placement]
+	{
+	  q orientation = 0,0.965926,0,-0.258819;
+	  p position = -0.52558,-1.46186,0.748955,0x8ba97574;
 	}
 }
