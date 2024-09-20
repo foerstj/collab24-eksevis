@@ -174,7 +174,7 @@
 			{
 				[gold*]
 				{
-					chance = 0.2;
+					chance = 0.5;
 					max = 76;
 					min = 13;
 				}
@@ -240,7 +240,7 @@
 			{
 				[gold*]
 				{
-					chance = 0.2;
+					chance = 0.25;
 					max = 76;
 					min = 13;
 				}

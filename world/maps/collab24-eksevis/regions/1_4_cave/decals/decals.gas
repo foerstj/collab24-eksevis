@@ -879,6 +879,30 @@
 	[t:decal,n:*]
 	{
 		decal_orientation = 0.000000,-1.000000,0.000000,0.000000,0.000000,-1.000000,1.000000,0.000000,0.000000;
+		decal_origin = -2.144974,-2.910650,-2.603462,0x21DCABC4;
+	  f far_plane = 1.100000;
+	  x guid = 0x78A76A37;
+	  f horizontal_meters = 4.000000;
+	  f lod = 1.000000;
+	  f near_plane = 0.100000;
+		texture = Art\Bitmaps\Decals\b_d_grs01-a.%img%;
+	  f vertical_meters = 4.000000;
+	}
+	[t:decal,n:*]
+	{
+		decal_orientation = 0.000000,-1.000000,0.000000,0.000000,0.000000,-1.000000,1.000000,0.000000,0.000000;
+		decal_origin = 1.255424,-2.891413,-2.682884,0x21DCABC4;
+	  f far_plane = 1.100000;
+	  x guid = 0x314DD64F;
+	  f horizontal_meters = 4.000000;
+	  f lod = 1.000000;
+	  f near_plane = 0.100000;
+		texture = Art\Bitmaps\Decals\b_d_grs01-a.%img%;
+	  f vertical_meters = 4.000000;
+	}
+	[t:decal,n:*]
+	{
+		decal_orientation = 0.000000,-1.000000,0.000000,0.000000,0.000000,-1.000000,1.000000,0.000000,0.000000;
 		decal_origin = 0.326775,-3.024582,-2.498690,0x1DA2C7E8;
 	  f far_plane = 1.100000;
 	  x guid = 0x17361966;
@@ -942,30 +966,6 @@
 		decal_origin = -3.818298,-3.000000,-0.623894,0x1DA2C7E8;
 	  f far_plane = 1.100000;
 	  x guid = 0x2B826BEB;
-	  f horizontal_meters = 4.000000;
-	  f lod = 1.000000;
-	  f near_plane = 0.100000;
-		texture = Art\Bitmaps\Decals\b_d_grs01-a.%img%;
-	  f vertical_meters = 4.000000;
-	}
-	[t:decal,n:*]
-	{
-		decal_orientation = 0.000000,-1.000000,0.000000,0.000000,0.000000,-1.000000,1.000000,0.000000,0.000000;
-		decal_origin = -2.144974,-2.910650,-2.603462,0x21DCABC4;
-	  f far_plane = 1.100000;
-	  x guid = 0x78A76A37;
-	  f horizontal_meters = 4.000000;
-	  f lod = 1.000000;
-	  f near_plane = 0.100000;
-		texture = Art\Bitmaps\Decals\b_d_grs01-a.%img%;
-	  f vertical_meters = 4.000000;
-	}
-	[t:decal,n:*]
-	{
-		decal_orientation = 0.000000,-1.000000,0.000000,0.000000,0.000000,-1.000000,1.000000,0.000000,0.000000;
-		decal_origin = 1.255424,-2.891413,-2.682884,0x21DCABC4;
-	  f far_plane = 1.100000;
-	  x guid = 0x314DD64F;
 	  f horizontal_meters = 4.000000;
 	  f lod = 1.000000;
 	  f near_plane = 0.100000;

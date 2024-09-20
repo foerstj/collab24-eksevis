@@ -1085,3 +1085,25 @@
 	  p position = -3.84564,-0.95,-0.550722,0x49aebfcc;
 	}
 }
+[t:collab_ek_goblin_wise,n:0x0110015a]
+{
+	[actor]
+	{
+		alignment = aa_good;
+	}
+	[conversation]
+	{
+		[conversations]
+		{
+			* = c1_eks_goblin_wise;
+		}
+	}
+	[mind]
+	{
+		jat_talk = world\ai\jobs\common\job_talk.skrit;
+	}
+	[placement]
+	{
+	  p position = -0.327789,-3,-1.14997,0xd25b329f;
+	}
+}

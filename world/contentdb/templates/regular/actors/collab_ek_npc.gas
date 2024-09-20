@@ -571,31 +571,10 @@ ARCHEOLOGISTS
 	category_name = "1W_evil_a";
 	doc = "collab_ek_goblin_grunt";
 	specializes = base_goblin;
-	[actor]
-	{
-		[skills]
-		{
-			strength 		= 13, 0;
-			intelligence	= 7,  0;
-			dexterity		= 11, 0;
-			melee			= 4,  0;
-		}
-	}
 	[aspect]
 	{
-		experience_value 	= 60;
-		life 				= 55;
-		max_life 			= 55;
-		mana 				= 14;
-		max_mana 			= 14;
 		model 				= m_c_eam_ggt_pos_1;
-		scale_base 			= 1.2;
-	}
-	[attack]
-	{
-		attack_range = 0.5;
-		damage_max = 26;
-		damage_min = 22;
+		scale_base 			= 1.0;
 	}
 	[common]
 	{
@@ -603,62 +582,5 @@ ARCHEOLOGISTS
 	}
 	[conversation]
 	{
-	}
-	[defend]
-	{
-		defense=140;
-	}
-	[inventory]
-	{
-    	[pcontent]
-		{
-            [oneof*]
-			{
-				es_weapon_hand = ax_d_c_1h1b_avg;
-			}
-			[oneof*]
-			{
-				[all*]
-				{
-					[gold*]
-					{
-						  chance = 0.2;
-						  max = 75;
-						  min = 35;
-					}
-				}
-				[all*]
-				{
-       				chance = 0.03;
-   	        	    il_main = #spell/3-8;
-				}
-				[oneof*]
-				{
-	    		    chance = 0.22;
-        	   	    il_main = #weapon/15-25;
-        	   	    il_main = #*/15-25;
-            	    il_main = #armor/11-60;
-    				il_main = potion_mana_small;
-					il_main = potion_health_small;
-				}
-                [oneof*]
-				{
-	            	chance = 0.004;
-	                il_main = #weapon/-rare(1)/22-35;
-	                il_main = #armor/-rare(1)/28-80;
-                    il_main = #*/-rare(1)/22-35;
-                }
-			}
-		}
-    }
-	[mind]
-	{
-		on_life_ratio_low_flee = true;
-		flee_count = 1;
-		flee_distance = 20;
-		melee_engage_range = 10;
-		personal_space_range = 0.7;
-		ranged_engage_range = 10.0;
-		sight_range = 10.0;
 	}
 }
