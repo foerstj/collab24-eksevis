@@ -1586,3 +1586,24 @@
 	  p position = -1.05869,0,3.40767,0x29481d3c;
 	}
 }
+[t:tree_grs_oak_03,n:0x013000c7]
+{
+	[placement]
+	{
+	  p position = -0.284058,0,-0.285793,0x2e775e7c;
+	}
+}
+[t:tree_grs_oak_01,n:0x013000c8]
+{
+	[placement]
+	{
+	  p position = -0.0513763,0,1.47641,0x5a59311d;
+	}
+}
+[t:tree_grs_oak_01,n:0x013000ca]
+{
+	[placement]
+	{
+	  p position = 3.22319,0,-0.30508,0xa6cc6b2c;
+	}
+}
