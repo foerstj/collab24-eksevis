@@ -6,6 +6,8 @@
 	0x01300542 = t_xxx_cnr_08-cnvx;
 	0x01300543 = t_xxx_cnr_12-ccav;
 	0x01300544 = t_xxx_cnr_12-cnvx;
+	0x0130055b = t_xxx_cnr_tee-04-04-08-l;
+	0x0130055c = t_xxx_cnr_tee-04-04-08-r;
 	0x0130055d = t_xxx_cnr_tee-04-08-12-l;
 	0x0130055e = t_xxx_cnr_tee-04-08-12-r;
 	0x0130055f = t_xxx_cnr_tee-08-04-12-l;
@@ -14,6 +16,9 @@
 	0x013006af = t_xxx_flr_04x08-v0;
 	0x013006b0 = t_xxx_flr_08x08-v0;
 	0x01300851 = t_xxx_pth_04x04-b;
+	0x01300856 = t_xxx_pth_04x04-g;
+	0x01300858 = t_xxx_pth_08x04-b;
+	0x0130085e = t_xxx_pth_08x04-h;
 	0x0130085f = t_xxx_pth_08x04-i;
 	0x01300897 = t_xxx_rvr_08-bridge-left-tx-right-a;
 	0x01300898 = t_xxx_rvr_08-bridge-right-tx-left-a;
@@ -37,12 +42,17 @@
 	0x013008b9 = t_xxx_rvr_12-tx-08-right-b;
 	0x013008c3 = t_xxx_rvr_wfall-12-tx-12;
 	0x013009fb = t_xxx_wal_04-diag-thick-l;
+	0x013009fc = t_xxx_wal_04-diag-thick-r;
+	0x013009fd = t_xxx_wal_04-diag-thin-l;
+	0x013009fe = t_xxx_wal_04-diag-thin-r;
 	0x013009ff = t_xxx_wal_04-pth-l;
 	0x01300a01 = t_xxx_wal_04-thck;
 	0x01300a02 = t_xxx_wal_04-thin;
 	0x01300a0c = t_xxx_wal_08-diag-thick-l;
 	0x01300a0d = t_xxx_wal_08-diag-thick-r;
+	0x01300a0e = t_xxx_wal_08-diag-thin-l;
 	0x01300a10 = t_xxx_wal_08-pth-l;
+	0x01300a15 = t_xxx_wal_08-pth-tall-wide-r;
 	0x01300a16 = t_xxx_wal_08-thck;
 	0x01300a17 = t_xxx_wal_08-thin;
 	0x01300a1c = t_xxx_wal_08-tx-12-l;
