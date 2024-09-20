@@ -452,47 +452,91 @@
 	  p position = 1.71568,0,-1.53019,0x50d80ac9;
 	}
 }
-[t:krug_scout_mtn,n:0x011000db]
+[t:collab_ek_goblin_wise,n:0x0110015a]
 {
+	[actor]
+	{
+		alignment = aa_good;
+	}
+	[conversation]
+	{
+		[conversations]
+		{
+			* = c1_eks_goblin_wise;
+		}
+	}
+	[mind]
+	{
+		jat_talk = world\ai\jobs\common\job_talk.skrit;
+	}
 	[placement]
 	{
-	  p position = 2.49764,1.90735e-006,-0.756338,0xdbc76681;
+	  p position = -0.327789,-3,-1.14997,0xd25b329f;
 	}
 }
-[t:krug_scout_mtn,n:0x01100084]
+[t:gypsy_female_02,n:0x01100226]
 {
+	[common]
+	{
+		screen_name = "Bar Owner";
+	}
 	[placement]
 	{
-	  q orientation = 0,-0.707107,0,0.707107;
-	  p position = 2.2514,0,-3.69173,0x19b29336;
+	  q orientation = 0,-0.75471,0,0.656059;
+	  p position = 2.56008,-3,-0.697811,0xd25b329f;
 	}
 }
-[t:krug_scout_mtn,n:0x011000c8]
+[t:chicken_white,n:0x01100217]
 {
+	[mind]
+	{
+	  b on_enemy_entered_weapon_engage_range_attack = true;
+	}
 	[placement]
 	{
-	  p position = -2.29177,0,-0.615626,0x7f06cfcc;
+	  p position = -2.51742,0,-3.72892,0x227a887c;
 	}
 }
-[t:phrak,n:0x0110025b]
+[t:chicken_white,n:0x01100215]
 {
+	[mind]
+	{
+	  b on_enemy_entered_weapon_engage_range_attack = true;
+	}
 	[placement]
 	{
-	  p position = 3.33502,0,0.0690536,0x7f06cfcc;
+	  p position = 0.943299,-2.3,-3.14862,0xd12eb82e;
 	}
 }
-[t:spider_baby,n:0x01100302]
+[t:chicken_white,n:0x01100218]
 {
+	[mind]
+	{
+	  b on_enemy_entered_weapon_engage_range_attack = true;
+	}
 	[placement]
 	{
-	  p position = 1.52885,0.0499992,0.844486,0x540359af;
+	  q orientation = 0,1,0,0;
+	  p position = -1.85561,-2.3,-3.38131,0xd12eb82e;
 	}
 }
-[t:collab_ek_archeologist_female_02,n:0x01100187]
+[t:chicken_red,n:0x01100219]
+{
+	[mind]
+	{
+	  b on_enemy_entered_weapon_engage_range_attack = true;
+	}
+	[placement]
+	{
+	  q orientation = 0,1,0,0;
+	  p position = 0.592035,-2.3,-3.76556,0xd12eb82e;
+	}
+}
+[t:spider_baby,n:0x011002f2]
 {
 	[placement]
 	{
-	  p position = 0.796745,-0.6,-1.73016,0x31b4a7bc;
+	  p position = -0.272039,-1.90735e-006,-1.23081,0x3a722c60;
 	}
 }
 [t:spider_baby,n:0x011002ea]
@@ -507,13 +551,6 @@
 	[placement]
 	{
 	  p position = -3.81142,0,1.39642,0x379c1e29;
-	}
-}
-[t:spider_baby,n:0x011002f2]
-{
-	[placement]
-	{
-	  p position = -0.272039,-1.90735e-006,-1.23081,0x3a722c60;
 	}
 }
 [t:spider_baby,n:0x011002d0]
@@ -584,6 +621,49 @@
 	{
 	  q orientation = 0,0.707107,0,0.707107;
 	  p position = 2.99307,-4,-3.63366,0xf426a60e;
+	}
+}
+[t:spider_baby,n:0x01100302]
+{
+	[placement]
+	{
+	  p position = 1.52885,0.0499992,0.844486,0x540359af;
+	}
+}
+[t:collab_ek_archeologist_female_02,n:0x01100187]
+{
+	[placement]
+	{
+	  p position = 0.796745,-0.6,-1.73016,0x31b4a7bc;
+	}
+}
+[t:krug_scout_mtn,n:0x011000c8]
+{
+	[placement]
+	{
+	  p position = -2.29177,0,-0.615626,0x7f06cfcc;
+	}
+}
+[t:phrak,n:0x0110025b]
+{
+	[placement]
+	{
+	  p position = 3.33502,0,0.0690536,0x7f06cfcc;
+	}
+}
+[t:krug_scout_mtn,n:0x01100084]
+{
+	[placement]
+	{
+	  q orientation = 0,-0.707107,0,0.707107;
+	  p position = 2.2514,0,-3.69173,0x19b29336;
+	}
+}
+[t:krug_scout_mtn,n:0x011000db]
+{
+	[placement]
+	{
+	  p position = 2.49764,1.90735e-006,-0.756338,0xdbc76681;
 	}
 }
 [t:krug_scout_mtn,n:0x01100009]
@@ -812,8 +892,8 @@
 	{
 		[other]
 		{
-			il_main = potion_health_small;
 			il_main = potion_mana_small;
+			il_main = potion_health_small;
 		}
 	}
 	[placement]
@@ -879,19 +959,19 @@
 	  p position = 1.50985,-0.599998,-1.09719,0x03be81d2;
 	}
 }
-[t:phrak_piercer,n:0x01100255]
-{
-	[placement]
-	{
-	  p position = -3.63938,0,-3.22142,0xb0ebf677;
-	}
-}
 [t:spider_adolescent_yellow,n:0x0110024a]
 {
 	[placement]
 	{
 	  q orientation = 0,-0.707107,0,0.707107;
 	  p position = -1.48802,0,-3.55653,0x42d9457c;
+	}
+}
+[t:phrak_piercer,n:0x01100255]
+{
+	[placement]
+	{
+	  p position = -3.63938,0,-3.22142,0xb0ebf677;
 	}
 }
 [t:spider_adolescent_yellow,n:0x0110024b]
@@ -960,11 +1040,11 @@
 	  p position = 1.1281,0,2.85661,0x17fa266a;
 	}
 }
-[t:krug_scavenger_mtn,n:0x011000a6]
+[t:krug_scavenger_mtn,n:0x011000a9]
 {
 	[placement]
 	{
-	  p position = 1.12855,-0.8,1.68622,0x059da950;
+	  p position = 0.392524,-0.791466,-1.91466,0xd2164593;
 	}
 }
 [t:krug_scavenger_mtn,n:0x01100003]
@@ -981,11 +1061,11 @@
 	  p position = 0.321638,-0.767567,-0.73251,0x48c5cacb;
 	}
 }
-[t:krug_scavenger_mtn,n:0x011000a9]
+[t:krug_scavenger_mtn,n:0x011000a6]
 {
 	[placement]
 	{
-	  p position = 0.392524,-0.791466,-1.91466,0xd2164593;
+	  p position = 1.12855,-0.8,1.68622,0x059da950;
 	}
 }
 [t:spider_baby,n:0x01100311]
@@ -993,64 +1073,6 @@
 	[placement]
 	{
 	  p position = -1.86934,2,1.37596,0x985ee859;
-	}
-}
-[t:gypsy_female_02,n:0x01100226]
-{
-	[common]
-	{
-		screen_name = "Bar Owner";
-	}
-	[placement]
-	{
-	  q orientation = 0,-0.75471,0,0.656059;
-	  p position = 2.56008,-3,-0.697811,0xd25b329f;
-	}
-}
-[t:chicken_white,n:0x01100217]
-{
-	[mind]
-	{
-	  b on_enemy_entered_weapon_engage_range_attack = true;
-	}
-	[placement]
-	{
-	  p position = -2.51742,0,-3.72892,0x227a887c;
-	}
-}
-[t:chicken_white,n:0x01100215]
-{
-	[mind]
-	{
-	  b on_enemy_entered_weapon_engage_range_attack = true;
-	}
-	[placement]
-	{
-	  p position = 0.943299,-2.3,-3.14862,0xd12eb82e;
-	}
-}
-[t:chicken_white,n:0x01100218]
-{
-	[mind]
-	{
-	  b on_enemy_entered_weapon_engage_range_attack = true;
-	}
-	[placement]
-	{
-	  q orientation = 0,1,0,0;
-	  p position = -1.85561,-2.3,-3.38131,0xd12eb82e;
-	}
-}
-[t:chicken_red,n:0x01100219]
-{
-	[mind]
-	{
-	  b on_enemy_entered_weapon_engage_range_attack = true;
-	}
-	[placement]
-	{
-	  q orientation = 0,1,0,0;
-	  p position = 0.592035,-2.3,-3.76556,0xd12eb82e;
 	}
 }
 [t:dog_sleeping,n:0x0110021a]
@@ -1083,27 +1105,5 @@
 	{
 	  q orientation = 0,-0.833886,0,-0.551937;
 	  p position = -3.84564,-0.95,-0.550722,0x49aebfcc;
-	}
-}
-[t:collab_ek_goblin_wise,n:0x0110015a]
-{
-	[actor]
-	{
-		alignment = aa_good;
-	}
-	[conversation]
-	{
-		[conversations]
-		{
-			* = c1_eks_goblin_wise;
-		}
-	}
-	[mind]
-	{
-		jat_talk = world\ai\jobs\common\job_talk.skrit;
-	}
-	[placement]
-	{
-	  p position = -0.327789,-3,-1.14997,0xd25b329f;
 	}
 }

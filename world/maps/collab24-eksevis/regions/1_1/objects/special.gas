@@ -297,7 +297,7 @@
 	}
 	[placement]
 	{
-	  p position = 0.00746346,-2.5,-1.34462,0x4b49133f;
+	  p position = -0.0611,-2.5,-1.35645,0x4b49133f;
 	}
 }
 [t:trigger_generic,n:0x0110021b]
