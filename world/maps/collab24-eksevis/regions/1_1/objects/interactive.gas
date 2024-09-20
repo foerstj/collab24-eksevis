@@ -20,6 +20,7 @@
 	{
 	  b is_selectable = false;
 	  b is_usable = false;
+		megamap_icon = <none>;
 	}
 	[placement]
 	{
@@ -33,6 +34,7 @@
 	{
 	  b is_selectable = false;
 	  b is_usable = false;
+		megamap_icon = <none>;
 	}
 	[placement]
 	{

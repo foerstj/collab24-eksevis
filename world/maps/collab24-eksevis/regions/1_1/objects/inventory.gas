@@ -306,3 +306,20 @@
 	  p position = 1.12509,-0.141573,-2.20963,0x49aebfcc;
 	}
 }
+[t:chicken_gun,n:0x0110032e]
+{
+	[aspect]
+	{
+	  b is_selectable = false;
+	  f scale_base = 0.9;
+	}
+	[common]
+	{
+		screen_name = "Broken Goblin Gun";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.25038,0,-0.968148;
+	  p position = -3.31913,0,-0.530823,0x19b29336;
+	}
+}
