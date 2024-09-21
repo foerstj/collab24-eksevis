@@ -29,7 +29,7 @@
 			}
 			[*]
 			{
-				action* = mood_change("1_4_cave");
+				action* = mood_change("1_4_cave_v2");
 			  b can_self_destruct = true;
 				condition* = party_member_within_sphere(28.000000,"on_every_leave");
 			  f delay = 0.000000;
