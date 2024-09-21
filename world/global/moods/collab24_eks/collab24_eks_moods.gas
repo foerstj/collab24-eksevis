@@ -182,7 +182,7 @@
 		battle_track = ;
 		room_type = rt_cave;
 	  f standard_intro_delay = 1.000000;
-	  f standard_repeat_delay = 3.000000;
+	  f standard_repeat_delay = 5.000000;
 		standard_track = s_m_maintheme;
 	}
 }
@@ -222,5 +222,20 @@
 	{
 	  f wind_direction = 1.000000;
 	  f wind_velocity = 15.000000;
+	}
+}
+[mood_setting*]
+{
+  b interior = true;
+	mood_name = 1_4_cave_v2;
+  f transition_time = 1.000000;
+	[fog]
+	{
+	  x fog_color = 0xFF080600;
+	  f fog_density = 0.500000;
+	  f fog_far_dist = 25.000000;
+	  f fog_lowdetail_far_dist = 25.000000;
+	  f fog_lowdetail_near_dist = 10.000000;
+	  f fog_near_dist = 10.000000;
 	}
 }
