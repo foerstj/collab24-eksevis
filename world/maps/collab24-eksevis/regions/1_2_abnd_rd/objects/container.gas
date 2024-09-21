@@ -62,3 +62,11 @@
 	  p position = -2.24177,-3.90953,-1.48429,0x7f12b997;
 	}
 }
+[t:chest_c24_1_1,n:0x0120003b]
+{
+	[placement]
+	{
+	  q orientation = 0,1,0,0;
+	  p position = -2.76106,-3.81766,-1.14867,0x8ccfa1b8;
+	}
+}
