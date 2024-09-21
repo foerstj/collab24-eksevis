@@ -507,3 +507,34 @@
 	  p position = -1.84007,0,1.55755,0xdeb50015;
 	}
 }
+[t:candle_glb_01,n:0x0100000a]
+{
+	[placement]
+	{
+	  q orientation = 0,-0.707107,0,0.707107;
+	  p position = -0.235146,1.19149,0.784473,0x6fc694a8;
+	}
+}
+[t:candle_glb_01,n:0x0100000b]
+{
+	[placement]
+	{
+	  p position = -0.0426655,0.595181,1.17339,0x4d5a0be6;
+	}
+}
+[t:candle_glb_01,n:0x0100000c]
+{
+	[placement]
+	{
+	  q orientation = 0,2.98023e-008,0,1;
+	  p position = 0.718326,1.19149,-0.838286,0x0d23df37;
+	}
+}
+[t:candlestand_csl_02,n:0x0100000e]
+{
+	[placement]
+	{
+	  q orientation = 0,-0.707107,0,0.707107;
+	  p position = -0.327719,0,0.456127,0xee6e1fc7;
+	}
+}
