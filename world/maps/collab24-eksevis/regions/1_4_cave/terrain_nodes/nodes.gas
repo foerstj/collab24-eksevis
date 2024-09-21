@@ -3246,12 +3246,6 @@
 		texsetabbr = abc01;
 		[door*]
 		{
-		  i fardoor = 4;
-		  x farguid = 0x5EFF9FDC;
-		  i id = 3;
-		}
-		[door*]
-		{
 		  i fardoor = 2;
 		  x farguid = 0xB70CD6FF;
 		  i id = 6;
@@ -3279,6 +3273,12 @@
 		  i fardoor = 8;
 		  x farguid = 0x20BD362F;
 		  i id = 5;
+		}
+		[door*]
+		{
+		  i fardoor = 4;
+		  x farguid = 0x5EFF9FDC;
+		  i id = 3;
 		}
 	}
 	[t:snode,n:0x1a373472]
@@ -4037,15 +4037,15 @@
 		}
 		[door*]
 		{
-		  i fardoor = 2;
-		  x farguid = 0xB4B7657F;
-		  i id = 3;
-		}
-		[door*]
-		{
 		  i fardoor = 1;
 		  x farguid = 0xB4B7657F;
 		  i id = 4;
+		}
+		[door*]
+		{
+		  i fardoor = 2;
+		  x farguid = 0xB4B7657F;
+		  i id = 3;
 		}
 	}
 	[t:snode,n:0x212dafce]
@@ -6437,14 +6437,14 @@
 		[door*]
 		{
 		  i fardoor = 4;
-		  x farguid = 0xB4B7657F;
-		  i id = 1;
+		  x farguid = 0x9F1E665D;
+		  i id = 4;
 		}
 		[door*]
 		{
 		  i fardoor = 4;
-		  x farguid = 0x9F1E665D;
-		  i id = 4;
+		  x farguid = 0xB4B7657F;
+		  i id = 1;
 		}
 	}
 	[t:snode,n:0x348fb24c]
@@ -7958,12 +7958,6 @@
 		[door*]
 		{
 		  i fardoor = 2;
-		  x farguid = 0x5EFF9FDC;
-		  i id = 4;
-		}
-		[door*]
-		{
-		  i fardoor = 2;
 		  x farguid = 0xDE740B19;
 		  i id = 1;
 		}
@@ -7978,6 +7972,12 @@
 		  i fardoor = 7;
 		  x farguid = 0x9ADFFF79;
 		  i id = 3;
+		}
+		[door*]
+		{
+		  i fardoor = 2;
+		  x farguid = 0x5EFF9FDC;
+		  i id = 4;
 		}
 	}
 	[t:snode,n:0x3e31ea1d]
@@ -11273,8 +11273,14 @@
 		[door*]
 		{
 		  i fardoor = 4;
-		  x farguid = 0xC5F652DC;
-		  i id = 1;
+		  x farguid = 0xD9854069;
+		  i id = 3;
+		}
+		[door*]
+		{
+		  i fardoor = 4;
+		  x farguid = 0x3E30F5EB;
+		  i id = 2;
 		}
 		[door*]
 		{
@@ -11285,14 +11291,8 @@
 		[door*]
 		{
 		  i fardoor = 4;
-		  x farguid = 0x3E30F5EB;
-		  i id = 2;
-		}
-		[door*]
-		{
-		  i fardoor = 4;
-		  x farguid = 0xD9854069;
-		  i id = 3;
+		  x farguid = 0xC5F652DC;
+		  i id = 1;
 		}
 	}
 	[t:snode,n:0x5fbeb672]
@@ -18333,12 +18333,6 @@
 		texsetabbr = abc01;
 		[door*]
 		{
-		  i fardoor = 5;
-		  x farguid = 0xB4B7657F;
-		  i id = 3;
-		}
-		[door*]
-		{
 		  i fardoor = 1;
 		  x farguid = 0xDA570497;
 		  i id = 2;
@@ -18360,6 +18354,12 @@
 		  i fardoor = 2;
 		  x farguid = 0xE142F633;
 		  i id = 5;
+		}
+		[door*]
+		{
+		  i fardoor = 5;
+		  x farguid = 0xB4B7657F;
+		  i id = 3;
 		}
 	}
 	[t:snode,n:0x9f23eec8]
@@ -20575,27 +20575,9 @@
 		texsetabbr = abc01;
 		[door*]
 		{
-		  i fardoor = 2;
-		  x farguid = 0xFB32EB0E;
-		  i id = 6;
-		}
-		[door*]
-		{
-		  i fardoor = 3;
-		  x farguid = 0x9F1E665D;
-		  i id = 5;
-		}
-		[door*]
-		{
-		  i fardoor = 3;
-		  x farguid = 0x20BD362F;
-		  i id = 2;
-		}
-		[door*]
-		{
-		  i fardoor = 4;
-		  x farguid = 0x20BD362F;
-		  i id = 1;
+		  i fardoor = 1;
+		  x farguid = 0x33EDCA09;
+		  i id = 4;
 		}
 		[door*]
 		{
@@ -20605,9 +20587,27 @@
 		}
 		[door*]
 		{
-		  i fardoor = 1;
-		  x farguid = 0x33EDCA09;
-		  i id = 4;
+		  i fardoor = 4;
+		  x farguid = 0x20BD362F;
+		  i id = 1;
+		}
+		[door*]
+		{
+		  i fardoor = 3;
+		  x farguid = 0x20BD362F;
+		  i id = 2;
+		}
+		[door*]
+		{
+		  i fardoor = 3;
+		  x farguid = 0x9F1E665D;
+		  i id = 5;
+		}
+		[door*]
+		{
+		  i fardoor = 2;
+		  x farguid = 0xFB32EB0E;
+		  i id = 6;
 		}
 	}
 	[t:snode,n:0xb4c9c2fb]
@@ -23334,12 +23334,6 @@
 		}
 		[door*]
 		{
-		  i fardoor = 1;
-		  x farguid = 0x5EFF9FDC;
-		  i id = 4;
-		}
-		[door*]
-		{
 		  i fardoor = 3;
 		  x farguid = 0xDE740B19;
 		  i id = 3;
@@ -23349,6 +23343,12 @@
 		  i fardoor = 4;
 		  x farguid = 0x523F5D10;
 		  i id = 1;
+		}
+		[door*]
+		{
+		  i fardoor = 1;
+		  x farguid = 0x5EFF9FDC;
+		  i id = 4;
 		}
 	}
 	[t:snode,n:0xc6b600f4]
@@ -25830,12 +25830,6 @@
 		}
 		[door*]
 		{
-		  i fardoor = 3;
-		  x farguid = 0x5EFF9FDC;
-		  i id = 4;
-		}
-		[door*]
-		{
 		  i fardoor = 2;
 		  x farguid = 0x20BD362F;
 		  i id = 1;
@@ -25863,6 +25857,12 @@
 		  i fardoor = 1;
 		  x farguid = 0x622E2B67;
 		  i id = 8;
+		}
+		[door*]
+		{
+		  i fardoor = 3;
+		  x farguid = 0x5EFF9FDC;
+		  i id = 4;
 		}
 	}
 	[t:snode,n:0xd99c639a]

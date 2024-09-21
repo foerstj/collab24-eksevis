@@ -577,15 +577,7 @@
 	[placement]
 	{
 	  q orientation = 0,0.92388,0,-0.382683;
-	  p position = 4.05042,3.46464e-021,6.36893,0x523f5d10;
-	}
-}
-[t:debris_cav_lg_01,n:0x01400064]
-{
-	[placement]
-	{
-	  q orientation = -3.28937e-022,0.92388,-7.94123e-022,0.382684;
-	  p position = 1.53339,-3.98489,-1.00741,0x5eff9fdc;
+	  p position = 4.05042,0,6.36893,0x523f5d10;
 	}
 }
 [t:collab24_bush_glb_dead_02,n:0x014000b4]
@@ -690,5 +682,13 @@
 	[placement]
 	{
 	  p position = -0.617126,2.66514e-022,-0.430595,0x0d04c9bb;
+	}
+}
+[t:debris_cav_lg_01,n:0x01400064]
+{
+	[placement]
+	{
+	  q orientation = -3.28937e-022,0.92388,-7.94123e-022,0.382684;
+	  p position = 1.53339,-3.98489,-1.00741,0x5eff9fdc;
 	}
 }
