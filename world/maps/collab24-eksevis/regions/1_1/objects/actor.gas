@@ -959,6 +959,13 @@
 	  p position = 1.50985,-0.599998,-1.09719,0x03be81d2;
 	}
 }
+[t:krug_scavenger_mtn,n:0x011000a6]
+{
+	[placement]
+	{
+	  p position = 1.12855,-0.8,1.68622,0x059da950;
+	}
+}
 [t:krug_scavenger_mtn,n:0x011000a9]
 {
 	[placement]
@@ -978,13 +985,6 @@
 	[placement]
 	{
 	  p position = 0.321638,-0.767567,-0.73251,0x48c5cacb;
-	}
-}
-[t:krug_scavenger_mtn,n:0x011000a6]
-{
-	[placement]
-	{
-	  p position = 1.12855,-0.8,1.68622,0x059da950;
 	}
 }
 [t:spider_adolescent_yellow,n:0x0110024a]
