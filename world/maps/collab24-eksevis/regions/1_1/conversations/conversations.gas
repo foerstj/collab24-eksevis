@@ -1,3 +1,30 @@
+[c1_eks_goblin_wise]
+{
+	[text*]
+	{
+		choice = more;
+	  i order = 0;
+	  b quest_dialog = false;
+		screen_text = "What's a goblin doing here? What does it matter to you!";
+	  f scroll_rate = 10.000000;
+	}
+	[text*]
+	{
+		activate_quest* = i_must_scream,0;
+	  i order = 1;
+	  b quest_dialog = true;
+		screen_text = "A murdered man and another goblin and you're here to blame me! Fool! I am here with the blood of my own kind on my hand! Regretfully as that may be, if not only for me.
+
+That diary you have. You say it warns you of the Blasted Goblin? F'hah! Good riddance to him, too -- ah, the Blasted Goblin, that is.
+
+That is why I'm here -- that is why I have risked myself to be labeled kinslayer! In our home he had created some sort of cult around himself, and with my great mind... even I could not figure out why they would ever obey his likeness. Seems my friend was intending to take me away, but I have keen eyes.
+
+Any how, my clan lives far away, much as the journal says, despite our species differences, I wish you the best of luck.
+
+You may very well need it.";
+	  f scroll_rate = 10.000000;
+	}
+}
 [goblin_quest_stage]
 {
 	[text*]
@@ -29,32 +56,5 @@ Would you like to browse my goods? If there's anything you're not seeing, please
 
 Well, since you're here, I assume you've already spoken to Radicus, my husband, but in case you haven't make sure to check his goods as well!";
 	  f scroll_rate = 30.000000;
-	}
-}
-[c1_eks_goblin_wise]
-{
-	[text*]
-	{
-		choice = more;
-	  i order = 1;
-	  b quest_dialog = false;
-		screen_text = "What's a goblin doing here? What does it matter to you!";
-	  f scroll_rate = 10.000000;
-	}
-	[text*]
-	{
-		activate_quest* = i_must_scream,0;
-	  i order = 2;
-	  b quest_dialog = true;
-		screen_text = "A murdered man and another goblin and you're here to blame me! Fool! I am here with the blood of my own kind on my hand! Regretfully as that may be, if not only for me.
-
-That diary you have. You say it warns you of the Blasted Goblin? F'hah! Good riddance to him, too -- ah, the Blasted Goblin, that is.
-
-That is why I'm here -- that is why I have risked myself to be labeled kinslayer! In our home he had created some sort of cult around himself, and with my great mind... even I could not figure out why they would ever obey his likeness. Seems my friend was intending to take me away, but I have keen eyes.
-
-Any how, my clan lives far away, much as the journal says, despite our species differences, I wish you the best of luck.
-
-You may very well need it.";
-	  f scroll_rate = 10.000000;
 	}
 }
