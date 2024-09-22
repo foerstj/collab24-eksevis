@@ -325,6 +325,9 @@ ARCHEOLOGISTS
 	{
 		screen_name = "Salak the Archeologist";
 	}
+		[conversation]
+	{
+	}
 }
 [t:template,n:collab_ek_archeologist_male_02]
 {
@@ -344,6 +347,9 @@ ARCHEOLOGISTS
 	{
 		screen_name = "One-Eyed Lukal the Archeologist";
 	}
+		[conversation]
+	{
+	}
 }
 [t:template,n:collab_ek_archeologist_male_03]
 {
@@ -362,6 +368,9 @@ ARCHEOLOGISTS
 	[common]
 	{
 		screen_name = "Banthorne the Archeologist";
+	
+		[conversation]
+	{
 	}
 }
 [t:template,n:collab_ek_archeologist_male_04]
@@ -382,6 +391,9 @@ ARCHEOLOGISTS
 	{
 		screen_name = "Whisper the Archeologist";
 	}
+		[conversation]
+	{
+	}
 }
 [t:template,n:collab_ek_archeologist_male_05]
 {
@@ -400,6 +412,9 @@ ARCHEOLOGISTS
 	[common]
 	{
 		screen_name = "Jonn the Archeologist";
+	}
+		[conversation]
+	{
 	}
 }
 [t:template,n:collab_ek_archeologist_male_06]
@@ -420,6 +435,9 @@ ARCHEOLOGISTS
 	{
 		screen_name = "Franklin the Archeologist";
 	}
+		[conversation]
+	{
+	}
 }
 [t:template,n:collab_ek_archeologist_female_01]
 {
@@ -438,6 +456,9 @@ ARCHEOLOGISTS
 	[common]
 	{
 		screen_name = "Fwynn Gilverstych";
+	}
+	[conversation]
+	{
 	}
 	[inventory]
 	{
@@ -461,6 +482,9 @@ ARCHEOLOGISTS
 	[common]
 	{
 		screen_name = "Alanna Blesstone";
+	}
+	[conversation]
+	{
 	}
 	[inventory]
 	{
@@ -489,6 +513,9 @@ ARCHEOLOGISTS
 	{
 		screen_name = "Townsperson";
 	}
+		[conversation]
+	{
+	}
 	[inventory]
 	{
 		custom_head = m_c_gah_fg_hlmt_head-04;
@@ -512,7 +539,7 @@ ARCHEOLOGISTS
 	{
 		screen_name = "Townsperson";
 	}
-	[inventory]
+	[conversation]
 	{
 	}
 }
@@ -534,14 +561,8 @@ ARCHEOLOGISTS
 	{
 		screen_name = "Townsperson";
 	}
-	[inventory]
+	[conversation]
 	{
-		[equipment]
-		{
-			[other]
-			{
-			}
-		}
 	}
 }
 [t:template,n:collab_ek_archeologist_female_06]
