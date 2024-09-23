@@ -2,9 +2,10 @@
 {
 	[text*]
 	{
-		choice = more;
+		activate_quest* = i_must_scream,3;
+		choice = buy_packmule;
 	  i order = 0;
-	  b quest_dialog = false;
+	  b quest_dialog = true;
 		screen_text = "What's a goblin doing here? What does it matter to you!";
 	  f scroll_rate = 10.000000;
 	}

@@ -472,7 +472,7 @@
 	[placement]
 	{
 	  q orientation = 0,-0.999962,0,-0.00872669;
-	  p position = -2.22487,-3,-5.70077,0xd25b329f;
+	  p position = -0.143151,-3,-0.736626,0xd25b329f;
 	}
 }
 [t:gypsy_female_02,n:0x01100226]

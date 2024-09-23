@@ -423,3 +423,33 @@
 	  p position = 0.552344,0.5,1.24777,0xf9ebc200;
 	}
 }
+[t:trigger_generic,n:0x01100158]
+{
+	[common]
+	{
+		screen_name = "Valley Town Mood Begin";
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = change_quest_state("i_must_scream","active",1);
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(1.000000,2.000000,2.500000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+		}
+	}
+	[placement]
+	{
+	  q orientation = 0,1,0,0;
+	  p position = 7.57904,-4,-0.931232,0xe1af8701;
+	}
+}
