@@ -50,6 +50,14 @@
 	  p position = -0.366423,-3,-3.58743,0xd25b329f;
 	}
 }
+[t:sign_grs_tavern,n:0x0110031a]
+{
+	[placement]
+	{
+	  q orientation = 0,-0.139173,0,0.990268;
+	  p position = 3.11096,-4.03698,-2.85973,0xd25b329f;
+	}
+}
 [t:door_glb_woodfence_left_01,n:0x0110029f]
 {
 	[aspect]

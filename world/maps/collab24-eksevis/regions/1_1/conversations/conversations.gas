@@ -25,6 +25,11 @@ Any how, my clan lives far away, much as the journal says, despite our species d
 You may very well need it.";
 	  f scroll_rate = 10.000000;
 	}
+	[text*]
+	{
+		screen_text = "Do you have business with me?";
+	  f scroll_rate = 10.000000;
+	}
 }
 [goblin_quest_stage]
 {
