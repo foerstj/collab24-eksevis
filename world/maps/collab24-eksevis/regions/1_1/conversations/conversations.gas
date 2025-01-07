@@ -27,7 +27,7 @@ You may very well need it.";
 	}
 	[text*]
 	{
-		screen_text = "Do you have business with me?";
+		screen_text = "Yes, I'm well aware I'm a goblin. What of it?";
 	  f scroll_rate = 10.000000;
 	}
 }
