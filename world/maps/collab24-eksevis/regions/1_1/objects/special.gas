@@ -136,7 +136,7 @@
 			{
 				action* = change_quest_state("i_must_scream","active",1);
 			  b can_self_destruct = true;
-				condition* = party_member_within_bounding_box(1.000000,2.000000,2.500000,"on_every_enter");
+				condition* = party_member_within_bounding_box(2.000000,2.000000,5.000000,"on_every_enter");
 			  f delay = 0.000000;
 			  b flip_flop = false;
 			  b multi_player = true;
