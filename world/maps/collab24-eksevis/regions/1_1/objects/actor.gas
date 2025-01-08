@@ -475,12 +475,8 @@
 	  p position = -0.143151,-3,-0.736626,0xd25b329f;
 	}
 }
-[t:gypsy_female_02,n:0x01100226]
+[t:collab_ek_barkeeper,n:0x01100226]
 {
-	[common]
-	{
-		screen_name = "Bar Owner";
-	}
 	[placement]
 	{
 	  q orientation = 0,-0.75471,0,0.656059;
@@ -637,7 +633,7 @@
 	{
 		[conversations]
 		{
-			* = Nishina_Archeologist_Conv;
+			* = nishina_archeologist_conv;
 		}
 	}
 	[mind]

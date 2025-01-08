@@ -605,3 +605,25 @@ ARCHEOLOGISTS
 	{
 	}
 }
+[t:template,n:collab_ek_barkeeper]
+{
+	category_name = "1W_townsperson";
+	doc = "Female Traveler_pants";
+	specializes = base_npc_fg;
+	[aspect]
+	{
+		draw_selection_indicator = FALSE;
+		[textures]
+		{
+			0 = b_c_gah_fg_skin_08;
+			1 = b_c_pos_a1_025;
+		}
+	}
+	[common]
+	{
+		screen_name = "Bar Owner";
+	}
+	[conversation]
+	{
+	}
+}
