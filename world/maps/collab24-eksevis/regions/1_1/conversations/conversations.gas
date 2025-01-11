@@ -53,6 +53,14 @@ Would you like to browse my goods? If there's anything you're not seeing, please
 	  f scroll_rate = 30.000000;
 	}
 }
+[nishina_archeologist_conv]
+{
+	[text*]
+	{
+		screen_text = "Don't mind me, I'm just surveying out these fine ruins! I'm an archaeologist, one a several around around this area right now.";
+	  f scroll_rate = 10.000000;
+	}
+}
 [potion_seller]
 {
 	[text*]
@@ -62,13 +70,5 @@ Would you like to browse my goods? If there's anything you're not seeing, please
 
 Well, since you're here, I assume you've already spoken to Radicus, my husband, but in case you haven't make sure to check his goods as well!";
 	  f scroll_rate = 30.000000;
-	}
-}
-[nishina_archeologist_conv]
-{
-	[text*]
-	{
-		screen_text = "Don't mind me, I'm just surveying out these fine ruins! I'm an archaeologist, one a several around around this area right now.";
-	  f scroll_rate = 10.000000;
 	}
 }

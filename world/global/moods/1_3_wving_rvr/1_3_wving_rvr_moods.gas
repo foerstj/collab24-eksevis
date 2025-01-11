@@ -1,0 +1,6 @@
+[mood_setting*]
+{
+  b interior = false;
+	mood_name = 1_0_crypt_mood_begin;
+  f transition_time = 0.000000;
+}

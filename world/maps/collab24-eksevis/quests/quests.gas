@@ -13,14 +13,13 @@
 }
 [quests]
 {
-	[i_must_scream]
+	[chapel_murder]
 	{
 		chapter = chapter_01_valleyball;
-		quest_image = b_gui_ig_mnu_jnl_quest_c24_1_goblin_squeal;
-		screen_name = make a goblin squeal;
+		screen_name = Placeholder Chapel Murder;
 		[*]
 		{
-			description = The crypt has collapsed and you think you heard the 'Blasted Goblin';
+			description = The crypt has collapsed behind you. The shrill laughter of a goblin could be heard;
 		  b is_consumable = true;
 		  i order = 0;
 		  b required = true;
@@ -28,33 +27,23 @@
 		}
 		[*]
 		{
-			description = You've entered Nishina Village. Perhaps there's someone here that point you the right direction?;
+			description = You've entered Nishina Village. Perhaps someone knows who collapsed the crypt.;
 		  b is_consumable = true;
 		  i order = 1;
 		  b required = true;
 			speaker = ;
 		}
+	}
+	[i_must_scream]
+	{
+		chapter = chapter_01_valleyball;
+		quest_image = b_gui_ig_mnu_jnl_quest_c24_1_goblin_squeal;
+		screen_name = make a goblin squeal;
 		[*]
 		{
-			description = Having tried to talked to the so-called 'Wise Goblin', it sees you need to get their trust somehow.;
+			description = stop the blasted goblin!;
 		  b is_consumable = true;
-		  i order = 2;
-		  b required = true;
-			speaker = ;
-		}
-		[*]
-		{
-			description = Try talking to the 'Wise Goblin' again!;
-		  b is_consumable = true;
-		  i order = 3;
-		  b required = true;
-			speaker = ;
-		}
-		[*]
-		{
-			description = Stop the Blasted Goblin!;
-		  b is_consumable = true;
-		  i order = 4;
+		  i order = 0;
 		  b required = true;
 			speaker = ;
 		}

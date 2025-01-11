@@ -1,3 +1,32 @@
+[t:trigger_generic,n:0x0100000d]
+{
+	[common]
+	{
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = change_quest_state("chapel_murder","active",0);
+			  b can_self_destruct = true;
+				condition* = go_within_sphere(20.000000,0x00000000,"","on_first_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+		}
+	}
+	[placement]
+	{
+	  q orientation = 0,1,0,-2.98023e-008;
+	  p position = -0.65836,-1.5,-0.828736,0x54b31f3c;
+	}
+}
 [t:trigger_generic,n:0x01000002]
 {
 	[common]
@@ -36,7 +65,7 @@
 		{
 			[*]
 			{
-				action* = mood_change("1_0_crypt_mood");
+				action* = mood_change("1_0_crypt_mood_begin");
 			  b can_self_destruct = true;
 				condition* = party_member_within_sphere(35.000000,"on_every_enter");
 			  f delay = 0.000000;
@@ -70,34 +99,5 @@
 	{
 	  q orientation = 0,1,0,0;
 	  p position = 0.533379,-1.5,-2.61319,0xc0f545aa;
-	}
-}
-[t:trigger_generic,n:0x0100000d]
-{
-	[common]
-	{
-		[instance_triggers]
-		{
-			[*]
-			{
-				action* = change_quest_state("i_must_scream","active",0);
-			  b can_self_destruct = true;
-				condition* = go_within_sphere(20.000000,0x00000000,"","on_first_enter");
-			  f delay = 0.000000;
-			  b flip_flop = false;
-			  b multi_player = true;
-			  b no_trig_bits = false;
-				occupants_group = ;
-			  f reset_duration = 0.000000;
-			  b single_player = true;
-			  b single_shot = false;
-			  b start_active = true;
-			}
-		}
-	}
-	[placement]
-	{
-	  q orientation = 0,-0.707107,0,0.707107;
-	  p position = -0.606369,-1.5,-1.45044,0x7647a685;
 	}
 }
