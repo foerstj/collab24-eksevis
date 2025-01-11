@@ -20,6 +20,7 @@
 	0x01300858 = t_xxx_pth_08x04-b;
 	0x0130085e = t_xxx_pth_08x04-h;
 	0x0130085f = t_xxx_pth_08x04-i;
+	0x01300893 = t_xxx_rmp_tx-wal-04-thck-l;
 	0x01300897 = t_xxx_rvr_08-bridge-left-tx-right-a;
 	0x01300898 = t_xxx_rvr_08-bridge-right-tx-left-a;
 	0x01300899 = t_xxx_rvr_08-left-a;
@@ -41,6 +42,13 @@
 	0x013008b8 = t_xxx_rvr_12-tx-08-right-a;
 	0x013008b9 = t_xxx_rvr_12-tx-08-right-b;
 	0x013008c3 = t_xxx_rvr_wfall-12-tx-12;
+	0x013008e2 = t_xxx_ruin_alcove-a;
+	0x013008e7 = t_xxx_ruin_flr-04x04-a;
+	0x013008e9 = t_xxx_ruin_flr-08x04-a;
+	0x013008ea = t_xxx_ruin_flr-plate-04x04-a;
+	0x013008eb = t_xxx_ruin_flr-plate-08x04-a;
+	0x013008ed = t_xxx_ruin_flr-plate-cnvx-a;
+	0x01300914 = t_xxx_ruin_well-08x08-a;
 	0x013009fb = t_xxx_wal_04-diag-thick-l;
 	0x013009fc = t_xxx_wal_04-diag-thick-r;
 	0x013009fd = t_xxx_wal_04-diag-thin-l;

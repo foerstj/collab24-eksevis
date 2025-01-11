@@ -55,18 +55,18 @@
 	  p position = 0.174286,0,-0.777184,0xa3c5d363;
 	}
 }
+[t:tree_grs_oak_03,n:0x0130009a]
+{
+	[placement]
+	{
+	  p position = 0.711197,0,0.995471,0x65238bc9;
+	}
+}
 [t:cattail_grs_03,n:0x013000d5]
 {
 	[placement]
 	{
 	  p position = -3.64374,-6,-1.26168,0x1ec43060;
-	}
-}
-[t:tree_grs_oak_01,n:0x01300098]
-{
-	[placement]
-	{
-	  p position = 1.10832,0,-1.0272,0xd311c416;
 	}
 }
 [t:bush_swp_07,n:0x0130006d]
@@ -1600,10 +1600,10 @@
 	  p position = -3.16034,7.62939e-006,-0.27263,0x1bae534a;
 	}
 }
-[t:tree_grs_oak_03,n:0x0130009a]
+[t:tree_grs_oak_01,n:0x01300098]
 {
 	[placement]
 	{
-	  p position = 0.711197,0,0.995471,0x65238bc9;
+	  p position = 1.10832,0,-1.0272,0xd311c416;
 	}
 }
