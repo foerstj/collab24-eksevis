@@ -4,6 +4,7 @@
 	{
 		activate_quest* = i_must_scream,3;
 		choice = more;
+		complete_quest* = chapel_murder;
 	  i order = 0;
 	  b quest_dialog = true;
 		screen_text = "You came from the crypt and it collapsed? What, I'd know because I'm a goblin?
@@ -14,7 +15,6 @@ Sighs. Alright, fine. It sounds as though it were the work of the Blasted Goblin
 	[text*]
 	{
 		activate_quest* = i_must_scream,0;
-		complete_quest* = chapel_murder;
 	  i order = 1;
 	  b quest_dialog = true;
 		screen_text = "This diary confirms my suspicion...
