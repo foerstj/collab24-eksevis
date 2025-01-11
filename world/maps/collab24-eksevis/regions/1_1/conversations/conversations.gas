@@ -6,23 +6,20 @@
 		choice = more;
 	  i order = 0;
 	  b quest_dialog = true;
-		screen_text = "What's a goblin doing here? What does it matter to you!";
+		screen_text = "You came from the crypt and it collapsed? What, I'd know because I'm a goblin?
+
+Sighs. Alright, fine. It sounds as though it were the work of the Blasted Goblin. Why would I tell you? He's an enemy of mine!";
 	  f scroll_rate = 10.000000;
 	}
 	[text*]
 	{
 		activate_quest* = i_must_scream,0;
+		complete_quest* = chapel_murder;
 	  i order = 1;
 	  b quest_dialog = true;
-		screen_text = "A murdered man and another goblin and you're here to blame me! Fool! I am here with the blood of my own kind on my hand! Regretfully as that may be, if not only for me.
+		screen_text = "This diary confirms my suspicion...
 
-That diary you have. You say it warns you of the Blasted Goblin? F'hah! Good riddance to him, too -- ah, the Blasted Goblin, that is.
-
-That is why I'm here -- that is why I have risked myself to be labeled kinslayer! In our home he had created some sort of cult around himself, and with my great mind... even I could not figure out why they would ever obey his likeness. Seems my friend was intending to take me away, but I have keen eyes.
-
-Any how, my clan lives far away, much as the journal says, despite our species differences, I wish you the best of luck.
-
-You may very well need it.";
+Lest you wish his wicked Goblin Clan bring upon destruction, you better stop him in his tracks! Kill the Blasted Goblin!";
 	  f scroll_rate = 10.000000;
 	}
 	[text*]

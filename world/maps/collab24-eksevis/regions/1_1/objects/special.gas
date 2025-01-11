@@ -122,7 +122,7 @@
 	[placement]
 	{
 	  q orientation = 0,1,0,0;
-	  p position = -0.02104,-1.85,-2.34235,0xa784d2a7;
+	  p position = -0.0115795,-1.85,-2.33803,0xa784d2a7;
 	}
 }
 [t:trigger_generic,n:0x01100158]
