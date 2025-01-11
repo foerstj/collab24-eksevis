@@ -59,6 +59,9 @@
 	0x01200914 = t_xxx_ruin_well-08x08-a;
 	0x012009fb = t_xxx_wal_04-diag-thick-l;
 	0x012009fc = t_xxx_wal_04-diag-thick-r;
+	0x012009fd = t_xxx_wal_04-diag-thin-l;
+	0x012009fe = t_xxx_wal_04-diag-thin-r;
+	0x01200a00 = t_xxx_wal_04-pth-r;
 	0x01200a01 = t_xxx_wal_04-thck;
 	0x01200a02 = t_xxx_wal_04-thin;
 	0x01200a0c = t_xxx_wal_08-diag-thick-l;

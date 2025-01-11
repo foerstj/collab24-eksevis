@@ -131,47 +131,6 @@
 	  p position = 0.671719,0,-1.22758,0x88c19dd5;
 	}
 }
-[t:phrak,n:0x01200070]
-{
-	[placement]
-	{
-	  p position = 1.8734,0,-1.92296,0x270c3dc8;
-	}
-}
-[t:collab_ek_archeologist_male_02,n:0x01200119]
-{
-	[common]
-	{
-		screen_name = "Archaeologist Lead Lukal";
-	}
-	[conversation]
-	{
-		[conversations]
-		{
-			* = archaeologist_funder;
-		}
-	}
-	[inventory]
-	{
-		[equipment]
-		{
-			es_chest = bd_bl_r_g_c_avg;
-			es_feet = bo_bo_le_f_g_c_satin;
-			es_forearms = gl_gl_sl_f_g_c_avg;
-			es_head = he_un_ca_brim;
-			es_weapon_hand = sd_g_c_dsx_chr_1h_avg;
-		}
-	}
-	[mind]
-	{
-		jat_talk = world\ai\jobs\common\job_talk.skrit;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.970296,0,0.241922;
-	  p position = -3.95511,0,3.44117,0x0725ab1d;
-	}
-}
 [t:collab_ek_archeologist_male_03,n:0x012000fd]
 {
 	[inventory]
@@ -247,6 +206,40 @@
 	{
 	  q orientation = 0,2.98023e-008,0,1;
 	  p position = 0.704773,-0.6,-1.92758,0x50b4a3d6;
+	}
+}
+[t:collab_ek_archeologist_male_02,n:0x01200119]
+{
+	[common]
+	{
+		screen_name = "Archaeologist Lead Lukal";
+	}
+	[conversation]
+	{
+		[conversations]
+		{
+			* = archaeologist_funder;
+		}
+	}
+	[inventory]
+	{
+		[equipment]
+		{
+			es_chest = bd_bl_r_g_c_avg;
+			es_feet = bo_bo_le_f_g_c_satin;
+			es_forearms = gl_gl_sl_f_g_c_avg;
+			es_head = he_un_ca_brim;
+			es_weapon_hand = sd_g_c_dsx_chr_1h_avg;
+		}
+	}
+	[mind]
+	{
+		jat_talk = world\ai\jobs\common\job_talk.skrit;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.970296,0,0.241922;
+	  p position = -3.95511,0,3.44117,0x0725ab1d;
 	}
 }
 [t:phrak,n:0x01200066]
@@ -699,6 +692,34 @@
 	  p position = -2.18547,0,-0.464153,0xb9bc169a;
 	}
 }
+[t:krug_scout_mtn,n:0x01200013]
+{
+	[placement]
+	{
+	  p position = 2.29054,3.8147e-006,0.58345,0xfc6135e0;
+	}
+}
+[t:krug_apprentice,n:0x0120004d]
+{
+	[placement]
+	{
+	  p position = -0.63089,7.62939e-006,1.45626,0x773b5003;
+	}
+}
+[t:krug_scout_mtn,n:0x01200027]
+{
+	[placement]
+	{
+	  p position = -1.9868,0,0.612164,0xf4844299;
+	}
+}
+[t:phrak,n:0x01200065]
+{
+	[placement]
+	{
+	  p position = -1.63841,-0.523052,-1.47823,0x0e63058d;
+	}
+}
 [t:phrak,n:0x0120005e]
 {
 	[placement]
@@ -768,34 +789,6 @@
 	[placement]
 	{
 	  p position = -2.41427,0,3.41069,0x4fd2af23;
-	}
-}
-[t:phrak,n:0x01200065]
-{
-	[placement]
-	{
-	  p position = -1.63841,-0.523052,-1.47823,0x0e63058d;
-	}
-}
-[t:krug_scout_mtn,n:0x01200013]
-{
-	[placement]
-	{
-	  p position = 2.29054,3.8147e-006,0.58345,0xfc6135e0;
-	}
-}
-[t:krug_apprentice,n:0x0120004d]
-{
-	[placement]
-	{
-	  p position = -0.63089,7.62939e-006,1.45626,0x773b5003;
-	}
-}
-[t:krug_scout_mtn,n:0x01200027]
-{
-	[placement]
-	{
-	  p position = -1.9868,0,0.612164,0xf4844299;
 	}
 }
 [t:spider_adolescent_yellow,n:0x01200081]
@@ -908,5 +901,12 @@
 	[placement]
 	{
 	  p position = -3.09705,0,0.727312,0xe67ef1e5;
+	}
+}
+[t:phrak,n:0x01200070]
+{
+	[placement]
+	{
+	  p position = 1.8734,0,-1.92296,0x270c3dc8;
 	}
 }
