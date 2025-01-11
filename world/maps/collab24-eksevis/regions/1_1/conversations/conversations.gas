@@ -2,7 +2,6 @@
 {
 	[text*]
 	{
-		activate_quest* = i_must_scream,3;
 		choice = more;
 		complete_quest* = chapel_murder;
 	  i order = 0;

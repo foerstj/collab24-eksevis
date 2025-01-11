@@ -17,7 +17,7 @@
 	{
 		chapter = chapter_01_valleyball;
 		quest_image = b_gui_ig_mnu_jnl_quest_c24_2_chapel_murder;
-		screen_name = The Chapel Murder;
+		screen_name = the chapel murder;
 		[*]
 		{
 			description = the crypt has collapsed behind you. the shrill laughter of a goblin could be heard;
@@ -36,8 +36,7 @@
 		}
 		[*]
 		{
-			address = 1_0:conversations:crypt_hobo;
-			description = Bring the bloodied diary back to the Wise Goblin at the tavern!;
+			description = bring the bloodied diary back to the wise goblin at the tavern!;
 		  b is_consumable = true;
 		  i order = 2;
 		  b required = true;
