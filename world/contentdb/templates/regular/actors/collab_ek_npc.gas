@@ -325,6 +325,9 @@ ARCHEOLOGISTS
 	{
 		screen_name = "Salak the Archeologist";
 	}
+	[conversation]
+	{
+	}
 }
 [t:template,n:collab_ek_archeologist_male_02]
 {
@@ -343,6 +346,9 @@ ARCHEOLOGISTS
 	[common]
 	{
 		screen_name = "One-Eyed Lukal the Archeologist";
+	}
+	[conversation]
+	{
 	}
 }
 [t:template,n:collab_ek_archeologist_male_03]
@@ -363,6 +369,9 @@ ARCHEOLOGISTS
 	{
 		screen_name = "Banthorne the Archeologist";
 	}
+	[conversation]
+	{
+	}
 }
 [t:template,n:collab_ek_archeologist_male_04]
 {
@@ -381,6 +390,9 @@ ARCHEOLOGISTS
 	[common]
 	{
 		screen_name = "Whisper the Archeologist";
+	}
+	[conversation]
+	{
 	}
 }
 [t:template,n:collab_ek_archeologist_male_05]
@@ -401,6 +413,9 @@ ARCHEOLOGISTS
 	{
 		screen_name = "Jonn the Archeologist";
 	}
+	[conversation]
+	{
+	}
 }
 [t:template,n:collab_ek_archeologist_male_06]
 {
@@ -420,6 +435,9 @@ ARCHEOLOGISTS
 	{
 		screen_name = "Franklin the Archeologist";
 	}
+	[conversation]
+	{
+	}
 }
 [t:template,n:collab_ek_archeologist_female_01]
 {
@@ -438,6 +456,9 @@ ARCHEOLOGISTS
 	[common]
 	{
 		screen_name = "Fwynn Gilverstych";
+	}
+	[conversation]
+	{
 	}
 	[inventory]
 	{
@@ -461,6 +482,9 @@ ARCHEOLOGISTS
 	[common]
 	{
 		screen_name = "Alanna Blesstone";
+	}
+	[conversation]
+	{
 	}
 	[inventory]
 	{
@@ -489,6 +513,9 @@ ARCHEOLOGISTS
 	{
 		screen_name = "Townsperson";
 	}
+	[conversation]
+	{
+	}
 	[inventory]
 	{
 		custom_head = m_c_gah_fg_hlmt_head-04;
@@ -512,7 +539,7 @@ ARCHEOLOGISTS
 	{
 		screen_name = "Townsperson";
 	}
-	[inventory]
+	[conversation]
 	{
 	}
 }
@@ -534,14 +561,8 @@ ARCHEOLOGISTS
 	{
 		screen_name = "Townsperson";
 	}
-	[inventory]
+	[conversation]
 	{
-		[equipment]
-		{
-			[other]
-			{
-			}
-		}
 	}
 }
 [t:template,n:collab_ek_archeologist_female_06]
@@ -571,31 +592,10 @@ ARCHEOLOGISTS
 	category_name = "1W_evil_a";
 	doc = "collab_ek_goblin_grunt";
 	specializes = base_goblin;
-	[actor]
-	{
-		[skills]
-		{
-			strength 		= 13, 0;
-			intelligence	= 7,  0;
-			dexterity		= 11, 0;
-			melee			= 4,  0;
-		}
-	}
 	[aspect]
 	{
-		experience_value 	= 60;
-		life 				= 55;
-		max_life 			= 55;
-		mana 				= 14;
-		max_mana 			= 14;
 		model 				= m_c_eam_ggt_pos_1;
-		scale_base 			= 1.2;
-	}
-	[attack]
-	{
-		attack_range = 0.5;
-		damage_max = 26;
-		damage_min = 22;
+		scale_base 			= 1.0;
 	}
 	[common]
 	{
@@ -604,61 +604,26 @@ ARCHEOLOGISTS
 	[conversation]
 	{
 	}
-	[defend]
+}
+[t:template,n:collab_ek_barkeeper]
+{
+	category_name = "1W_townsperson";
+	doc = "Female Traveler_pants";
+	specializes = base_npc_fg;
+	[aspect]
 	{
-		defense=140;
-	}
-	[inventory]
-	{
-    	[pcontent]
+		draw_selection_indicator = FALSE;
+		[textures]
 		{
-            [oneof*]
-			{
-				es_weapon_hand = ax_d_c_1h1b_avg;
-			}
-			[oneof*]
-			{
-				[all*]
-				{
-					[gold*]
-					{
-						  chance = 0.2;
-						  max = 75;
-						  min = 35;
-					}
-				}
-				[all*]
-				{
-       				chance = 0.03;
-   	        	    il_main = #spell/3-8;
-				}
-				[oneof*]
-				{
-	    		    chance = 0.22;
-        	   	    il_main = #weapon/15-25;
-        	   	    il_main = #*/15-25;
-            	    il_main = #armor/11-60;
-    				il_main = potion_mana_small;
-					il_main = potion_health_small;
-				}
-                [oneof*]
-				{
-	            	chance = 0.004;
-	                il_main = #weapon/-rare(1)/22-35;
-	                il_main = #armor/-rare(1)/28-80;
-                    il_main = #*/-rare(1)/22-35;
-                }
-			}
+			0 = b_c_gah_fg_skin_08;
+			1 = b_c_pos_a1_025;
 		}
-    }
-	[mind]
+	}
+	[common]
 	{
-		on_life_ratio_low_flee = true;
-		flee_count = 1;
-		flee_distance = 20;
-		melee_engage_range = 10;
-		personal_space_range = 0.7;
-		ranged_engage_range = 10.0;
-		sight_range = 10.0;
+		screen_name = "Bar Owner";
+	}
+	[conversation]
+	{
 	}
 }

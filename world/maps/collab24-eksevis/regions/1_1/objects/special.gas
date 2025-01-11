@@ -122,7 +122,37 @@
 	[placement]
 	{
 	  q orientation = 0,1,0,0;
-	  p position = -0.02104,-1.85,-2.34235,0xa784d2a7;
+	  p position = -0.0115795,-1.85,-2.33803,0xa784d2a7;
+	}
+}
+[t:trigger_generic,n:0x01100158]
+{
+	[common]
+	{
+		screen_name = "Valley Town Mood Begin";
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = change_quest_state("chapel_murder","active",1);
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(2.000000,2.000000,5.000000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+		}
+	}
+	[placement]
+	{
+	  q orientation = 0,1,0,0;
+	  p position = 7.57904,-4,-0.931232,0xe1af8701;
 	}
 }
 [t:trigger_generic,n:0x01100162]
@@ -152,6 +182,36 @@
 	[placement]
 	{
 	  p position = 6.16506,-3.43318,-1.05056,0xe1af8701;
+	}
+}
+[t:trigger_generic,n:0x011000fc]
+{
+	[common]
+	{
+		screen_name = "1_1 -> 1_2 mood";
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = mood_change("1_1_valley_town");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(1.000000,0.500000,10.000000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+		}
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.707107,0,0.707107;
+	  p position = -1.01631,9.53674e-007,-1.03058,0x6d0f6c0a;
 	}
 }
 [t:blocking_object,n:0x01100007]
@@ -297,7 +357,7 @@
 	}
 	[placement]
 	{
-	  p position = 0.00746346,-2.5,-1.34462,0x4b49133f;
+	  p position = -0.0611,-2.5,-1.35645,0x4b49133f;
 	}
 }
 [t:trigger_generic,n:0x0110021b]

@@ -12,6 +12,14 @@
 	  p position = 3.55993,0,2.66217,0x8127173e;
 	}
 }
+[t:chest_c24_1_1,n:0x0120003b]
+{
+	[placement]
+	{
+	  q orientation = 0,1,0,0;
+	  p position = -2.76106,-3.81766,-1.14867,0x8ccfa1b8;
+	}
+}
 [t:barrel_mossy_c24_1_1,n:0x0120025b]
 {
 	[placement]

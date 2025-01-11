@@ -97,7 +97,7 @@
 		{
 			[*]
 			{
-				action* = change_quest_state("i_must_scream","active",0);
+				action* = change_quest_state("chapel_murder","completed",2);
 			  b can_self_destruct = true;
 				condition* = receive_world_message("we_picked_up",0,"on_first_message");
 			  f delay = 0.000000;
@@ -117,6 +117,61 @@
 	  p position = -6.04089,-1,3.73384,0x67705a8c;
 	}
 }
+[t:gold,n:0x01100367]
+{
+	[aspect]
+	{
+	  b is_selectable = false;
+	}
+	[placement]
+	{
+	  p position = 2.07934,-2.28159,-1.83562,0xd25b329f;
+	}
+}
+[t:gold,n:0x01100368]
+{
+	[aspect]
+	{
+	  b is_selectable = false;
+	}
+	[placement]
+	{
+	  p position = 2.32688,-2.28159,-2.01986,0xd25b329f;
+	}
+}
+[t:gold,n:0x01100369]
+{
+	[aspect]
+	{
+	  b is_selectable = false;
+	}
+	[placement]
+	{
+	  p position = 2.10372,-2.28159,-2.18193,0xd25b329f;
+	}
+}
+[t:gold,n:0x0110036a]
+{
+	[aspect]
+	{
+	  b is_selectable = false;
+	}
+	[placement]
+	{
+	  p position = 2.35341,-2.28159,-1.75721,0xd25b329f;
+	}
+}
+[t:gold,n:0x0110036b]
+{
+	[aspect]
+	{
+	  b is_selectable = false;
+	}
+	[placement]
+	{
+	  p position = 2.15385,-2.28159,-2.0085,0xd25b329f;
+	}
+}
 [t:book_glb_lore,n:0x011002b4]
 {
 	[aspect]
@@ -126,6 +181,23 @@
 	[placement]
 	{
 	  p position = 4.30684,-0.0877399,0.498558,0xca1e1384;
+	}
+}
+[t:chicken_gun,n:0x0110032e]
+{
+	[aspect]
+	{
+	  b is_selectable = false;
+	  f scale_base = 0.9;
+	}
+	[common]
+	{
+		screen_name = "Broken Goblin Gun";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.25038,0,-0.968148;
+	  p position = -3.31913,0,-0.530823,0x19b29336;
 	}
 }
 [t:st_un_toothpick,n:0x01100266]

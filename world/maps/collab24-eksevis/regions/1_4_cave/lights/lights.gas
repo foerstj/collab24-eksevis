@@ -30,15 +30,15 @@
 	  x color = 0xFFFFFFFF;
 	  b draw_shadow = true;
 	  f inner_radius = 15.000000;
-	  f intensity = 1.000000;
+	  f intensity = 500.000000;
 	  b occlude_geometry = false;
 	  b on_timer = true;
-	  f outer_radius = 40.000000;
+	  f outer_radius = 30.000000;
 		[position]
 		{
 		  x node = 0x4A59A01B;
 		  f x = 0.847847;
-		  f y = 2.007207;
+		  f y = 10.657055;
 		  f z = 0.260818;
 		}
 	}

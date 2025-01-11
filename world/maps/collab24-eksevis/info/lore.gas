@@ -3,18 +3,29 @@
 	[eks_quest_book]
 	{
 		description = "[Much of the book has nothing to do with what you see before you, and went on as such for nearly 50 pages.. until, naturally, at the end...]\n
-		I've just received horrible news. A goblin -- strangely enough calling himself a 'Blasted' -- has begun an uprising. Has he brainwashed the creatures of our beautiful land, or is there something else to it?\n
-		Really, it should matter not. I must warn my fellow villagers....\n	
-		I've been held prisoner by a krug. If I thought I could kill him, I'd have already done so, but something tells me this will be my end. Before they are made aware; if I am not alive to do it myself,\n
-		please, whoever is reading this, warn the villagers or at least make that blasted goblin squeel. The informant has --well, informed-- me that his base is found in Sunset Slopes of Larissa.\n
-		Unfortunately there isn't any ideal way to get there from here. You'll have to go through the Frostfingers and the Underlands";
+I've just received horrible news. A goblin -- strangely enough calling himself a 'Blasted' -- has begun an uprising. Has he brainwashed the creatures of our beautiful land, or is there something else to it?\n
+Really, it should matter not. I must warn my fellow villagers....\n	
+I've been held prisoner by a krug. If I thought I could kill him, I'd have already done so, but something tells me this will be my end. Before they are made aware; if I am not alive to do it myself,\n
+please, whoever is reading this, warn the villagers or at least make that blasted goblin squeel. The informant has --well, informed-- me that his base is found in Sunset Slopes of Larissa.\n
+Unfortunately there isn't any ideal way to get there from here. You'll have to go through the Frostfingers and the Underlands";
 	}
 	[eks_abandoned_camp]
 	{
 		description = "It is here that we have liked to have met an end.\n
-		It was our choice to have left our homes and found this place -- a place of comfort and peace and of tranquility. We had hated the life provided to us in the the Kingdom of Ehb, and much of us had also disliked the Utraean way of life\n
-		We chose to spend the rest of our like-to-be short lives together, in the midst of what we had thought to be nowhere. The road was quiet most times, our days and nights following likewise as such.\n
-		Khars had left to explore and found a small village not far away from where we had settled, but he had came back with the news that they showed little care to where we lived, and even less interest to interfere with our small group\n
-		Shadeni found ruins just west of us. Many had looked as though they were only abandoned within the last several decades, but little of actual use was left there.\n";
+It was our choice to have left our homes and found this place -- a place of comfort and peace and of tranquility. We had hated the life provided to us in the the Kingdom of Ehb, and much of us had also disliked the Utraean way of life\n
+We chose to spend the rest of our like-to-be short lives together, in the midst of what we had thought to be nowhere. The road was quiet most times, our days and nights following likewise as such.\n
+Khars had left to explore and found a small village not far away from where we had settled, but he had came back with the news that they showed little care to where we lived, and even less interest to interfere with our small group\n
+Shadeni found ruins just west of us. Many had looked as though they were only abandoned within the last several decades, but little of actual use was left there.\n";
+	}
+	[eks_archaeo_notes_p1]
+	{
+		description = "We had looked at several maps and had came to the conclusion there had once been a much larger settlement in Nishina Valley. In fact, upon further study, this was nothing short of a well known fact to the settlers. Once we had arrived there, it was more than clear that the reason was just about infinitely obvious as one thing can be.\n
+There were so many ruins -- some no more than piles of rock at this point -- that it'd better be described as an enormous set of ruins with a small village within itself. The ruins were that of several enormous buildings made of rock that went up and down the deeply cut Nishina Valley, making it just about impossible to not build atop the ruins. We had asked for permission to check under their homes and 'businesses' -- really no more than a slightly large home full of albeit fascinating but not obviously related artifacts -- but none had shown any sign of willingness to allow us to do so.\n";
+	}
+	[eks_archaeo_notes_p2]
+	{
+		description = "[The small journal seemed to pick up where another had left off]\n
+Further up, there had been the burnt out remains of a house that the inhabitants had described as having been belonging to a couple who had unfortunately died in the fire, but with it left down to its foundations may have helped us confirm our suspicions, even if we could not clean it up further.\n
+And upon further inspection of the surrounding ruins, they had all seemed to vary widely in age. In fact, several old Arannian accounts even described it as being a place dotted with yet older civilizations. Time had left this place much smaller now, but it had been large -- large enough to have been a city that had experienced several collapses over the millenias. Nishina Valley, it would seem, was and would likely continued to be simultaneously doomed and blessed to live long but scarce in life.";
 	}
 }

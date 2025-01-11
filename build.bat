@@ -3,7 +3,7 @@ set map=collab24-eksevis
 :: name of map, case-sensitive
 set map_cs=Collab 24 Eksevis
 :: tank properties
-set year=2024
+set year=2025
 set copyright=CC-BY-SA %year%
 set author=Eksevis
 set title=%map_cs%
@@ -16,10 +16,14 @@ set ds=%DungeonSiege%
 set tc=%TankCreator%
 
 :: pre-build checks
-pushd %gaspy%
-venv\Scripts\python -m build.pre_build_checks %map% --check standard --bits "%bits%"
-if %errorlevel% neq 0 pause
-popd
+setlocal EnableDelayedExpansion
+if not "%gaspy%"=="" (
+  pushd %gaspy%
+  venv\Scripts\python -m build.pre_build_checks %map% --check standard --bits "%bits%"
+  if !errorlevel! neq 0 pause
+  popd
+)
+endlocal
 
 :: Compile map file
 rmdir /S /Q "%tmp%\Bits"

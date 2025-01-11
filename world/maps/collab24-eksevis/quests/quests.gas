@@ -13,15 +13,45 @@
 }
 [quests]
 {
+	[chapel_murder]
+	{
+		chapter = chapter_01_valleyball;
+		quest_image = b_gui_ig_mnu_jnl_quest_c24_2_chapel_murder;
+		screen_name = the chapel murder;
+		[*]
+		{
+			description = the crypt has collapsed behind you. the shrill laughter of a goblin could be heard;
+		  b is_consumable = true;
+		  i order = 0;
+		  b required = true;
+			speaker = ;
+		}
+		[*]
+		{
+			description = you've entered nishina village. perhaps someone here knows who caused the cave in?;
+		  b is_consumable = true;
+		  i order = 1;
+		  b required = true;
+			speaker = ;
+		}
+		[*]
+		{
+			description = bring the bloodied diary back to the wise goblin at the tavern!;
+		  b is_consumable = true;
+		  i order = 2;
+		  b required = true;
+			speaker = ;
+		}
+	}
 	[i_must_scream]
 	{
 		chapter = chapter_01_valleyball;
 		quest_image = b_gui_ig_mnu_jnl_quest_c24_1_goblin_squeal;
-		screen_name = Make A Goblin Squeal;
+		screen_name = make a goblin squeal;
 		[*]
 		{
-			description = stop the blasted goblin;
-		  b is_consumable = false;
+			description = stop the blasted goblin!;
+		  b is_consumable = true;
 		  i order = 0;
 		  b required = true;
 			speaker = ;

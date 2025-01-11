@@ -1,4 +1,4 @@
-[t:trigger_fade_nodes_box,n:0x01000016]
+[t:trigger_generic,n:0x0100000d]
 {
 	[common]
 	{
@@ -6,39 +6,9 @@
 		{
 			[*]
 			{
-				action* = fade_nodes(0x00000000,-1,-1,-1,"out:black");
-				action* = when_false fade_nodes(0x00000000,-1,-1,-1,"in");
+				action* = change_quest_state("chapel_murder","active",0);
 			  b can_self_destruct = true;
-				condition* = party_member_within_bounding_box(2.000000,2.000000,2.000000,"on_every_enter");
-			  f delay = 0.000000;
-			  b flip_flop = true;
-			  b multi_player = true;
-			  b no_trig_bits = false;
-				occupants_group = ;
-			  f reset_duration = 0.000000;
-			  b single_player = true;
-			  b single_shot = false;
-			  b start_active = true;
-			}
-		}
-	}
-	[placement]
-	{
-	  p position = -0.167752,-1.5,-4.05152,0xb0ed531a;
-	}
-}
-[t:trigger_generic,n:0x01000002]
-{
-	[common]
-	{
-		[instance_triggers]
-		{
-			[*]
-			{
-				action* = fade_nodes_global(0x00000011,0,0,0,"out:black");
-				action* = fade_nodes_global(0x00000011,5,5,5,"out:black");
-			  b can_self_destruct = true;
-				condition* = party_member_within_bounding_box(1.000000,1.000000,0.500000,"on_every_enter");
+				condition* = go_within_sphere(20.000000,0x00000000,"","on_first_enter");
 			  f delay = 0.000000;
 			  b flip_flop = false;
 			  b multi_player = true;
@@ -53,8 +23,38 @@
 	}
 	[placement]
 	{
-	  q orientation = 0,0.999848,0,-0.0174524;
-	  p position = -0.025547,-1.5,-0.0357437,0x54b31f3c;
+	  q orientation = 0,1,0,-2.98023e-008;
+	  p position = -0.65836,-1.5,-0.828736,0x54b31f3c;
+	}
+}
+[t:trigger_generic,n:0x01000002]
+{
+	[common]
+	{
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = fade_nodes_global(0x00000011,0,0,0,"out:black");
+				action* = fade_nodes_global(0x00000011,5,5,5,"out:black");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(3.000000,1.000000,0.500000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+		}
+	}
+	[placement]
+	{
+	  q orientation = 0,0.71934,0,0.694658;
+	  p position = 1.26484,-1.5,-2.83663,0x320e0051;
 	}
 }
 [t:trigger_change_mood_box,n:0x01000001]

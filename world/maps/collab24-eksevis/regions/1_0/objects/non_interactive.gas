@@ -12,6 +12,14 @@
 	  p position = 3.25162,-1.5,-0.607553,0xb0205097;
 	}
 }
+[t:candle_glb_01,n:0x0100000a]
+{
+	[placement]
+	{
+	  q orientation = 0,-0.707107,0,0.707107;
+	  p position = -0.235146,1.19149,0.784473,0x6fc694a8;
+	}
+}
 [t:sarcophagus_cav_01_open_02,n:0x01000039]
 {
 	[placement]
@@ -26,6 +34,13 @@
 	{
 	  q orientation = 0,0.707107,0,0.707107;
 	  p position = 1.73408,0,-1.71753,0x20ec4f89;
+	}
+}
+[t:candle_glb_01,n:0x0100000b]
+{
+	[placement]
+	{
+	  p position = -0.0426655,0.595181,1.17339,0x4d5a0be6;
 	}
 }
 [t:bed_glb_fort_02,n:0x0100001b]
@@ -91,6 +106,14 @@
 	  p position = 1.0463,0.282849,1.17889,0x4d5a0be6;
 	}
 }
+[t:candlestand_csl_02,n:0x0100000e]
+{
+	[placement]
+	{
+	  q orientation = 0,-0.707107,0,0.707107;
+	  p position = -0.327719,0,0.456127,0xee6e1fc7;
+	}
+}
 [t:container_cav_break_01,n:0x0100001f]
 {
 	[placement]
@@ -125,6 +148,14 @@
 	[placement]
 	{
 	  p position = -0.684167,0,-1.92496,0x11e47ff6;
+	}
+}
+[t:candle_glb_01,n:0x0100000c]
+{
+	[placement]
+	{
+	  q orientation = 0,2.98023e-008,0,1;
+	  p position = 0.718326,1.19149,-0.838286,0x0d23df37;
 	}
 }
 [t:sarcophagus_cav_01_open_02,n:0x0100002f]
