@@ -325,7 +325,7 @@ ARCHEOLOGISTS
 	{
 		screen_name = "Salak the Archeologist";
 	}
-		[conversation]
+	[conversation]
 	{
 	}
 }
@@ -347,7 +347,7 @@ ARCHEOLOGISTS
 	{
 		screen_name = "One-Eyed Lukal the Archeologist";
 	}
-		[conversation]
+	[conversation]
 	{
 	}
 }
@@ -368,8 +368,8 @@ ARCHEOLOGISTS
 	[common]
 	{
 		screen_name = "Banthorne the Archeologist";
-	
-		[conversation]
+	}
+	[conversation]
 	{
 	}
 }
@@ -391,7 +391,7 @@ ARCHEOLOGISTS
 	{
 		screen_name = "Whisper the Archeologist";
 	}
-		[conversation]
+	[conversation]
 	{
 	}
 }
@@ -413,7 +413,7 @@ ARCHEOLOGISTS
 	{
 		screen_name = "Jonn the Archeologist";
 	}
-		[conversation]
+	[conversation]
 	{
 	}
 }
@@ -435,7 +435,7 @@ ARCHEOLOGISTS
 	{
 		screen_name = "Franklin the Archeologist";
 	}
-		[conversation]
+	[conversation]
 	{
 	}
 }
@@ -513,7 +513,7 @@ ARCHEOLOGISTS
 	{
 		screen_name = "Townsperson";
 	}
-		[conversation]
+	[conversation]
 	{
 	}
 	[inventory]
