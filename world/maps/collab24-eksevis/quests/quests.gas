@@ -24,7 +24,8 @@
 		  b is_consumable = true;
 		  i order = 0;
 		  b required = true;
-			speaker = ;
+			address		= 1_0:conversations:the_blasted_goblin;
+			speaker = The Blasted Goblin;
 		}
 		[*]
 		{
