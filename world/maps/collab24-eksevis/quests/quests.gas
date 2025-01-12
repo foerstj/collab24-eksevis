@@ -73,7 +73,8 @@
 		  b is_consumable = true;
 		  i order = 0;
 		  b required = true;
-			speaker = ;
+			address		= 1_1:conversations:c1_eks_goblin_wise_after_journal_first;
+			speaker = Wise Goblin;
 		}
 	}
 }
