@@ -6,6 +6,8 @@
 	0x01300542 = t_xxx_cnr_08-cnvx;
 	0x01300543 = t_xxx_cnr_12-ccav;
 	0x01300544 = t_xxx_cnr_12-cnvx;
+	0x01300545 = t_xxx_cnr_24-ccav;
+	0x01300546 = t_xxx_cnr_24-cnvx;
 	0x0130055b = t_xxx_cnr_tee-04-04-08-l;
 	0x0130055c = t_xxx_cnr_tee-04-04-08-r;
 	0x0130055d = t_xxx_cnr_tee-04-08-12-l;
@@ -74,6 +76,11 @@
 	0x01300a2d = t_xxx_wal_12-thin;
 	0x01300a36 = t_xxx_wal_12-tx-rvr-in;
 	0x01300a37 = t_xxx_wal_12-tx-rvr-out;
+	0x01300a38 = t_xxx_wal_24-diag-thick-l;
+	0x01300a39 = t_xxx_wal_24-diag-thick-r;
+	0x01300a3a = t_xxx_wal_24-diag-thin-l;
+	0x01300a3b = t_xxx_wal_24-diag-thin-r;
+	0x01300a3c = t_xxx_wal_24-thck;
 	0x01300a68 = t_xxx_wal_cave-split-12-front-base-tx;
 	0x01300a6a = t_xxx_wal_cave-split-12-front-sides;
 	0x01300a6b = t_xxx_wal_cave-split-12-front-top;

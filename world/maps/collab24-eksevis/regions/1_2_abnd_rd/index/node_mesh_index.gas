@@ -77,4 +77,7 @@
 	0x01200a28 = t_xxx_wal_12-pth-tall-narrow-l;
 	0x01200a2c = t_xxx_wal_12-thck;
 	0x01200a2d = t_xxx_wal_12-thin;
+	0x01200a44 = t_xxx_wal_32-diag-thick-l;
+	0x01200a45 = t_xxx_wal_32-diag-thick-r;
+	0x01200a48 = t_xxx_wal_32-thck;
 }
