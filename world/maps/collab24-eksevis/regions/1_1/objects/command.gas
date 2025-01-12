@@ -24,34 +24,7 @@
 	[placement]
 	{
 	  q orientation = 0,1,0,0;
-	  p position = 2.00817,0,-3.36742,0xe2f87e47;
-	}
-}
-[t:cmd_auto_save,n:0x011002ca]
-{
-	[common]
-	{
-		[instance_triggers]
-		{
-			[*]
-			{
-			  b can_self_destruct = true;
-				condition* = party_member_within_bounding_box(3.000000,0.500000,1.000000,"on_every_enter");
-			  f delay = 0.000000;
-			  b flip_flop = false;
-			  b multi_player = true;
-			  b no_trig_bits = false;
-				occupants_group = ;
-			  f reset_duration = 0.000000;
-			  b single_player = true;
-			  b single_shot = false;
-			  b start_active = true;
-			}
-		}
-	}
-	[placement]
-	{
-	  p position = 1.16637,-1.87871,-5.64985,0x992c53b6;
+	  p position = 1.67965,0,-3.52825,0xe2f87e47;
 	}
 }
 [t:cmd_auto_save,n:0x0110024f]
@@ -79,6 +52,6 @@
 	}
 	[placement]
 	{
-	  p position = 1.7209,0,-1.16459,0x5fc99625;
+	  p position = 1.65963,0,-0.490298,0x5fc99625;
 	}
 }
