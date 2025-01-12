@@ -20,15 +20,16 @@
 		screen_name = the chapel murder;
 		[*]
 		{
-			description = the crypt has collapsed behind you. the shrill laughter of a goblin could be heard;
+			description = The crypt has collapsed behind you. the shrill laughter of a goblin could be heard;
 		  b is_consumable = true;
 		  i order = 0;
 		  b required = true;
-			speaker = ;
+			address		= 1_0:conversations:the_blasted_goblin;
+			speaker = The Blasted Goblin;
 		}
 		[*]
 		{
-			description = you've entered nishina village. perhaps someone here knows who caused the cave in?;
+			description = You've entered nishina village. Perhaps someone here knows who caused the cave in?;
 		  b is_consumable = true;
 		  i order = 1;
 		  b required = true;
@@ -36,11 +37,29 @@
 		}
 		[*]
 		{
-			description = bring the bloodied diary back to the wise goblin at the tavern!;
+			description = Investigate the temple near the Nishina village;
 		  b is_consumable = true;
 		  i order = 2;
 		  b required = true;
+			address		= 1_1:conversations:c1_eks_goblin_wise_b4_journal_first;
+			speaker = Wise Goblin;
+		}
+		[*]
+		{
+			description = Bring the bloodied diary back to the wise goblin at the tavern!;
+		  b is_consumable = true;
+		  i order = 3;
+		  b required = true;
 			speaker = ;
+		}
+		[*]
+		{
+			description = The wise goblin confirmed it was the Blasted Globlin's doing. Now you're onto him!;
+		  b is_consumable = true;
+		  i order = 4;
+		  b required = true;
+			address		= 1_1:conversations:c1_eks_goblin_wise_after_journal_first;
+			speaker = Wise Goblin;
 		}
 	}
 	[i_must_scream]
@@ -54,7 +73,8 @@
 		  b is_consumable = true;
 		  i order = 0;
 		  b required = true;
-			speaker = ;
+			address		= 1_1:conversations:c1_eks_goblin_wise_after_journal_first;
+			speaker = Wise Goblin;
 		}
 	}
 }

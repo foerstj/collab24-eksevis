@@ -16,3 +16,12 @@ It's what I'm used to anyway.";
 	  f scroll_rate = 25.000000;
 	}
 }
+[the_blasted_goblin]
+{
+	[text*]
+	{
+	  b quest_dialog = true;
+		screen_text = "Muhahahahaha!";
+	  f scroll_rate = 10.000000;
+	}
+}
