@@ -81,8 +81,7 @@ state Talk$
 
             m_Go$.GetConversation.RSSelectConversation( "c1_eks_goblin_wise_after_journal_first" );
             GameAuditor.GetDb.SetBool( "c1_eks_goblin_wise_after_journal_talked_to", true );
-            
-            DumpMain$; // drop quest reward
+          
 		}
 		else
 		{
