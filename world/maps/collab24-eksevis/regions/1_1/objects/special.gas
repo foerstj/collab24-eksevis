@@ -134,6 +134,7 @@
 		{
 			[*]
 			{
+				action* = change_quest_state("chapel_murder","active",0);
 				action* = change_quest_state("chapel_murder","active",1);
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(2.000000,2.000000,5.000000,"on_every_enter");
@@ -451,5 +452,13 @@
 	{
 	  q orientation = -3.60656e-010,0.0174526,-2.06617e-008,-0.999848;
 	  p position = 0.552344,0.5,1.24777,0xf9ebc200;
+	}
+}
+[t:use_point,n:0x01100191]
+{
+	[placement]
+	{
+	  q orientation = 0,-0.130526,0,0.991445;
+	  p position = -0.0646276,-3,-2.12204,0xd25b329f;
 	}
 }

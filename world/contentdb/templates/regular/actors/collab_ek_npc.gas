@@ -604,6 +604,16 @@ ARCHEOLOGISTS
 	[conversation]
 	{
 	}
+	[inventory]
+	{
+        [pcontent]
+        {
+			[all*]
+			{
+    	        il_main = c24_eks_reward_chapel_murder;
+			}
+        }
+	}
 }
 [t:template,n:collab_ek_barkeeper]
 {

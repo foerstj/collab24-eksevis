@@ -462,17 +462,25 @@
 	{
 		[conversations]
 		{
-			* = c1_eks_goblin_wise;
+			* = c1_eks_goblin_wise_after_journal_first;
+			* = c1_eks_goblin_wise_after_journal_next;
+			* = c1_eks_goblin_wise_b4_journal_first;
+			* = c1_eks_goblin_wise_b4_journal_next;
 		}
+	}
+	[inventory]
+	{
+	  b drop_at_use_point = true;
 	}
 	[mind]
 	{
-		jat_talk = world\ai\jobs\common\job_talk.skrit;
+		jat_talk = world\ai\jobs\common\job_talk_wisegoblin.skrit;
 	}
 	[placement]
 	{
 	  q orientation = 0,-0.999962,0,-0.00872669;
 	  p position = -0.143151,-3,-0.736626,0xd25b329f;
+		use_point_scids = 0x01100191;
 	}
 }
 [t:collab_ek_barkeeper,n:0x01100226]

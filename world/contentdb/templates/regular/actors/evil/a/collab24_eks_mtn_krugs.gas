@@ -181,7 +181,7 @@
 		on_enemy_spotted_alert_friends 		= true;
 		jat_brain							= world\ai\jobs\common\brain_hero.skrit
 			?actor_creates_own_party		= true
-			&party_template					= "party_krug_scout_mtn_boss";
+			&party_template					= "party_krug_scout_boss";
 		jat_attack_object_melee 			= world\ai\jobs\common\job_attack_object_melee.skrit
 			?run_chance 					= 1.0;
 	}
@@ -324,7 +324,7 @@
 	[common]
 	{
 		  screen_name = "Krug scout";
-		  membership = krug, party_krug_shaman_mtn, party_krug_scavenger_mtn_boss, party_krug_grunt_boss, monster;
+		  membership = krug, party_krug_shaman, party_krug_scavenger_boss, party_krug_grunt_boss, monster;
 	}
 	[defend]
 	{
@@ -449,7 +449,7 @@
 	[common]
 	{
 		  screen_name = "Krug scavenger";
-		  membership = krug, party_krug_shaman_mtn, monster;
+		  membership = krug, party_krug_shaman, monster;
 	}
 	[defend]
 	{
@@ -663,7 +663,7 @@
 	[common]
 	{
 		  screen_name = "Krug scout";
-		  membership = krug, party_krug_shaman_mtn, party_krug_scout_mtn_boss, monster;
+		  membership = krug, party_krug_shaman, party_krug_scout_boss, monster;
 	}
 	[defend]
 	{
