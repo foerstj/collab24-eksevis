@@ -20,14 +20,6 @@
 	  p position = -2.76106,-3.81766,-1.14867,0x8ccfa1b8;
 	}
 }
-[t:chest_c24_1_2,n:0x012000c6]
-{
-	[placement]
-	{
-	  q orientation = 0,-0.656059,0,0.75471;
-	  p position = -1.67421,-6,-4.07907,0x9e512c7b;
-	}
-}
 [t:barrel_mossy_c24_1_1,n:0x0120025b]
 {
 	[placement]
@@ -40,6 +32,14 @@
 	[placement]
 	{
 	  p position = 2.72659,0,-3.42509,0xc69cd635;
+	}
+}
+[t:chest_c24_1_2,n:0x012000c6]
+{
+	[placement]
+	{
+	  q orientation = 0,-0.656059,0,0.75471;
+	  p position = -1.67421,-6,-4.07907,0x9e512c7b;
 	}
 }
 [t:barrel_mossy_c24_1_1,n:0x0120007f]
