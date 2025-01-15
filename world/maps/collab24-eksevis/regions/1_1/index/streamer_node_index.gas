@@ -687,9 +687,7 @@
   x * = 0x9E20477A;
   x * = 0x9E5AC542;
   x * = 0x9EFEE01E;
-  x * = 0x9F3C172B;
   x * = 0x9F4E3FC8;
-  x * = 0x9F5912C3;
   x * = 0x9FDD8EC4;
   x * = 0x9FE9CD1F;
   x * = 0xA0541671;
