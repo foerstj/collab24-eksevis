@@ -43,7 +43,7 @@
 	  f outer_radius = 1.000000;
 		[direction]
 		{
-		  x node = 0x0D23DF37;
+		  x node = 0xEE6E1FC7;
 		  f x = 0.000000;
 		  f y = -1.000000;
 		  f z = 0.000000;
@@ -71,7 +71,7 @@
 	  f outer_radius = 1.000000;
 		[direction]
 		{
-		  x node = 0x6FC694A8;
+		  x node = 0x1C4CAEE3;
 		  f x = 0.000000;
 		  f y = -1.000000;
 		  f z = 0.000000;
@@ -127,7 +127,7 @@
 	  f outer_radius = 1.000000;
 		[direction]
 		{
-		  x node = 0xF2622600;
+		  x node = 0x0CC19A40;
 		  f x = 0.000000;
 		  f y = -1.000000;
 		  f z = 0.000000;
@@ -135,9 +135,9 @@
 		[position]
 		{
 		  x node = 0xF2622600;
-		  f x = 2.394372;
-		  f y = 1.338774;
-		  f z = -6.202529;
+		  f x = -0.186065;
+		  f y = 3.181320;
+		  f z = -3.525000;
 		}
 	}
 	[t:spot,n:light_0xf1194c1f]
@@ -146,7 +146,7 @@
 	  b affects_actors = true;
 	  b affects_items = true;
 	  b affects_terrain = true;
-	  x color = 0xFFFFFFFF;
+	  x color = 0xFFFF8000;
 	  b draw_shadow = true;
 	  f inner_radius = 0.000000;
 	  f intensity = 1.000000;
