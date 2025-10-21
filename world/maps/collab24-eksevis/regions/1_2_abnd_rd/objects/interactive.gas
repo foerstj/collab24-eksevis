@@ -1,0 +1,24 @@
+[t:sign_swp_01,n:0x01200244]
+{
+	[common]
+	{
+		description = "It seems to be a very old sign, but it says "Nishina City"";
+	}
+	[placement]
+	{
+	  q orientation = -0.502297,0.671533,-0.451142,0.305306;
+	  p position = 0.403397,0.162101,0.653694,0x8ba66232;
+	}
+}
+[t:sign_glb_beware,n:0x0120024f]
+{
+	[common]
+	{
+		description = "A very overthetop sign! It says "Beware! Area Below is Prone To Flooding!"";
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.242214,0,0.970223;
+	  p position = -4.78737,4,3.66745,0xa4322c0d;
+	}
+}

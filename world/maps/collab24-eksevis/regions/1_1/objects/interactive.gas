@@ -95,3 +95,11 @@
 	  p position = 0.0699978,-1.53037,-5.22462,0xa784d2a7;
 	}
 }
+[t:sign_glb_generalstore_01,n:0x011000b7]
+{
+	[placement]
+	{
+	  q orientation = 0,-0.986652,0,0.162846;
+	  p position = -2.2923,-4.75,-4.4734,0x419926f3;
+	}
+}

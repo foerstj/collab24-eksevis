@@ -28,6 +28,20 @@
 	  p position = -3.62853,3.63222,1.83651,0x419926f3;
 	}
 }
+[t:emt_sound,n:0x011003a9]
+{
+	[placement]
+	{
+	  q orientation = 0,0.918103,0,0.396342;
+	  p position = 4.10024,8.56922,0.199211,0xe69da467;
+	}
+	[sound_emitter]
+	{
+		event_sound = "env_haunting";
+	  f max_dist = 0;
+	  f min_dist = 40;
+	}
+}
 [t:emt_sound,n:0x011003a8]
 {
 	[placement]
@@ -48,19 +62,5 @@
 	{
 	  q orientation = 0,0.910427,0,0.413669;
 	  p position = -3.61245,-0.20615,0.417774,0xb2da9684;
-	}
-}
-[t:emt_sound,n:0x011003a9]
-{
-	[placement]
-	{
-	  q orientation = 0,0.918103,0,0.396342;
-	  p position = 4.10024,8.56922,0.199211,0xe69da467;
-	}
-	[sound_emitter]
-	{
-		event_sound = "env_haunting";
-	  f max_dist = 0;
-	  f min_dist = 40;
 	}
 }
