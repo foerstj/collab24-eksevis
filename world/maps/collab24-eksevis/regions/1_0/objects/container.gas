@@ -1,0 +1,12 @@
+[t:casket_cav_01,n:0x010000a8]
+{
+	[aspect]
+	{
+	  b is_selectable = false;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.805123,0,0.593108;
+	  p position = 2.17533,0.15,-5.97216,0xf2622600;
+	}
+}

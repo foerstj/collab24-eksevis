@@ -1,0 +1,14 @@
+[t:emt_sound,n:0x01000096]
+{
+	[placement]
+	{
+	  q orientation = 0,-0.637651,0,0.770325;
+	  p position = 0.324406,-1.5,-1.10711,0xc0f545aa;
+	}
+	[sound_emitter]
+	{
+	  b continual_loop = true;
+		event_sound = "env_crypt";
+	  f max_dist = 45;
+	}
+}

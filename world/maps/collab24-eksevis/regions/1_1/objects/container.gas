@@ -37,6 +37,10 @@
 }
 [t:barrel_glb_open,n:0x011002c5]
 {
+	[aspect]
+	{
+	  b is_selectable = false;
+	}
 	[placement]
 	{
 	  p position = -1.85971,-1.3,4.45908,0x30971a4c;
@@ -44,6 +48,10 @@
 }
 [t:barrel_glb_with_lid,n:0x0110015c]
 {
+	[aspect]
+	{
+	  b is_selectable = false;
+	}
 	[placement]
 	{
 	  p position = -0.42551,0.100001,0.895424,0x5b7131eb;
@@ -51,6 +59,10 @@
 }
 [t:barrel_cav_02,n:0x0110027c]
 {
+	[aspect]
+	{
+	  b is_selectable = false;
+	}
 	[placement]
 	{
 	  p position = 3.99195,-1.15,4.162,0xca1e1384;
@@ -58,6 +70,10 @@
 }
 [t:barrel_cav_02,n:0x0110027d]
 {
+	[aspect]
+	{
+	  b is_selectable = false;
+	}
 	[placement]
 	{
 	  p position = 4.54932,-1.15,3.66126,0xca1e1384;
@@ -65,6 +81,10 @@
 }
 [t:barrel_glb,n:0x0110028f]
 {
+	[aspect]
+	{
+	  b is_selectable = false;
+	}
 	[placement]
 	{
 	  p position = 3.15333,-1.15,4.36279,0xca1e1384;

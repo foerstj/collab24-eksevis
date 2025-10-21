@@ -538,3 +538,11 @@
 	  p position = -1.84007,0,1.55755,0xdeb50015;
 	}
 }
+[t:candle_glb_01,n:0x010000a9]
+{
+	[placement]
+	{
+	  q orientation = 0,2.98023e-008,0,1;
+	  p position = 2.0995,0.667025,-6.00241,0xf2622600;
+	}
+}

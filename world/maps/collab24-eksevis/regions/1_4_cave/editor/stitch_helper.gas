@@ -10,9 +10,9 @@
 			0x00000130 = 0x1A373472,6;
 		}
 	}
-	[t:stitch_editor,n:1_post]
+	[t:stitch_editor,n:2_0_passage]
 	{
-		dest_region = 1_post;
+		dest_region = 2_0_passage;
 		[node_ids]
 		{
 			0x00000f12 = 0x162265B8,7;
