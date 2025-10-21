@@ -10,6 +10,16 @@
 		model		= m_i_glb_barrel-break;
 		[textures]	{0=b_i_swp_barrel_small;}
 	}
+	[physics]
+	{
+		[break_particulate]
+		{
+			frag_glb_wood_01 = 1;
+			frag_glb_wood_02 = 1;
+			frag_glb_wood_03 = 1;
+			frag_glb_wood_04 = 1;
+		}
+	}
 }
 [t:template,n:crate_swp_break]
 {
@@ -21,5 +31,15 @@
 	{
 		model		= m_i_glb_crate-break;
 		[textures]	{0=b_i_swp_crate-01;}
+	}
+		[physics]
+	{
+		[break_particulate]
+		{
+			frag_glb_wood_01 = 2;
+			frag_glb_wood_02 = 2;
+			frag_glb_wood_03 = 2;
+			frag_glb_wood_04 = 2;
+		}
 	}
 }

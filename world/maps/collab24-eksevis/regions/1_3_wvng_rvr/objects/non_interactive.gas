@@ -348,6 +348,10 @@
 }
 [t:barrel_swp_break,n:0x01300067]
 {
+	[aspect]
+	{
+	  b is_selectable = true;
+	}
 	[placement]
 	{
 	  q orientation = 0,1,0,2.98023e-008;
@@ -1464,6 +1468,10 @@
 }
 [t:barrel_swp_break,n:0x013000bf]
 {
+	[aspect]
+	{
+	  b is_selectable = true;
+	}
 	[placement]
 	{
 	  p position = -3.80343,0,3.25801,0x0d452ce1;
@@ -1471,6 +1479,10 @@
 }
 [t:barrel_swp_break,n:0x013000c0]
 {
+	[aspect]
+	{
+	  b is_selectable = true;
+	}
 	[placement]
 	{
 	  p position = -3.58232,0,-0.597977,0x0d452ce1;
@@ -1478,6 +1490,10 @@
 }
 [t:crate_swp_break,n:0x013000d3]
 {
+	[aspect]
+	{
+	  b is_selectable = true;
+	}
 	[placement]
 	{
 	  p position = -1.51584,0,-3.84859,0x0d452ce1;
