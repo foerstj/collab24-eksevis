@@ -2,7 +2,7 @@
 {
 	[common]
 	{
-		description = "It seems to be a very old sign, but it says "Nishina City"";
+		screen_name = "It seems to be a very old sign, but it says "Nishina City"";
 	}
 	[placement]
 	{
@@ -14,7 +14,7 @@
 {
 	[common]
 	{
-		description = "A very overthetop sign! It says "Beware! Area Below is Prone To Flooding!"";
+		screen_name = "Beware! Flood Zone Ahead!";
 	}
 	[placement]
 	{
