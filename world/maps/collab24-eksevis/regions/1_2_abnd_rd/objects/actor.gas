@@ -422,8 +422,8 @@
 {
 	[placement]
 	{
-	  q orientation = 0,-0.707107,0,0.707107;
-	  p position = 1.97443,1.1,0.49263,0xf39e76f9;
+	  q orientation = 0,1,0,-5.96046e-008;
+	  p position = -2.86415,-0.6,-1.50238,0x6bf6525e;
 	}
 }
 [t:phrak_piercer,n:0x01200078]
