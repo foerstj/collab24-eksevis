@@ -48,15 +48,3 @@
 		[textures]	{0=b_i_swp_crate-01;}
 	}
 }
-[t:template,n:crate_swp_break]
-{
-	specializes			= base_breakable_wood_prebreak;
-	doc					= "crate_mossy_broken";
-	category_name		= "container";
-
-	[aspect]
-	{
-		model		= m_i_glb_crate-break;
-		[textures]	{0=b_i_swp_crate-01;}
-	}
-}
