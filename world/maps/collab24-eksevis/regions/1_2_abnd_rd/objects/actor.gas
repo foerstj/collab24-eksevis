@@ -418,14 +418,6 @@
 	  p position = -1.74364,-0.361702,-0.484404,0xaae54139;
 	}
 }
-[t:krug_scout_mtn,n:0x01200017]
-{
-	[placement]
-	{
-	  q orientation = 0,1,0,-5.96046e-008;
-	  p position = -2.86415,-0.6,-1.50238,0x6bf6525e;
-	}
-}
 [t:phrak_piercer,n:0x01200078]
 {
 	[placement]
@@ -817,6 +809,14 @@
 	[placement]
 	{
 	  p position = -2.26089,0,3.37543,0x5f54c2cb;
+	}
+}
+[t:krug_scout_mtn,n:0x01200017]
+{
+	[placement]
+	{
+	  q orientation = 0,1,0,-5.96046e-008;
+	  p position = -2.86415,-0.6,-1.50238,0x6bf6525e;
 	}
 }
 [t:phrak_piercer,n:0x01200074]

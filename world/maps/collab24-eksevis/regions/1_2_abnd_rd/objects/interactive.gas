@@ -1,3 +1,11 @@
+[t:barrel_swp_break,n:0x012000ff]
+{
+	[placement]
+	{
+	  q orientation = 0,1,0,0;
+	  p position = 3.33331,0,3.56493,0x8127173e;
+	}
+}
 [t:sign_swp_01,n:0x01200244]
 {
 	[common]
@@ -10,6 +18,27 @@
 	  p position = 0.403397,0.162101,0.653694,0x8ba66232;
 	}
 }
+[t:barrel_swp_break,n:0x0120022c]
+{
+	[placement]
+	{
+	  p position = -0.208252,0,-3.72287,0xc69cd635;
+	}
+}
+[t:barrel_swp_break,n:0x0120022d]
+{
+	[placement]
+	{
+	  p position = 1.73526,0,-3.91881,0xc69cd635;
+	}
+}
+[t:crate_swp_break,n:0x0120022e]
+{
+	[placement]
+	{
+	  p position = 0.524109,0,-2.46622,0xc69cd635;
+	}
+}
 [t:sign_glb_beware,n:0x0120024f]
 {
 	[common]
@@ -20,5 +49,13 @@
 	{
 	  q orientation = 0,-0.242214,0,0.970223;
 	  p position = -4.78737,4,3.66745,0xa4322c0d;
+	}
+}
+[t:crate_swp_break,n:0x01200205]
+{
+	[placement]
+	{
+	  q orientation = 0,0.707107,0,0.707107;
+	  p position = -0.901394,0,1.32579,0x4ff44e8a;
 	}
 }
