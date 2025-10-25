@@ -66,6 +66,41 @@
 	  p position = 3.11096,-4.03698,-2.85973,0xd25b329f;
 	}
 }
+[t:barrel_swp_break,n:0x01100250]
+{
+	[placement]
+	{
+	  p position = 4.63059,-1.5,-1.99457,0xef661890;
+	}
+}
+[t:barrel_swp_break,n:0x01100251]
+{
+	[placement]
+	{
+	  p position = 5.76259,-1.5,3.69812,0xef661890;
+	}
+}
+[t:barrel_swp_break,n:0x01100252]
+{
+	[placement]
+	{
+	  p position = 5.96233,-1.5,2.11145,0xef661890;
+	}
+}
+[t:crate_swp_break,n:0x01100253]
+{
+	[placement]
+	{
+	  p position = 5.35801,-1.5,-0.0480118,0xef661890;
+	}
+}
+[t:crate_swp_break,n:0x0110025d]
+{
+	[placement]
+	{
+	  p position = 5.00499,-1.5,1.61749,0xef661890;
+	}
+}
 [t:door_glb_woodfence_left_01,n:0x0110029f]
 {
 	[aspect]
@@ -101,5 +136,46 @@
 	[placement]
 	{
 	  p position = 0.0699978,-1.53037,-5.22462,0xa784d2a7;
+	}
+}
+[t:crate_swp_break,n:0x01100214]
+{
+	[placement]
+	{
+	  p position = 1.6765,0,0.780854,0xafa4e712;
+	}
+}
+[t:barrel_swp_break,n:0x011000e9]
+{
+	[placement]
+	{
+	  p position = 2.76382,0.00324278,-1.14307,0x37e3fa2e;
+	}
+}
+[t:crate_swp_break,n:0x011000f5]
+{
+	[placement]
+	{
+	  q orientation = 0,-8.9407e-008,0,1;
+	  p position = 2.52594,0,-1.96909,0x37e3fa2e;
+	}
+}
+[t:crate_swp_break,n:0x011000ff]
+{
+	[placement]
+	{
+	  p position = 0.933159,2,-1.38772,0x8d83303f;
+	}
+}
+[t:sign_glb_01,n:0x01100506]
+{
+	[common]
+	{
+		screen_name = "Frostfingers";
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.858448,0,0.512901;
+	  p position = 2.77718,4.76837e-007,-1.66868,0xa9521396;
 	}
 }
