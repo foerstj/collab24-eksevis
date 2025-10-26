@@ -1,8 +1,11 @@
 dir.lqd20
-/world/contentdb/templates/original
-/world/contentdb/original
+
+/world/contentdb/templates/regular
+/world/contentdb/templates/veteran
+/world/contentdb/templates/elite
+
 /world/maps/QUT
 /world/maps/eks-Concepts
-world/maps/collab24-eksevis/regions/1_1/objects/randomizer_*.gas
+/world/maps/collab24-eksevis/regions/1_1/objects/randomizer_*.gas
 /world/maps/dsx_xp
 /world/maps/map_expansion
