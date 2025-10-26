@@ -93,6 +93,18 @@
 		}
 		[world_levels]
 		{
+			[elite]
+			{
+			  i required_level = 83;
+			}
+			[regular]
+			{
+			  i required_level = 0;
+			}
+			[veteran]
+			{
+			  i required_level = 54;
+			}
 		}
 	}
 }
