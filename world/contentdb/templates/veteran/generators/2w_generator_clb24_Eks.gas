@@ -1,0 +1,51 @@
+[t:template,n:2W_c24_eks_reward_chapel_murder]
+{
+	specializes = inventory;
+	doc = "c24 eks reward chapel murder";
+	category_name = "2w_generator";
+	[aspect]
+	{
+		is_visible = false;
+		force_no_render = true;
+		is_selectable = false;
+	}
+	[common]
+	{
+		is_pcontent_allowed = false;
+	}
+	[generator_multiple_mp]
+	{
+	}
+	[inventory]
+	{
+		[delayed_pcontent]
+		{
+			[all*]
+			{
+				il_main = potion_health_medium;
+				il_main = potion_mana_medium;
+			}
+			[all*]
+			{
+				il_main = #armor/211-226;
+				il_main = #weapon/120-123;
+			}
+			[oneof*]
+			{
+				il_main = #armor/-mod(1)/211-226;
+			}
+			[oneof*]
+			{
+				il_main = #armor/-mod(1)/226-241;
+			}
+			[oneof*]
+			{
+				il_main = #weapon/-mod(1)/123-127;
+			}
+			[oneof*]
+			{
+				il_main = #weapon/-mod(1)/120-123;
+			}
+		}
+	}
+}
