@@ -793,7 +793,7 @@
 	[placement]
 	{
 	  q orientation = 0,-0.995048,0,0.0994;
-	  p position = -5.57146,-1.5393,4.17017,0xa92fb5fc;
+	  p position = -4.8394,-1.51344,4.22753,0xa92fb5fc;
 	}
 }
 [t:foliage_grs_01,n:0x01100480]
@@ -896,8 +896,8 @@
 {
 	[placement]
 	{
-	  q orientation = 0,0.994281,0,0.106792;
-	  p position = -0.586903,7.97005,3.67423,0xf8e4d6a8;
+	  q orientation = 0,-0.106792,0,0.994281;
+	  p position = 2.94663,-0.55152,1.93921,0x8ece53e2;
 	}
 }
 [t:foliage_grs_01,n:0x0110048b]
@@ -994,10 +994,14 @@
 }
 [t:foliage_grs_01,n:0x01100497]
 {
+	[aspect]
+	{
+	  f scale_multiplier = 0.9;
+	}
 	[placement]
 	{
-	  q orientation = 0,0.989316,0,0.145786;
-	  p position = 1.51518,0.0499992,0.95909,0xdc6c1226;
+	  q orientation = 0,-0.145786,0,0.989316;
+	  p position = -0.719353,8,5.07442,0x1d4dc0fa;
 	}
 }
 [t:foliage_grs_01,n:0x01100499]
@@ -4170,6 +4174,22 @@
 	  p position = -3.47647,0,2.89433,0x01f98afe;
 	}
 }
+[t:post_glb_01,n:0x011001e2]
+{
+	[placement]
+	{
+	  q orientation = 0,-0.843525,0,0.537089;
+	  p position = 2.76432,0,-1.67475,0xa9521396;
+	}
+}
+[t:cobweb_csl_03,n:0x011002b1]
+{
+	[placement]
+	{
+	  q orientation = 0,0.707107,0,0.707107;
+	  p position = 0.950714,0,-2.74712,0xa9521396;
+	}
+}
 [t:bush_grs_button_02,n:0x011003ac]
 {
 	[placement]
@@ -4892,14 +4912,6 @@
 	[placement]
 	{
 	  p position = 0.836828,-9.53674e-007,0.136365,0x8ddc570c;
-	}
-}
-[t:cobweb_csl_03,n:0x011002b1]
-{
-	[placement]
-	{
-	  q orientation = 0,0.707107,0,0.707107;
-	  p position = 0.950714,0,-2.74712,0xa9521396;
 	}
 }
 [t:bush_grs_button_02,n:0x011003ab]
@@ -6215,7 +6227,7 @@
 	[placement]
 	{
 	  q orientation = 0,0.534596,0,0.845108;
-	  p position = 2.82558,2,2.46885,0x5e624156;
+	  p position = 4.01295,-1.90554,2.02604,0x5e624156;
 	}
 }
 [t:foliage_grs_01,n:0x011004d2]
@@ -6247,7 +6259,7 @@
 	[placement]
 	{
 	  q orientation = 0,0.576914,0,0.816805;
-	  p position = -1.52081,-1.9477,5.8431,0x5e624156;
+	  p position = -1.61674,-1.65214,4.36869,0x5e624156;
 	}
 }
 [t:foliage_grs_01,n:0x011004d1]
@@ -7779,13 +7791,5 @@
 	[placement]
 	{
 	  p position = 1.77666,-0.144903,-1.87768,0x49aebfcc;
-	}
-}
-[t:post_glb_01,n:0x011001e2]
-{
-	[placement]
-	{
-	  q orientation = 0,-0.843525,0,0.537089;
-	  p position = 2.76432,0,-1.67475,0xa9521396;
 	}
 }

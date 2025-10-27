@@ -138,6 +138,18 @@
 	  p position = 0.0699978,-1.53037,-5.22462,0xa784d2a7;
 	}
 }
+[t:sign_glb_01,n:0x01100506]
+{
+	[common]
+	{
+		screen_name = "Frostfingers";
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.858448,0,0.512901;
+	  p position = 2.77718,4.76837e-007,-1.66868,0xa9521396;
+	}
+}
 [t:crate_swp_break,n:0x01100214]
 {
 	[placement]
@@ -165,17 +177,5 @@
 	[placement]
 	{
 	  p position = 0.933159,2,-1.38772,0x8d83303f;
-	}
-}
-[t:sign_glb_01,n:0x01100506]
-{
-	[common]
-	{
-		screen_name = "Frostfingers";
-	}
-	[placement]
-	{
-	  q orientation = 0,-0.858448,0,0.512901;
-	  p position = 2.77718,4.76837e-007,-1.66868,0xa9521396;
 	}
 }

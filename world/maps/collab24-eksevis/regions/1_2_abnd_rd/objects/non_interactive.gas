@@ -3388,7 +3388,7 @@
 	[placement]
 	{
 	  q orientation = 0,-0.757994,0,0.652262;
-	  p position = -0.516788,0.0451508,0.983238,0x4f09a35a;
+	  p position = -0.516788,-0.21585,0.983238,0x4f09a35a;
 	}
 }
 [t:bush_grs_rhod_02,n:0x0120020c]
@@ -6251,6 +6251,14 @@
 	  p position = -3.76543,-0.600002,-1.51013,0x628f944f;
 	}
 }
+[t:foliage_grs_01,n:0x01200348]
+{
+	[placement]
+	{
+	  q orientation = 0,-0.486117,0,0.873894;
+	  p position = 2.15202,-3.9148,-0.999756,0x628f944f;
+	}
+}
 [t:foliage_grs_01,n:0x012002ff]
 {
 	[placement]
@@ -6579,6 +6587,14 @@
 	  p position = -1.00196,-0.599998,-0.385725,0xb0851df4;
 	}
 }
+[t:foliage_grs_01,n:0x01200245]
+{
+	[placement]
+	{
+	  q orientation = 0,-0.486117,0,0.873894;
+	  p position = -1.73715,-3.9148,-1.76976,0x2eea8721;
+	}
+}
 [t:grass_sea_09,n:0x012000ab]
 {
 	[placement]
@@ -6623,6 +6639,22 @@
 	{
 	  q orientation = 0,0.577228,0,0.816583;
 	  p position = -0.550038,0,3.52969,0x5792dff8;
+	}
+}
+[t:foliage_grs_01,n:0x012003fb]
+{
+	[placement]
+	{
+	  q orientation = 0,-0.486117,0,0.873894;
+	  p position = -1.13955,-3.9148,-0.183258,0x4c20c6f7;
+	}
+}
+[t:foliage_grs_01,n:0x012003fc]
+{
+	[placement]
+	{
+	  q orientation = 0,-0.486117,0,0.873894;
+	  p position = -1.13955,-3.9148,-0.183258,0x4c20c6f7;
 	}
 }
 [t:foliage_grs_01,n:0x01200328]
@@ -6733,37 +6765,5 @@
 	{
 	  q orientation = 0,-0.830758,0,0.556633;
 	  p position = -0.202797,0,-0.800712,0x270c3dc8;
-	}
-}
-[t:foliage_grs_01,n:0x01200245]
-{
-	[placement]
-	{
-	  q orientation = 0,-0.486117,0,0.873894;
-	  p position = -1.73715,-3.9148,-1.76976,0x2eea8721;
-	}
-}
-[t:foliage_grs_01,n:0x01200348]
-{
-	[placement]
-	{
-	  q orientation = 0,-0.486117,0,0.873894;
-	  p position = 2.15202,-3.9148,-0.999756,0x628f944f;
-	}
-}
-[t:foliage_grs_01,n:0x012003fb]
-{
-	[placement]
-	{
-	  q orientation = 0,-0.486117,0,0.873894;
-	  p position = -1.13955,-3.9148,-0.183258,0x4c20c6f7;
-	}
-}
-[t:foliage_grs_01,n:0x012003fc]
-{
-	[placement]
-	{
-	  q orientation = 0,-0.486117,0,0.873894;
-	  p position = -1.13955,-3.9148,-0.183258,0x4c20c6f7;
 	}
 }
