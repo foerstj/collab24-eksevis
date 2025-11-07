@@ -2,7 +2,7 @@
 {
 	specializes = base_book_lore;
 
-	doc = "Quest Book";
+	doc = "Bloodied Journal";
 	category_name = "lorebook";
 	[common]
 	{
@@ -11,5 +11,54 @@
 	[gui]
 	{
 		lore_key = eks_quest_book;
+		inventory_icon = b_gui_ig_i_it_lore-book-bloody;
+	}
+}
+[t:template,n:c24_eks_archaeonotes_p1]
+{
+	specializes = base_book_lore;
+
+	doc = "Archaeology Notes Journal 1";
+	category_name = "lorebook";
+	[common]
+	{
+		screen_name = "Archaeologist Notes";
+	}
+	[gui]
+	{
+		lore_key = eks_archaeo_notes_p1;
+		inventory_icon = b_gui_ig_i_it_scrawled_letter;
+	}
+}
+[t:template,n:c24_eks_archaeonotes_p2]
+{
+	specializes = base_book_lore;
+
+	doc = "Archaeology Notes Journal 2";
+	category_name = "lorebook";
+	[common]
+	{
+		screen_name = "Archaeologist Journal";
+	}
+	[gui]
+	{
+		lore_key = eks_archaeo_notes_p2;
+		inventory_icon = b_gui_ig_i_it_journal;
+	}
+}
+[t:template,n:c24_eks_abandoned_journal]
+{
+	specializes = base_book_lore;
+
+	doc = "Forlorn Diary";
+	category_name = "lorebook";
+	[common]
+	{
+		screen_name = "Forlorn Diary";
+	}
+	[gui]
+	{
+		lore_key = eks_archaeo_notes_p1;
+		inventory_icon = b_gui_ig_i_it_diary-old;
 	}
 }

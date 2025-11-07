@@ -2133,7 +2133,7 @@
 {
 	[placement]
 	{
-	  p position = 2.18961,0,-2.1293,0x0725ab1d;
+	  p position = 2.19887,0,-2.12703,0x0725ab1d;
 	}
 }
 [t:foliage_grs_01,n:0x0120027d]
@@ -2483,7 +2483,7 @@
 	[placement]
 	{
 	  q orientation = 0,1,0,-5.96046e-008;
-	  p position = 3.22096,0,-1.92386,0x7e48439e;
+	  p position = 3.23134,0,-1.91357,0x7e48439e;
 	}
 }
 [t:foliage_grs_01,n:0x0120028f]
@@ -6765,5 +6765,21 @@
 	{
 	  q orientation = 0,-0.830758,0,0.556633;
 	  p position = -0.202797,0,-0.800712,0x270c3dc8;
+	}
+}
+[t:stool_glb_03,n:0x01200409]
+{
+	[placement]
+	{
+	  q orientation = 0,-0.38981,0,0.920895;
+	  p position = -1.51956,0,-1.81353,0xd51d436c;
+	}
+}
+[t:table_glb_endtable,n:0x01200420]
+{
+	[placement]
+	{
+	  q orientation = 0,0.531516,0,0.847048;
+	  p position = -3.63168,0,2.62378,0x0725ab1d;
 	}
 }

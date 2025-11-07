@@ -1,0 +1,24 @@
+[t:c24_eks_abandoned_journal,n:0x01200406]
+{
+	[placement]
+	{
+	  q orientation = 0,0.947403,0,-0.320043;
+	  p position = -2.42291,0,-3.02606,0xd4edcf3d;
+	}
+}
+[t:c24_eks_archaeonotes_p2,n:0x01200422]
+{
+	[placement]
+	{
+	  q orientation = 0,0.110708,0,0.993853;
+	  p position = -3.42932,0.689815,2.40245,0x0725ab1d;
+	}
+}
+[t:c24_eks_archaeonotes_p1,n:0x01200423]
+{
+	[placement]
+	{
+	  q orientation = 0,0.780282,0,0.625427;
+	  p position = -3.94417,0.678735,2.6681,0x0725ab1d;
+	}
+}
