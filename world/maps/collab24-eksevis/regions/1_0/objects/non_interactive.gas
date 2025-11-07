@@ -343,17 +343,6 @@
 	  p position = -1.63777,0,-0.864464,0xdefbe6f9;
 	}
 }
-[t:rock_grs_03,n:0x01000003]
-{
-	[common]
-	{
-	  b is_multi_player = false;
-	}
-	[placement]
-	{
-	  p position = 0.82663,-1.5,1.24849,0x57b3995e;
-	}
-}
 [t:rock_grs_03,n:0x01000043]
 {
 	[placement]

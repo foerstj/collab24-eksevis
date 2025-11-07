@@ -43,7 +43,7 @@
 	  f outer_radius = 1.000000;
 		[direction]
 		{
-		  x node = 0xEE6E1FC7;
+		  x node = 0x0D23DF37;
 		  f x = 0.000000;
 		  f y = -1.000000;
 		  f z = 0.000000;
@@ -146,7 +146,7 @@
 	  b affects_actors = true;
 	  b affects_items = true;
 	  b affects_terrain = true;
-	  x color = 0xFFFF8000;
+	  x color = 0xFFFFFFFF;
 	  b draw_shadow = true;
 	  f inner_radius = 0.000000;
 	  f intensity = 1.000000;
@@ -155,7 +155,7 @@
 	  f outer_radius = 1.000000;
 		[direction]
 		{
-		  x node = 0x626A6DD3;
+		  x node = 0x0699EF36;
 		  f x = 0.000000;
 		  f y = -1.000000;
 		  f z = 0.000000;
